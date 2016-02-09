@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="KNEKT.Controls.SpeedControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="65" d:DesignWidth="110"
+             d:MinHeight="65" d:MinWidth="110"
+             d:MaxHeight="65" d:MaxWidth="110">
+    <Grid>
+        <Border BorderBrush="Black" BorderThickness="1" CornerRadius="3" Width="110" Height="65"  Name="borderMain" Background="White" >
+            <Grid Name="gridMain">
+                <Label Content="Setpoint" Height="14" HorizontalAlignment="Left" Name="lblSP" VerticalAlignment="Top" FontSize="10" Padding="0" Margin="2,20,0,0" />
+                <Label Content="Feedback" Height="12" HorizontalAlignment="Left" Name="lblFB" VerticalAlignment="Top" FontSize="10" Padding="0" Margin="2,33,0,0" />
+                <Label Content="Alarm Log " Height="14" HorizontalAlignment="Left" Name="lblSt" VerticalAlignment="Top" FontSize="10" Padding="0" Margin="2,45,0,0" />
+                <Label Content="100 %" Height="12" HorizontalAlignment="Left" Margin="71,20,0,0" Name="lblPercentageSP" VerticalAlignment="Top" Width="32" FontSize="10" Padding="0" HorizontalContentAlignment="Right" Background="LightGray" MouseDown="lblPercentageSP_MouseDown"/>
+                <Label Content="100 %" Height="12" HorizontalAlignment="Left" Margin="71,33,0,0" Name="lblPercentageFB" VerticalAlignment="Top" Width="32" FontSize="10" Padding="0" HorizontalContentAlignment="Right"/>
+                <Label Content="-" Height="12" HorizontalAlignment="Left" Margin="72,45,0,0" Name="lblStatus" VerticalAlignment="Top" Width="20" FontSize="10" Padding="0" HorizontalContentAlignment="Right"/>
+                <Border Background="Black" BorderBrush="Black" CornerRadius="0,10,0,0" Height="19" Margin="-1,-1,-1,0" VerticalAlignment="Top">
+                    <Label Content="Control" Height="18" HorizontalContentAlignment="Left" Name="lblTitle" Width="110" Foreground="White" FontSize="10" Padding="2,0,0,0" />
+                </Border>
+            </Grid>
+        </Border>
+    </Grid>
+</UserControl>

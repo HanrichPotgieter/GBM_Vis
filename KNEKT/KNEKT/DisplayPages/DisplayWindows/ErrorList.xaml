@@ -1,0 +1,17 @@
+﻿<Window x:Class="KNEKT.DisplayPages.DisplayWindows.ErrorList"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="ErrorList" Height="326" Width="734" Icon="/KNEKT;component/Images/ErrorIcon.png">
+    <Grid x:Name="Grid1">
+        <ListView Margin="12,12,12,42" x:Name="lstVwErrorList" ItemsSource="{Binding ErrorCollection}">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Width="160" Header="Tagname" DisplayMemberBinding="{Binding ErrorTag}"/>
+                    <GridViewColumn Width="120" Header="Source" DisplayMemberBinding="{Binding ErrorSource}"/>
+                    <GridViewColumn Width="400" Header="Message" DisplayMemberBinding="{Binding ErrorString}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button Content="Export" Height="23" HorizontalAlignment="Right" Margin="0,0,12,12" Name="btnExport" VerticalAlignment="Bottom" Width="111" Click="btnExport_Click" />
+    </Grid>
+</Window>

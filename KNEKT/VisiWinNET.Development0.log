@@ -1,0 +1,28 @@
+--------------------Start--------------------
+Timestamp: 2012/06/20 09:29:51 AM
+Errortype: Error
+Modul: C:\Program Files (x86)\Lenze\VisiWin\VisiWinNET 2005\Development\bin\VisiWinNET.VsPackage2010.dll
+Method: VisiWinNET.Development.AddInManager.CheckVisiWinRequired
+Message: Fehler beim Öffnen eines Projekts
+VsProjectFile: C:\Projects\C#\KNEKT\KNEKT\KNEKT.csproj
+
+Exception:
+System.ArgumentException: project isn't a VWProject
+   at VisiWinNET.Development.VWProject..ctor(Project project)
+   at VisiWinNET.Development.AddInManager.CheckVisiWinRequired(List`1 projectsWhichNeedVisiWin)
+--------------------End----------------------
+--------------------Start--------------------
+Timestamp: 2012/08/03 08:10:51 AM
+Errortype: Error
+Modul: C:\Program Files (x86)\Lenze\VisiWin\VisiWinNET 2005\Development\bin\VisiWinNET.VsPackage2010.dll
+Method: VisiWinNET.Development.ControlPropertyPage.WindowActivated
+Message: 
+Exception:
+System.NotImplementedException: Not implemented (Exception from HRESULT: 0x80004001 (E_NOTIMPL))
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at Microsoft.VisualStudio.Platform.WindowManagement.DTE.DocumentWindow.get_ObjectKind()
+   at Microsoft.VisualStudio.Platform.WindowManagement.DTE.WindowBase.<get_ObjectKind>b__2a()
+   at Microsoft.VisualStudio.Shell.ThreadHelper.Invoke[TResult](Func`1 method)
+   at Microsoft.VisualStudio.Platform.WindowManagement.DTE.WindowBase.get_ObjectKind()
+   at VisiWinNET.Development.ControlPropertyPage.WindowActivated(Window gotFocus, Window lostFocus)
+--------------------End----------------------

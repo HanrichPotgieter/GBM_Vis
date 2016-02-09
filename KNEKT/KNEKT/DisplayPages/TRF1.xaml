@@ -1,0 +1,128 @@
+﻿<Page x:Class="KNEKT.DisplayPages.TRF1"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+     d:DesignHeight="600" d:DesignWidth="980"
+   xmlns:WPFBuhlerControls="clr-namespace:WPFBuhlerControls;assembly=WPFBuhlerControls" xmlns:my="clr-namespace:KNEKT.Controls"
+	Title="TRF1" Loaded="Page_Loaded">
+
+    <Page.Background>
+        <LinearGradientBrush StartPoint="0,0" EndPoint="0,10">
+            <GradientStop Color="White" Offset="0"/>
+            <GradientStop Color="SkyBlue" Offset="0.2"/>
+        </LinearGradientBrush>
+    </Page.Background>
+    <Page.Resources>
+
+        <ContextMenu x:Key="ContextMenu1">
+            <MenuItem x:Name="contMen_CmdManOn" Header="CmdManualOn" Click="contMen_CmdManOn_Click"/>
+            <MenuItem x:Name="contMen_CmdManOff" Header="CmdManualOff" Click="contMen_CmdManOff_Click"/>
+        </ContextMenu>
+
+        <!--<ContextMenu x:Key="ContextMenu2">
+            <MenuItem x:Name="contMen_Empty" Header="Force Empty" Click="contMen_Empty_Click"/>
+        </ContextMenu>-->
+        <ContextMenu x:Key="ContextMenuFlap">
+
+            <MenuItem x:Name="contMen_FlapHighNumber" Header="CmdHN" Click="contMen_CmdManOn_Click"/>
+            <MenuItem x:Name="contMen_FlapLowNumber" Header="CmdLN" Click="contMen_CmdManOff_Click"/>
+        </ContextMenu>
+    </Page.Resources>
+    <Grid>
+
+        <Grid>
+            <Grid x:Name="grid1" Margin="0,-1,0,1">
+                <WPFBuhlerControls:Label_1 Background="Moccasin" Content="RAW WHEAT BINS" Height="30" HorizontalContentAlignment="Center" Margin="906,307,-36,263" VerticalContentAlignment="Center" Visibility="Hidden" Width="110"  />
+                <WPFBuhlerControls:Label_1 Background="Transparent" Content="SILO 4" Height="30" HorizontalContentAlignment="Center" Margin="284,337,646,233" VerticalContentAlignment="Center" Visibility="Hidden" Width="50"  />
+                <WPFBuhlerControls:Label_1 Background="Transparent" Content="SILO 3" Height="30" HorizontalContentAlignment="Center" Margin="355,336,575,234" VerticalContentAlignment="Center" Visibility="Hidden" Width="50"  />
+                <WPFBuhlerControls:Label_1 Background="Transparent" Content="SILO 2" Height="30" HorizontalContentAlignment="Center" Margin="478,336,452,234" VerticalContentAlignment="Center" Visibility="Hidden" Width="50"  />
+                <WPFBuhlerControls:Label_1 Background="Transparent" Content="SILO 1" Height="30" HorizontalContentAlignment="Center" Margin="550,336,380,234" VerticalContentAlignment="Center" Visibility="Hidden" Width="50"  />
+                <WPFBuhlerControls:Line_Vertical Height="5" Line_DashStyle="2" Margin="977,3,-7,592" Width="10" />
+                <WPFBuhlerControls:Line_Vertical Height="20" Line_DashStyle="2" Margin="961,13,9,567" Width="10" />
+                <WPFBuhlerControls:Line_Horizontal Height="10" Line_DashStyle="2" Margin="859,56,97,534" Width="24" />
+                <WPFBuhlerControls:Line_Horizontal Height="10" Line_DashStyle="2" Margin="926,37,30,553" Width="24" />
+                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="904,148,66,442" Width="10" />
+                <WPFBuhlerControls:Line_Bend Bend_DashStyle="1" Bend_Direction="1" Height="20" Line_Thickness="1.5" Margin="906,39,54,541" Width="20" />
+                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="1" Height="10" Margin="961,8,9,582" Width="10" />
+                <WPFBuhlerControls:Line_Vertical Height="20" Margin="904,133,66,447" Width="10" />
+                <WPFBuhlerControls:Fan_Normal ContextMenu="{StaticResource ContextMenu1}" Height="20" Margin="956,32,4,548" Name="_A0190" Width="20" MouseDown="_A0190_MouseDown" MouseRightButtonDown="_A0190_MouseRightButtonDown" />
+                <WPFBuhlerControls:Airlock_MPSN_Cyclone Margin="880,52,41,466" Height="82" Width="59"  Name="_A0185" MouseDown="_A0185_MouseDown" MouseRightButtonDown="_A0185_MouseRightButtonDown" />
+                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="2" Height="10" Margin="878,56,92,534" Width="10" />
+                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="2" Height="10" Margin="945,37,25,553" Width="10" />
+                <WPFBuhlerControls:Bin BinLocked="False" Bin_BinText="201" Height="150" Margin="293,109,637,341" Width="50" />
+                <WPFBuhlerControls:Line_Vertical Height="33" Margin="593,101,377,466" Width="10" />
+                <WPFBuhlerControls:Line_Vertical Height="46" Margin="498,55,472,499" Width="10" />
+                <WPFBuhlerControls:Line_Vertical Height="102" Margin="358,256,612,239" Width="10" />
+                <WPFBuhlerControls:Bin BinLocked="False" Bin_BinText="202" Height="150" Margin="337,109,593,341" Width="50" />
+                <WPFBuhlerControls:Level_High_Bin Height="10" Margin="313,123,657,467" Width="10" Name="_A0115" MouseDown="_A0115_MouseDown" />
+                <WPFBuhlerControls:Level_High_Bin Height="10" Margin="358,123,612,467" Width="10" Name="_A0120" MouseDown="_A0120_MouseDown" />
+                <WPFBuhlerControls:Elevator_L ContextMenu="{StaticResource ContextMenu1}" Elevator_HasBeltAlignBottom="False" Elevator_HasBeltAlignTop="False" Height="550" Margin="462,25,468,25" Width="50" Name="_A0140" MouseDown="_A0140_MouseDown" MouseRightButtonDown="_A0140_MouseRightButtonDown" />
+                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="593,128,377,462" Width="10" />
+                <WPFBuhlerControls:Hopper_Small Height="49" Margin="584,135,368,416" Width="28" />
+                <WPFBuhlerControls:Level_High_Bin Height="10" Margin="593,144,377,446" Width="10" Name="_A0145" MouseDown="_A0145_MouseDown" />
+                <WPFBuhlerControls:Scale_Dosing Height="35" Margin="581,180,369,385" Width="30" Name="_A0150" MouseDown="_A0150_MouseDown" />
+                <WPFBuhlerControls:Line_Horizontal Height="10" Margin="502,96,382,494" Width="96" />
+                <WPFBuhlerControls:Line_Horizontal Height="10" Margin="407,495,508,95" Width="65" />
+                <WPFBuhlerControls:Line_Vertical Height="102" Margin="312,256,658,239" Width="10" />
+                <WPFBuhlerControls:Line_Vertical Height="62" Margin="312,391,658,147" Width="10" />
+                <WPFBuhlerControls:Line_Vertical Height="62" Margin="358,391,612,147" Width="10" />
+                <WPFBuhlerControls:Line_Vertical Height="32" Margin="403,468,567,100" Width="10" />
+                <WPFBuhlerControls:Line_Vertical Height="44" Margin="467,500,503,56" Width="10" />
+                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="358,351,612,239" Width="10" />
+                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="358,445,612,145" Width="10" />
+                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="312,351,658,239" Width="10" />
+                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="312,445,658,145" Width="10" />
+                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="467,534,503,56" Width="10" />
+                <WPFBuhlerControls:SlideGate_Manual Height="20" Margin="307,292,653,288" Width="20" />
+                <WPFBuhlerControls:Flowbalancer Height="30" Width="30" Margin="305,361,645,209" Name="_A0125" MouseDown="_A0125_MouseDown"/>
+                <WPFBuhlerControls:Flowbalancer Height="30" Width="30" Margin="351,361,599,209" Name="_A0130" MouseDown="_A0130_MouseDown" />
+                <WPFBuhlerControls:Conveyor_NFAS_250Medium Height="20" Width="129" Margin="293,447,558,124" Name="_A0135" MouseDown="_A0135_MouseDown" MouseRightButtonDown="_A0135_MouseRightButtonDown" />
+                <WPFBuhlerControls:Conveyor_OverflowFlap Height="13" Width="11" Margin="416,455,553,132" Name="_A0135F" MouseDown="_A0135F_MouseDown" />
+                <my:FlowbalancerInfo1 FlowbalancerInfo1_InFlowrateOffset="DB222.DBD150" FlowbalancerInfo1_Title="Flowbalancer 0125" FlowbalancerInfo_InFlowrateMaximum="15" FlowbalancerInfo_InFlowrateMinimum="0" FlowbalancerInfo_MultiplyByWriteValue="1000" Margin="142,159,693,341" x:Name="FlowbalancerInfo_A0125" />
+                <my:FlowbalancerInfo1 FlowbalancerInfo1_InFlowrateOffset="DB222.DBD150" FlowbalancerInfo1_Title="Flowbalancer 0130" FlowbalancerInfo_InFlowrateMaximum="15" FlowbalancerInfo_InFlowrateMinimum="0" FlowbalancerInfo_MultiplyByWriteValue="1000" Margin="142,272,693,228" x:Name="FlowbalancerInfo_A0130" />
+                <WPFBuhlerControls:SlideGate_Manual Height="20" Margin="353,292,607,288" Width="20" />
+                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalAlignment="Left" HorizontalContentAlignment="Center" Margin="268,121,0,469" Name="textLabelA0115" Padding="0,-2,0,0" Text="0115" VerticalContentAlignment="Center" Width="25" />
+                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="386,122,569,468" Name="textLabelA0120" Padding="0,-2,0,0" Text="0120" VerticalContentAlignment="Center" Width="25" />
+                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="281,372,674,218" Name="textLabelA0125" Padding="0,-2,0,0" Text="0125" VerticalContentAlignment="Center" Width="25" />
+                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="373,372,582,218" Name="textLabelA0130" Padding="0,-2,0,0" Text="0130" VerticalContentAlignment="Center" Width="25" />
+                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="267,457,688,133" Name="textLabelA0135" Padding="0,-2,0,0" Text="0135" VerticalContentAlignment="Center" Width="25" />
+                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="452,37,503,553" Name="textLabelA0140" Padding="0,-2,0,0" Text="0140" VerticalContentAlignment="Center" Width="25" />
+                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="555,144,400,446" Name="textLabelA0145" Padding="0,-2,0,0" Text="0145" VerticalContentAlignment="Center" Width="25" />
+                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="555,190,400,400" Name="textLabelA0150" Padding="0,-2,0,0" Text="0150" VerticalContentAlignment="Center" Width="25" />
+                <WPFBuhlerControls:Label_C Height="15" Margin="902,161,63,424" Width="15" />
+                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="871,120,84,470" Name="textLabelA0185" Padding="0,-2,0,0" Text="0185" VerticalContentAlignment="Center" Width="25" />
+                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="954,53,1,537" Name="textLabelA0190" Padding="0,-2,0,0" Text="0190" VerticalContentAlignment="Center" Width="25" />
+                <my:ScaleInfo Height="130" Margin="526,224,309,246" x:Name="ScaleInfo_A0150" ScaleInfo_InFlowrateMaximum="12" ScaleInfo_InFlowrateMinimum="0" ScaleInfo_InFlowrateOffset="DB236.DBD142" ScaleInfo_IsValueWholeNumber="False" ScaleInfo_MultiplyWriteValue="100" ScaleInfo_Title="0150 B1 Scale" Width="145" />
+                <WPFBuhlerControls:Hopper_Small Height="49" Margin="923,370,29,181" Width="28" />
+                <WPFBuhlerControls:Scale_Dosing1 Height="52" Margin="921,413,27,135" Name="_A0650" Width="32" MouseDown="_A0650_MouseDown" />
+                <WPFBuhlerControls:Line_Vertical Height="23" Margin="932,345,38,232" Width="10" />
+                <my:ScaleInfo1 Margin="769,365,71,135" x:Name="ScaleInfo_A1012" ScaleInfo_Title="Offal Scale" />
+                <WPFBuhlerControls:Line_Vertical Height="23" Margin="932,463,38,114" Width="10" />
+                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="932,363,38,227" Width="10" />
+                <WPFBuhlerControls:Line_Vertical Height="73" Margin="843,502,127,25" Width="10" />
+                <WPFBuhlerControls:Line_Vertical Height="35" Margin="875,539,95,26" Width="10" />
+                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="932,481,38,109" Width="10" />
+                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="875,569,95,21" Width="10" />
+                <WPFBuhlerControls:Label_C Height="15" Margin="840,584,125,1" Width="15" />
+                <WPFBuhlerControls:Label_C Height="15" Margin="872,584,93,1" Width="15" />
+                <WPFBuhlerControls:Line_Horizontal Height="10" Margin="848,534,99,56" Width="33" />
+                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="843,569,127,21" Width="10" />
+                <WPFBuhlerControls:Level_High_Bin Height="10" Margin="932,379,38,211" Name="_A0635" Width="10" MouseDown="_A0635_MouseDown" />
+                <WPFBuhlerControls:Conveyor_NFAS_250Medium ContextMenu="{StaticResource ContextMenu1}" Height="20" Margin="836,329,34,251" Name="_A0620" Width="110" MouseDown="_A0620_MouseDown" MouseRightButtonDown="_A0620_MouseRightButtonDown" />
+                <WPFBuhlerControls:Conveyor_OverflowFlap Height="12" Margin="945,333,25,255" Name="_A0620F" Width="10" MouseDown="_A0620F_MouseDown" />
+                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="811,334,144,256" Name="textLabelA0620" Padding="0,-2,0,0" Text="0620" VerticalContentAlignment="Center" Width="25" />
+                <WPFBuhlerControls:Conveyor_NFAS_250Medium ContextMenu="{StaticResource ContextMenu1}" Height="20" Margin="836,487,34,93" Name="_A0665" Width="110" MouseDown="_A0665_MouseDown" MouseRightButtonDown="_A0665_MouseRightButtonDown" />
+                <WPFBuhlerControls:Conveyor_OverflowFlap Height="12" Margin="827,491,143,97" Name="_A0665F" Width="10" MouseDown="_A0665F_MouseDown" />
+                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="946,492,9,98" Name="textLabelA0665" Padding="0,-2,0,0" Text="0665" VerticalContentAlignment="Center" Width="25" />
+                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="953,379,2,211" Name="textLabelA0635" Padding="0,-2,0,0" Text="0635" VerticalContentAlignment="Center" Width="25" />
+                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="953,425,2,165" Name="textLabelA0650" Padding="0,-2,0,0" Text="0650" VerticalContentAlignment="Center" Width="25" />
+                <WPFBuhlerControls:Switch_Pressure Height="15" IsMinimumPressureAlarm="True" Margin="21,552,944,33" Name="_A0510" Width="15" />
+                <WPFBuhlerControls:Label_1 Content="AIR" Height="15" HorizontalContentAlignment="Center" Margin="16,574,939,11" Width="25" />
+                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="15,567,940,23" Name="textLabelA0004" Padding="0,-2,0,0" Text="0510" VerticalContentAlignment="Center" Width="25" />
+            </Grid>
+            <Slider x:Name="uiScaleSlider" ToolTip="Scale the current page" Value="1" Minimum="0.1" Maximum="1.5" ValueChanged="uiScaleSlider_ValueChanged" Orientation="Vertical" Margin="2,27,0,78" HorizontalAlignment="Left" Width="27" LargeChange="0.5" TickFrequency="0.2"  />
+        </Grid>
+    </Grid>
+</Page>

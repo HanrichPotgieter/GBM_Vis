@@ -1,0 +1,10 @@
+﻿<Window x:Class="KNEKT.DisplayPages.DisplayWindows.SplashScreenWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="SplashScreen" Height="400" Width="550" Topmost="True" WindowStartupLocation="CenterScreen" WindowStyle="None" ResizeMode="NoResize" AllowsTransparency="True" Background="Transparent" Icon="/KNEKT;component/Images/Logo.ico">
+    <Grid Background="{StaticResource SplashScreenImage}">
+        <ProgressBar Height="20" Margin="41,0,37,38" Name="pgbKNEKTLoadingProgress" VerticalAlignment="Bottom" IsIndeterminate="False" Width="450" Value="0" Maximum="100" Minimum="0" />
+        <Label  Height="50" Margin="42,0,36,68" Name="lblKNEKTLoadingProgress" VerticalAlignment="Bottom" Foreground="White" Width="450" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"  FontSize="16"  FontFamily="Comic Sans MS"/>
+        <Label  Height="28" HorizontalAlignment="Right" Margin="0,24,20,0" Name="lblKNEKTVersionNumber" VerticalAlignment="Top" Foreground="White" Width="80" />
+    </Grid>
+</Window>

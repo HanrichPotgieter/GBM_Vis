@@ -1,0 +1,70 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
+
+namespace KNEKT.Controls
+{
+    /// <summary>
+    /// Interaction logic for S7300CPU.xaml
+    /// </summary>
+    public partial class S7300CPU : UserControl
+    {
+        public S7300CPU()
+        {
+            InitializeComponent();
+
+        }
+
+        public string S7300CPU_Title
+        {
+            get
+            {
+                return lblTitle.Content.ToString();
+            }
+            set
+            {
+                lblTitle.Content = value;
+            }
+        }
+
+        //public Brush GetColorAdditionalTags(int state)
+        //{
+        //    if (state == 1)
+        //    {
+        //        return Brushes.Red;
+        //    }
+        //    else
+        //    {
+        //        return Brushes.Green;
+        //    }
+
+        //}
+
+        //public int SetColor1
+        //{
+        //    set
+        //    {
+        //        square_1.Dispatcher.BeginInvoke(
+        //          System.Windows.Threading.DispatcherPriority.Normal,
+        //          new Action(
+        //            delegate()
+        //            {
+        //                square_1.Fill = GetColorAdditionalTags(value);
+        //            }
+        //    ));
+        //    }
+        //}
+
+    }
+}

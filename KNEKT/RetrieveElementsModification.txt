@@ -1,0 +1,9 @@
+SELECT ob.Value4 AS ObjectNr, ob.NameS7, ob.Text0 AS Tagname, ob.Text1 AS TagDescription, ob.Text3 AS GroupNo, ob.Text2 AS DBOffset, 
+             IIf(([ob].[OType]>=2000 And [ob].[OType]<2900),True,False) AS Expr1, 
+             ob.Value5 AS ParMsgType, ob.OType AS FB, ob.SubType
+FROM ObjData ob
+WHERE (((ob.OType)>=1000 And (ob.OType)<2000))
+             AND ob.Value5 <> 7901
+             AND ob.Value5 <> 7902
+             AND ob.Text1 <> ', only for graphic support'
+ORDER BY ob.Value4, ob.OType;
