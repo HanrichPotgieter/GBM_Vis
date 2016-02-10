@@ -1,0 +1,36 @@
+﻿<UserControl x:Class="WPFBuhlerControls.RollerStand_MDDQ2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="118" d:DesignWidth="110">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" Name="canvasTop" Width="110" Height="118">
+                <Polyline Name="PolyTopMid" Points="40,0.5 68,0.5 68,25 40,25 40,0.5 68,0.5" Stroke="Black" StrokeThickness="1"  />
+                <Polyline Name="PolyTopInlet" Stroke="Black" StrokeThickness="1" Points="36,25.5 72,25.5 76,29 33,29 36,25.5 72,25.5" />
+                <Polyline Name="PolyFeedRectangle1" Stroke="Black" StrokeThickness="1" Points="23,60 23,29 87,29 87,60 23,60 23,29" />
+                <Polyline Name="PolyFeedRectangle2" Stroke="Black" StrokeThickness="1" Points="23,89 23,60 87,60 87,89 23,89 23,60" />
+                <Polyline Name="rectMidBot" Points="23,118 87,118 87,89 23,89 23,118" Stroke="Black" StrokeThickness="1"  />
+                <Polyline Name="rectMidBotInner" Points="23,100 87,100 87,89 23,89 23,100" Stroke="Black" StrokeThickness="1"  />
+                <Polyline Name="PolySeperationLeft" Stroke="Black" StrokeThickness="1" Points="15,29 23,29 23,40 15,40 15,69 23,69 23,94 15,94 15,118 23,118 23,94 15,94 15,69 23,69 23,40 15,40 15,29"  />
+                <Polyline Name="PolySeperationRight" Stroke="Black" StrokeThickness="1" Points="87,29 95,29 95,40 87,40 87,69 95,69 95,94 87,94 87,118 95,118 95,94 87,94 87,69 95,69 95,40 87,40 87,29"  />
+                <!--<Polyline Name="PolySeperationRight" Stroke="Black" StrokeThickness="1" Points="87,29 95,29 95,40 87,40 87,29 95,29 95,69 87,69 87,29 95,29 95,94 87,94 87,69 95,69 95,118 87,118 87,29 " />-->
+                <!--<Polyline Name="rectBotMid" Points="23,120 87,120 87,55 23,55 23,120" Stroke="Black" StrokeThickness="1"/>-->
+                <!--<Polyline Name="PolyLeftMid" Points="45,10 55,10 55,120 15,120 15,50 40,35 40,35 45,10" Stroke="Black" StrokeThickness="1"/>-->
+                <!--<Polyline Name="PolyRightMid" Points="65,10 55,10 55,120 95,120 95,50 70,35 65,10" Stroke="Black" StrokeThickness="1"/>-->
+                <!--<Polyline Name="PolyMidMid" Points="40,35 70,35 95,50 15,50 40,35" Stroke="Black" StrokeThickness="1"/>-->
+                <Polyline Name="rectMotLeft1" Points="0,75 15,75 15,29 0,29 0,75 " Stroke="Black" StrokeThickness="1" />
+                <Polyline Name="rectMotLeft2" Points="0,118 15,118 15,75, 0,75 0,118" Stroke="Black" StrokeThickness="1"/>
+                <Polyline Name="rectMotRight1" Points="95,75 110,75 110,29 95,29 95,75 " Stroke="Black" StrokeThickness="1"/>
+                <Polyline Name="rectMotRight2" Points="95,118 110,118 110,75, 95,75 95,118" Stroke="Black" StrokeThickness="1"/>
+                <Polyline Name="PolyFeedRoller1" Stroke="Black" StrokeThickness="1" Points="26,52 26,37 84,37 84,52 26,52 26,37" />
+                <Polyline Name="PolyFeedRoller2" Stroke="Black" StrokeThickness="1" Points="26,82 26,67 84,67 84,82 26,82 26,67"  />
+                <!--<Ellipse Name=""-->
+            </Canvas>
+        </Viewbox>
+
+
+    </Grid>
+</UserControl>

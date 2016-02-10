@@ -1,0 +1,1526 @@
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\bin\Debug\WPFBuhlerControls.dll
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\bin\Debug\WPFBuhlerControls.pdb
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ResolveAssemblyReference.cache
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls_MarkupCompile.cache
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.g.resources
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.Properties.Resources.resources
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ResGen.read.1.tlog
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ResGen.write.1.tlog
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.dll
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.pdb
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDR.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDR.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSB.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSB.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_HP.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_Blower.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_Blower.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_Normal.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_Normal.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Airlock_MPSN_Cyclone.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Airlock_MPSN_Cyclone.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Airlock_MPSN.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Airlock_MPSN.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Mid.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Mid.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRT.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRT.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_Dosing.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_Dosing.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAR.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAR.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Flowbalancer.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Flowbalancer.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Switch_Pressure.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Switch_Pressure.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MYFC.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MYFC.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SlideGate.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SlideGate.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUD.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUD.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\FlapBox.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\FlapBox.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SteamUnit.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SteamUnit.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Compressor.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Compressor.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_Vibro.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_Vibro.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cascade.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cascade.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Small.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Small.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_H.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_H.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_BagIntake.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_BagIntake.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_Screening.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_Screening.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_C.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_C.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dryer_Aeroglide.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dryer_Aeroglide.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Flaker.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Flaker.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls_MarkupCompile.lref
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MOZF.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MOZF.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_BCTC.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_BCTC.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Rectangle.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Rectangle.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_MZMA.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_MZMA.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Horizontal.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Horizontal.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Vertical.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Vertical.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Arrow.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Arrow.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Bend.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Bend.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_M.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_M.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_OverflowFlap.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_OverflowFlap.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_MSDM.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_MSDM.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_ConeBottom.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_ConeBottom.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSI.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSI.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cyclone.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cyclone.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_V.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_V.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250Medium.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250Medium.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SlideGate_Manual.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SlideGate_Manual.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_Alarm1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_Alarm1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_Engage.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_Engage.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_Stroke.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_Stroke.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_SifterOutlet.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_SifterOutlet.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AlarmHorn1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AlarmHorn1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_T1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_T1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SpeedMonitor.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SpeedMonitor.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Solenoid_RinsingAir.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Solenoid_RinsingAir.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SteamRings.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SteamRings.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK2.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK2.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\CompressedAir_SprayNozzle.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\CompressedAir_SprayNozzle.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_Dosing1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_Dosing1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAP3.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAP3.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAP4.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAP4.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZF.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZF.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MTZA1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MTZA1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BranFinisher_MKLA.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BranFinisher_MKLA.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RotarySpout_MAYV.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RotarySpout_MAYV.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\PowerMill_MDGB.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\PowerMill_MDGB.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDQ.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDQ.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scourer_MHXT.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scourer_MHXT.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DampenerTurbolizer_MOZL.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DampenerTurbolizer_MOZL.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Separator_MTRC.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Separator_MTRC.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Destoner_MTSD.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Destoner_MTSD.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MANA.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MANA.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_S.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_S.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_M.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_M.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_L.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_L.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DrumSieve_AHCY.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DrumSieve_AHCY.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ThrowSifter_DFTA_13.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ThrowSifter_DFTA_13.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle_S.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle_S.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU_L.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU_L.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_MNSG_250.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_MNSG_250.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AirValve1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AirValve1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Extruder_TwinScrew_BCTG.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle_XS.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Extruder_TwinScrew_BCTG.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle_XS.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_DFCQ.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_DFCQ.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingSystem.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingSystem.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_DFML1000.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_DFML1000.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dryer_BeltDryer1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dryer_BeltDryer1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ControlSieve_MKSA.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ControlSieve_MKSA.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_2.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_2.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ScaleCentral_MSBA_A500.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\TemperatureSensor_1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ScaleCentral_MSBA_A500.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\TemperatureSensor_1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_3.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_3.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BlowThroughSievingMachine_MKZG.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BlowThroughSievingMachine_MKZG.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_Tweedy1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_Tweedy2.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_Tweedy1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_Tweedy2.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Degerminator_MHXM.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Degerminator_MHXM.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibroSieve_MKZH.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibroSieve_MKZH.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Concentrator_MTCB.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Concentrator_MTCB.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DivideBox.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DivideBox.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Silo_1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Silo_1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Slide_Manual.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Slide_Manual.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\IndentedSeparator_MTRI.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\IndentedSeparator_MTRI.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_300G.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_300G.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Feeder_MicroDifferential_1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Feeder_LossInWeight_MSDF.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Feeder_MicroDifferential_1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Feeder_LossInWeight_MSDF.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BagginStation_MWPE.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BagginStation_MWPE.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bagging_ClosingConveyor_MWTC.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bagging_ClosingConveyor_MWTC.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Auger_InSilo1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Auger_InSilo1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Auger_Screw1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Auger_Screw1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_2.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_2.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sieve_1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sieve_1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ButterflyValve_Vertical.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ButterflyValve_Vertical.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_L.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_L.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_M.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_M.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_S.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_S.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_SpeedMonitor_L.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_SpeedMonitor_L.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_SpeedMonitor_R.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_SpeedMonitor_R.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XL.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XL.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XXL.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XXL.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_HP.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Splitter1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Splitter1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZF_Left.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZF_Left.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingStation_MWPM.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_XS.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SievingMachine_MKZF.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingStation_MWPM.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_XS.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SievingMachine_MKZF.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Spout_Split1.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Spout_Split1.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_MJSA_MTSN.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_MJSA_MTSN.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AugerPacker_MWPU.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AugerPacker_MWPU.g.cs
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Spout_Split2.baml
+C:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Spout_Split2.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\bin\Debug\WPFBuhlerControls.dll
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\bin\Debug\WPFBuhlerControls.pdb
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Airlock_MPSN.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Airlock_MPSN_Cyclone.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AirValve1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AlarmHorn1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSB.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSI.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AugerPacker_MWPU.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Auger_InSilo1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Auger_Screw1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingStation_MWPM.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingSystem.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bagging_ClosingConveyor_MWTC.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BagginStation_MWPE.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BlowThroughSievingMachine_MKZG.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ButterflyValve_Horizontal.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ButterflyValve_Vertical.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Concentrator_MTCB.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ControlSieve_MKSA.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_XS.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_L.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_M.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_S.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XL.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XXL.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_SpeedMonitor_L.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_SpeedMonitor_R.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_LimitSwitch.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Degerminator_MHXM.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_300G.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZF_Left.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DivideBox.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dryer_BeltDryer1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_ConeBottom.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_Vibro.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BranFinisher_MKLA.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cascade.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\CompressedAir_SprayNozzle.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Compressor.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_BCTC.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_MNSG_250.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_MZMA.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250Medium.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_OverflowFlap.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cyclone.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DampenerTurbolizer_MOZL.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Destoner_MTSD.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZF.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DrumSieve_AHCY.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dryer_Aeroglide.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_L.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_M.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_S.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Extruder_TwinScrew_BCTG.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_Blower.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_Normal.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Feeder_MicroDifferential_1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRT.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU_L.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Flaker.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\FlapBox.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Flowbalancer.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_DFCQ.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_MJSA_MTSN.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_2.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_3.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_BagIntake.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Rectangle.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Small.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle_S.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle_XS.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\IndentedSeparator_MTRI.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_C.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_M.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_Screening.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_T1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High_Bin.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High_Machine.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low_Bin.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low_Machine.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Mid.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Arrow.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Bend.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Horizontal.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Inlet_Pneumatic.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Vertical.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Feeder_LossInWeight_MSDF.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_H.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_V.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUD.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MANA.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_DFML1000.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_Tweedy1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_Tweedy2.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_Alarm1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_SifterOutlet.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_Stroke.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MOZF.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MYFC.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\PowerMill_MDGB.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_Engage.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDQ.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDR.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RotarySpout_MAYV.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ScaleCentral_MSBA_A500.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_Dosing.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_Dosing1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_MSDM.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_MSDT500.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scourer_MHXT.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Separator_MTRC.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sieve_1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SievingMachine_MKZF.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK2.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAP3.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAP4.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAR.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MTZA1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Silo_1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Silo_Door1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SlideGate.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SlideGate_Manual.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Slide_Manual.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Solenoid_RinsingAir.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sortex1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SpeedMonitor.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Splitter1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Spout_Split1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Spout_Split2.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SteamRings.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SteamUnit.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Switch_Pressure.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\TemperatureSensor_1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ThrowSifter_DFTA_13.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_1.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_2.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_MAUB.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_WaterShutoff.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibratoryFeeder_MZVE.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibroSieve_MKZH.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Airlock_MPSN.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Airlock_MPSN_Cyclone.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AirValve1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AlarmHorn1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSB.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSI.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AugerPacker_MWPU.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Auger_InSilo1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Auger_Screw1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingStation_MWPM.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingSystem.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bagging_ClosingConveyor_MWTC.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BagginStation_MWPE.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BlowThroughSievingMachine_MKZG.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ButterflyValve_Horizontal.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ButterflyValve_Vertical.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Concentrator_MTCB.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ControlSieve_MKSA.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_XS.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_L.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_M.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_S.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XL.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XXL.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_SpeedMonitor_L.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_SpeedMonitor_R.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_LimitSwitch.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Degerminator_MHXM.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_300G.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZF_Left.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DivideBox.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dryer_BeltDryer1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_ConeBottom.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_Vibro.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BranFinisher_MKLA.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cascade.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\CompressedAir_SprayNozzle.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Compressor.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_BCTC.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_MNSG_250.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_MZMA.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250Medium.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_OverflowFlap.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cyclone.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DampenerTurbolizer_MOZL.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Destoner_MTSD.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZF.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DrumSieve_AHCY.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dryer_Aeroglide.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_L.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_M.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_S.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Extruder_TwinScrew_BCTG.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_Blower.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_HP.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_Normal.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Feeder_MicroDifferential_1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRT.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU_L.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Flaker.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\FlapBox.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Flowbalancer.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_DFCQ.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_MJSA_MTSN.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_2.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_3.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_BagIntake.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Rectangle.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Small.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle_S.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle_XS.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\IndentedSeparator_MTRI.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_C.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_M.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_Screening.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_T1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High_Bin.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High_Machine.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low_Bin.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low_Machine.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Mid.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Arrow.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Bend.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Horizontal.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Inlet_Pneumatic.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Vertical.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Feeder_LossInWeight_MSDF.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_H.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_V.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUD.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MANA.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_DFML1000.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_Tweedy1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_Tweedy2.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_Alarm1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_SifterOutlet.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_Stroke.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MOZF.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MYFC.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\PowerMill_MDGB.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_Engage.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDQ.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDR.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RotarySpout_MAYV.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ScaleCentral_MSBA_A500.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_Dosing.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_Dosing1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_MSDM.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_MSDT500.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scourer_MHXT.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Separator_MTRC.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sieve_1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SievingMachine_MKZF.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK2.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAP3.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAP4.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAR.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MTZA1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Silo_1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Silo_Door1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SlideGate.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SlideGate_Manual.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Slide_Manual.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Solenoid_RinsingAir.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sortex1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SpeedMonitor.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Splitter1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Spout_Split1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Spout_Split2.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SteamRings.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SteamUnit.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Switch_Pressure.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\TemperatureSensor_1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ThrowSifter_DFTA_13.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_1.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_2.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_MAUB.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_WaterShutoff.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibratoryFeeder_MZVE.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibroSieve_MKZH.g.cs
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls_MarkupCompile.cache
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls_MarkupCompile.lref
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_HP.baml
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.g.resources
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.Properties.Resources.resources
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\GenerateResource-ResGen.read.1.tlog
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ResGen.read.1.tlog
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\GenerateResource-ResGen.write.1.tlog
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ResGen.write.1.tlog
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.dll
+D:\Projects\C#\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.pdb
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\bin\Debug\WPFBuhlerControls.dll
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\bin\Debug\WPFBuhlerControls.pdb
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AirDryer1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Airlock_MPSN.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Airlock_MPSN_Cyclone.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AirValve1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AlarmHorn1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSB.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSI.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSQ.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AugerPacker_MWPU.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Auger_InSilo1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Auger_Screw1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingStation_BigBag.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingStation_MWPM.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingStation_RollTracks.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingSystem.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bagging_ClosingConveyor_MWTC.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BagginStation_MWPE.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_Discharger_MFPF.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BlowThroughSievingMachine_MKZG.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Burner_Gas.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ButterflyValve_Horizontal.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ButterflyValve_Vertical.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\CerealCooker1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\CombiCleaner_MTKB.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Concentrator_MTCB.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ControlSieve_MKSA.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ControlSieve_MKSA1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_M.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_S.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_XS.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_L.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_M.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_S.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XL.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XXL.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_DPSD.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250_L.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250_XL.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_L.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_M.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_SpeedMonitor_L.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_SpeedMonitor_R.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_LimitSwitch.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dampener_Intensifier.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Degerminator_MHXM.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DeHuller.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_300G.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZE.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZF_Left.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DivideBox.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dryer_BeltDryer1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_ConeBottom.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_Vibro.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BranFinisher_MKLA.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cascade.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\CompressedAir_SprayNozzle.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Compressor.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_BCTC.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_MNSG_250.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_MZMA.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250Medium.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_OverflowFlap.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cyclone.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DampenerTurbolizer_MOZL.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Destoner_MTSD.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZF.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DrumSieve_AHCY.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dryer_Aeroglide.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DustDetector1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_L.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_M.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_S.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Extruder_TwinScrew_BCTG.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_Blower.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_Normal.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRT_Long.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU_H.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\FlapBox_SD.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\FlowMeter1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Feeder_MicroDifferential_1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRT.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU_L.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Flaker.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\FlapBox.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Flowbalancer.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_DFCQ.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_DFCQ1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_DFCQ2_Motor.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_MJSA_MTSN.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HeatExchanger.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_2.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_3.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_4.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_BagIntake.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_ChainConveyor.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Rectangle.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Small.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle_S.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle_XS.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\IndentedSeparator_Mini1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\IndentedSeparator_MTRI.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\IndentedSeperator_Mini.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\KnockingHammer1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_C.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_M.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_Screening.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_T1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High_Bin.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High_Machine.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low_Bin.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low_Machine.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Mid.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Mid_Bin.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Arrow.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Bend.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Horizontal.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Inlet_Pneumatic.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Vertical.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Feeder_LossInWeight_MSDF.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_H.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_V.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_V2.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUD.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_Rotary1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MANA.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MixerDoor1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_DFML1000.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_Tweedy1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_Tweedy2.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_Alarm1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_SifterOutlet.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_Stroke.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MOZF.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MYFC.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MYRA_1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Nozzle_Laval.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\OTWDryer.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\PowerMill_MDGB.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\PowerMill_MDGB2.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF2.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF_SideView.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_Engage.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDP.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDQ.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDQ2.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDR.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RotarySpout_MAYV.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SampleCollector1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ScaleCentral_MSBA_A500.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_Dosing.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_Dosing1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_MSDM.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_MSDT500.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scourer_MHXT.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Separator_MANB.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Separator_MTRC.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sieve_1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sieve_2.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SievingMachine_MKZF.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_DMHX.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK2.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK_1024.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK_1025.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAP3.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAP4.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAR.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MTZA1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Silo_1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Silo_Door1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SlideGate.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SlideGate_Manual.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Slide_Manual.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Solenoid_RinsingAir.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sortex1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SpeedMonitor.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Splitter1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Spout_Split1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Spout_Split2.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SteamRings.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SteamUnit.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Switch_Pressure.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\TankerLoader.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\TemperatureSensor_1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\TemperatureSensor_Analog.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ThrowSifter_DFTA_13.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_1_Down.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_2.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_3.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_3_Down.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_Dosing1.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_MAUB.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_WaterShutoff.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibratoryFeeder_MZVE.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibroSieve_MKZH.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibroSifter_MKZH.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Wheat_Steriliser_MJZD.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AirDryer1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Airlock_MPSN.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Airlock_MPSN_Cyclone.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AirValve1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AlarmHorn1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSB.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSI.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSQ.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AugerPacker_MWPU.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Auger_InSilo1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Auger_Screw1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingStation_BigBag.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingStation_MWPM.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingStation_RollTracks.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingSystem.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bagging_ClosingConveyor_MWTC.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BagginStation_MWPE.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_Discharger_MFPF.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BlowThroughSievingMachine_MKZG.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Burner_Gas.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ButterflyValve_Horizontal.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ButterflyValve_Vertical.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\CerealCooker1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\CombiCleaner_MTKB.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Concentrator_MTCB.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ControlSieve_MKSA.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ControlSieve_MKSA1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_M.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_S.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_XS.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_L.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_M.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_S.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XL.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XXL.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_DPSD.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250_L.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250_XL.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_L.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_M.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_SpeedMonitor_L.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_SpeedMonitor_R.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_LimitSwitch.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dampener_Intensifier.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Degerminator_MHXM.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DeHuller.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_300G.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZE.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZF_Left.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DivideBox.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dryer_BeltDryer1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_ConeBottom.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_Vibro.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BranFinisher_MKLA.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cascade.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\CompressedAir_SprayNozzle.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Compressor.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_BCTC.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_MNSG_250.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_MZMA.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250Medium.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_OverflowFlap.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cyclone.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DampenerTurbolizer_MOZL.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Destoner_MTSD.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZF.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DrumSieve_AHCY.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dryer_Aeroglide.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DustDetector1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_L.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_M.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_S.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Extruder_TwinScrew_BCTG.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_Blower.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_HP.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_Normal.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRT_Long.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU_H.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\FlapBox_SD.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\FlowMeter1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Feeder_MicroDifferential_1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRT.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU_L.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Flaker.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\FlapBox.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Flowbalancer.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_DFCQ.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_DFCQ1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_DFCQ2_Motor.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_MJSA_MTSN.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HeatExchanger.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_2.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_3.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_4.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_BagIntake.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_ChainConveyor.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Rectangle.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Small.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle_S.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle_XS.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\IndentedSeparator_Mini1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\IndentedSeparator_MTRI.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\IndentedSeperator_Mini.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\KnockingHammer1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_C.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_M.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_Screening.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_T1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High_Bin.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High_Machine.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low_Bin.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low_Machine.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Mid.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Mid_Bin.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Arrow.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Bend.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Horizontal.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Inlet_Pneumatic.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Vertical.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Feeder_LossInWeight_MSDF.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_H.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_V.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_V2.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUD.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_Rotary1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MANA.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MixerDoor1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_DFML1000.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_Tweedy1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_Tweedy2.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_Alarm1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_SifterOutlet.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_Stroke.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MOZF.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MYFC.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MYRA_1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Nozzle_Laval.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\OTWDryer.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\PowerMill_MDGB.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\PowerMill_MDGB2.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF2.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF_SideView.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_Engage.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDP.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDQ.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDQ2.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDR.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RotarySpout_MAYV.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SampleCollector1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ScaleCentral_MSBA_A500.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_Dosing.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_Dosing1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_MSDM.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_MSDT500.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scourer_MHXT.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Separator_MANB.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Separator_MTRC.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sieve_1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sieve_2.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SievingMachine_MKZF.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_DMHX.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK2.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK_1024.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK_1025.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAP3.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAP4.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAR.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MTZA1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Silo_1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Silo_Door1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SlideGate.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SlideGate_Manual.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Slide_Manual.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Solenoid_RinsingAir.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sortex1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SpeedMonitor.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Splitter1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Spout_Split1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Spout_Split2.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SteamRings.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SteamUnit.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Switch_Pressure.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\TankerLoader.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\TemperatureSensor_1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\TemperatureSensor_Analog.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ThrowSifter_DFTA_13.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_1_Down.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_2.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_3.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_3_Down.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_Dosing1.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_MAUB.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_WaterShutoff.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibratoryFeeder_MZVE.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibroSieve_MKZH.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibroSifter_MKZH.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Wheat_Steriliser_MJZD.g.cs
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls_MarkupCompile.cache
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls_MarkupCompile.lref
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_HP.baml
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.g.resources
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.Properties.Resources.resources
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.csproj.GenerateResource.Cache
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.dll
+C:\Users\Thabang\Documents\Visual Studio 2010\Projects\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.pdb
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\bin\Debug\WPFBuhlerControls.dll
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\bin\Debug\WPFBuhlerControls.pdb
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AirDryer1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Airlock_MPSN.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Airlock_MPSN_Cyclone.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AirValve1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AlarmHorn1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Arrow_Direction.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSB.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSI.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSQ.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AugerPacker_MWPU.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Auger_InSilo1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Auger_Screw1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingStation_BigBag.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingStation_MWPM.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingStation_RollTracks.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingSystem.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bagging_ClosingConveyor_MWTC.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BagginStation_MWPE.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_Discharger_MFPF.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BlowThroughSievingMachine_MKZG.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Burner_Gas.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ButterflyValve_Horizontal.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ButterflyValve_Vertical.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\CerealCooker1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\CombiCleaner_MTKB.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Concentrator_MTCB.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ControlSieve_MKSA.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ControlSieve_MKSA1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ConveyorNFAT_200_L.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_BCTC2.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_L_Sloped.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_M.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_S.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_XS.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_L.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_M.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_S.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XL.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XXL.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XXL_DT.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XXL_DT1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_MNKA50_DH.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_DPSD.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250_L.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250_XL.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_L.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_M.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_SpeedMonitor_L.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_SpeedMonitor_R.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_LimitSwitch.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cooler_DFKG.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dampener_Intensifier.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DeadBox.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Degerminator_MHXM.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DeHuller.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_300G.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZE.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZF_Left.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DivideBox.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dryer_BeltDryer1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_ConeBottom.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_Vibro.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BranFinisher_MKLA.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cascade.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\CompressedAir_SprayNozzle.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Compressor.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_BCTC.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_MNSG_250.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_MZMA.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250Medium.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_OverflowFlap.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cyclone.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DampenerTurbolizer_MOZL.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Destoner_MTSD.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZF.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DrumSieve_AHCY.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dryer_Aeroglide.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DustDetector1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_L.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_M.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_S.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_XL.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Extruder_TwinScrew_BCTG.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_Blower.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_Normal.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRT_Long.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU_H.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRW.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVTA1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\FlapBox_SD.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\FlowMeter1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Feeder_MicroDifferential_1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRT.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU_L.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Flaker.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\FlapBox.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Flowbalancer.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_DFCQ.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_DFCQ1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_DFCQ2_Motor.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_MJSA_MTSN.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HeatExchanger.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_2.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_3.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_4.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_5.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_6.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_BagIntake.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_ChainConveyor.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Rectangle.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Small.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle_S.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle_XS.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\IndentedSeparator_Mini1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\IndentedSeparator_MTRI.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\IndentedSeperator_Mini.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\KnockingHammer1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_C.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_M.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_Screening.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_T1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High_Bin.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High_Machine.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low_Bin.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low_Machine.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Mid.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Mid_Bin.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Arrow.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Bend.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Horizontal.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Inlet_Pneumatic.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Vertical.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Feeder_LossInWeight_MSDF.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_H.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_V.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_V2.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUD.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_Rotary1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MANA.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MixerDoor1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_DFML1000.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_Tweedy1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_Tweedy2.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_Alarm1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_SifterOutlet.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_Stroke.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MOZF.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MYFC.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MYFD.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MYRA_1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Nozzle_Laval.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\OTWDryer.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\PelletMill.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Pellet_Dispenser.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\PowerMill_MDGB.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\PowerMill_MDGB2.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\PowerMill_MDGB3.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF2.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF_SideView.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_Engage.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDP.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDQ.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDQ2.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDR.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RotarySpout_MAYV.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SampleCollector1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ScaleCentral_MSBA_A500.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_Dosing.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_Dosing1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_MSDM.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_MSDT500.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scourer_DRPA.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scourer_MHXT.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Separator_MANB.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Separator_MTRC.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sieve_1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sieve_2.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SievingMachine_MKZF.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_DMHX.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK2.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK_1024.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK_1025.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAP3.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAP4.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAR.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MTZA1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SiftMachine.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Silo_1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Silo_Door1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SlideGate.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SlideGate_Manual.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Slide_Manual.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Solenoid_RinsingAir.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sortex1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sortex2.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SpeedMonitor.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Splitter1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Spout_Split1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Spout_Split2.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SteamRings.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SteamUnit.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Switch_Pressure.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\TankerLoader.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\TemperatureSensor_1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\TemperatureSensor_Analog.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ThrowSifter_DFTA_13.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_1_Down.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_2.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_3.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_3_Down.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ValveMAUB2.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_DADA1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_DADA2.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_DAWA.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_Dosing1.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_MAUB.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_WaterShutoff.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibratoryFeeder_MZVE.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibroSieve_MKZH.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibroSifter_MKZH.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Wheat_Steriliser_MJZD.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AirDryer1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Airlock_MPSN.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Airlock_MPSN_Cyclone.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AirValve1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AlarmHorn1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Arrow_Direction.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSB.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSI.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Aspirator_MVSQ.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\AugerPacker_MWPU.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Auger_InSilo1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Auger_Screw1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingStation_BigBag.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingStation_MWPM.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingStation_RollTracks.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BaggingSystem.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bagging_ClosingConveyor_MWTC.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BagginStation_MWPE.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_Discharger_MFPF.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BlowThroughSievingMachine_MKZG.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Burner_Gas.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ButterflyValve_Horizontal.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ButterflyValve_Vertical.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\CerealCooker1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\CombiCleaner_MTKB.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Concentrator_MTCB.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ControlSieve_MKSA.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ControlSieve_MKSA1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ConveyorNFAT_200_L.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_BCTC2.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_L_Sloped.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_M.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_S.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Belt_XS.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_L.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_M.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_S.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XL.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XXL.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XXL_DT.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_AHKA_XXL_DT1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_Chain_MNKA50_DH.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_DPSD.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250_L.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250_XL.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_L.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_M.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_SpeedMonitor_L.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_SpeedMonitor_R.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_LimitSwitch.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cooler_DFKG.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dampener_Intensifier.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DeadBox.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Degerminator_MHXM.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DeHuller.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_300G.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZE.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZF_Left.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DivideBox.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dryer_BeltDryer1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_ConeBottom.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Bin_Vibro.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\BranFinisher_MKLA.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cascade.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\CompressedAir_SprayNozzle.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Compressor.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_BCTC.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_MNSG_250.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_MZMA.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_NFAS_250Medium.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Conveyor_OverflowFlap.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Cyclone.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DampenerTurbolizer_MOZL.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Destoner_MTSD.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Detacher_MJZF.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DrumSieve_AHCY.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Dryer_Aeroglide.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\DustDetector1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_L.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_M.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_S.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Elevator_XL.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Extruder_TwinScrew_BCTG.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_Blower.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_HP.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_Normal.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRT_Long.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU_H.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRW.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVTA1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\FlapBox_SD.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\FlowMeter1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Feeder_MicroDifferential_1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRT.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Filter_MVRU_L.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Flaker.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\FlapBox.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Flowbalancer.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_DFCQ.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_DFCQ1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_DFCQ2_Motor.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HammerMill_MJSA_MTSN.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\HeatExchanger.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_2.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_3.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_4.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_5.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_6.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_BagIntake.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_ChainConveyor.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Rectangle.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Small.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle_S.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Hopper_Triangle_XS.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\IndentedSeparator_Mini1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\IndentedSeparator_MTRI.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\IndentedSeperator_Mini.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\KnockingHammer1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_C.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_M.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_Screening.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Label_T1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High_Bin.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_High_Machine.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low_Bin.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Low_Machine.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Mid.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Level_Mid_Bin.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Arrow.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Bend.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Horizontal.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Inlet_Pneumatic.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Line_Vertical.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Feeder_LossInWeight_MSDF.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_H.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_V.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUA_V2.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_MMUD.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Magnet_Rotary1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MANA.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MixerDoor1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_DFML1000.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_Tweedy1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Mixer_Tweedy2.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_Alarm1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_SifterOutlet.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Monitor_Stroke.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MOZF.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MYFC.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MYFD.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\MYRA_1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Nozzle_Laval.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\OTWDryer.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\PelletMill.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Pellet_Dispenser.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\PowerMill_MDGB.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\PowerMill_MDGB2.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\PowerMill_MDGB3.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF2.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Purifier_MQRF_SideView.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_Engage.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDP.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDQ.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDQ2.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RollerStand_MDDR.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\RotarySpout_MAYV.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SampleCollector1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ScaleCentral_MSBA_A500.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_Dosing.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_Dosing1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_MSDM.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scale_MSDT500.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scourer_DRPA.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Scourer_MHXT.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Separator_MANB.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Separator_MTRC.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sieve_1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sieve_2.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SievingMachine_MKZF.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_DMHX.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK2.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK_1024.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAK_1025.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAP3.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAP4.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MPAR.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sifter_MTZA1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SiftMachine.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Silo_1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Silo_Door1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SlideGate.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SlideGate_Manual.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Slide_Manual.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Solenoid_RinsingAir.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sortex1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Sortex2.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SpeedMonitor.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Splitter1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Spout_Split1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Spout_Split2.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SteamRings.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\SteamUnit.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Switch_Pressure.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\TankerLoader.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\TemperatureSensor_1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\TemperatureSensor_Analog.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ThrowSifter_DFTA_13.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_1_Down.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_2.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_3.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Truck_3_Down.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\ValveMAUB2.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_DADA1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_DADA2.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_DAWA.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_Dosing1.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_MAUB.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Valve_WaterShutoff.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibratoryFeeder_MZVE.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibroSieve_MKZH.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\VibroSifter_MKZH.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Wheat_Steriliser_MJZD.g.cs
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls_MarkupCompile.cache
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls_MarkupCompile.lref
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\Fan_HP.baml
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.g.resources
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.Properties.Resources.resources
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.csproj.GenerateResource.Cache
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.dll
+C:\Projects\Visual Elements\WPFBuhlerControls\WPFBuhlerControls\obj\Debug\WPFBuhlerControls.pdb

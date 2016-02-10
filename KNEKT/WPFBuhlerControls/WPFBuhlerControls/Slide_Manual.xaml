@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="WPFBuhlerControls.Slide_Manual"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="13" d:DesignWidth="30">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="30" Height="13">
+
+                <Polyline Name="polyMain" Stroke="Black" StrokeThickness="1" Points="5,10 5,4 29,4"/>
+                <Polyline Name="polySmall" Stroke="Black" StrokeThickness="1" Points="2,7 8,7"/>
+                
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>

@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="WPFBuhlerControls.Sifter_DMHX"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="71" d:DesignWidth="80">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="80" Height="71">
+                <Polyline Name="PolyRightInlet" Points="69,0.5 80,0.5 69,10 69,0" Stroke="Black" StrokeThickness="1" />
+                <Polyline Name="PolyLeftOutlet" Points="10,40 0,40 10,30 10,40" Stroke="Black" StrokeThickness="1" />
+                <!--<Rectangle Name="RectSmall" Width="10" Height="10"  StrokeThickness="1" Stroke="Black"/>-->
+                <Polyline Name="PolyMainRect" Stroke="Black" StrokeThickness="1" Points="10,0.5 69,0.5 69,40 10,40 10,0.5 69,0.5" />
+                <!--<Rectangle Name="RectMain" Width="60" Margin="9.5,0" Height="40.4" StrokeThickness="1" Stroke="Black"/>-->
+                <Polyline Name="PolyBot" Points="10.5,40.5 68.5,40.5 39.5,70 10.5,40.5 67.5,40.5" StrokeThickness="1" Stroke="Black"  />
+                <Polyline Name="PolyMidLine" Points="14,5 14,35 65,5 65,35 " Stroke="Black" StrokeThickness="1" />
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>
