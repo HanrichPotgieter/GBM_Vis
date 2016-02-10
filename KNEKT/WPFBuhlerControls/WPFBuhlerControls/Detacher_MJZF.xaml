@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="WPFBuhlerControls.Detacher_MJZF"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="30" d:DesignWidth="40">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" Name="canvasmain" Width="40" Height="30">
+                
+                <Rectangle Name="rectSmallTop" Width="10" Height="5" Margin="15,0" Stroke="Black" StrokeThickness="1"/>
+                <Rectangle Name="rectMid" Width="40" Height="10" Margin="0,4" Stroke="Black" StrokeThickness="1"/>
+                <Rectangle Name="rectBottom" Width="15" Height="17" Margin="12,13" Stroke="Black" StrokeThickness="1"/>
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>

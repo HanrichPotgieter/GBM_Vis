@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="WPFBuhlerControls.AirDryer1"
+              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="70" d:DesignWidth="40">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="40" Height="70">
+
+                <Rectangle Name="rectMain" Width="40" Height="70" Stroke="Black"/>
+                
+
+                <Polyline Name="polyLineTop1" Points="4,18 27,6 " StrokeThickness="1" Stroke="Black"/>
+                <Polyline Name="polyLineTop2" Points="35,18 11,6 " StrokeThickness="1" Stroke="Black"/>
+                <Polyline Name="polyLeft" Points="9,33 9,8 " StrokeThickness="1" Stroke="Black"/>
+                <Polyline Name="polyRight" Points="29,33 29,8 " StrokeThickness="1" Stroke="Black"/>
+                <Polyline Name="polyLineBottom1" Points="4,22 27,35 " StrokeThickness="1" Stroke="Black"/>
+                <Polyline Name="polyLineBottom2" Points="11,35 35,22 " StrokeThickness="1" Stroke="Black"/>
+                
+                <!--<Polyline Name="polySmall" Points="29,10 22,10 22,25 29,25" StrokeThickness="1" Stroke="Black"/>-->
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>
