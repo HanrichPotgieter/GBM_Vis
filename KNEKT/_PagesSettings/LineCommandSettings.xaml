@@ -1,0 +1,104 @@
+﻿<Page x:Class="KNEKT._PagesSettings.LineCommandSettings"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      mc:Ignorable="d" 
+      d:DesignHeight="522" d:DesignWidth="890"
+	Title="LineCommandSettings">
+
+    <Grid Background="{StaticResource DarkBackground}" Opacity="0.9" >
+        <ListBox Margin="11,51,786,12" Name="listBoxLines" SelectionChanged="listBoxLines_SelectionChanged" Width="93" Height="460"/>
+        <Label Content="Line" Margin="11,17,836,474" Name="label1" Foreground="{StaticResource ForeGround}" FontSize="18" Width="43" Height="31"/>
+        <GroupBox Header="Help" Margin="471,402,129,10" Name="groupBox1" Foreground="{StaticResource ForeGround}" Background="{StaticResource LightBackground}" Width="290" Height="110">
+            <Grid>
+                <Label Content="DB[xxx]  - Datablock" Height="28" HorizontalAlignment="Left" Margin="10,6,0,0" Name="label24" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <Label Content="DBX[xxx] - BIT" Height="28" HorizontalAlignment="Left" Margin="10,30,0,0" Name="label25" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <Label Content="DBW[xxx] - WORD" Height="28" HorizontalAlignment="Left" Margin="154,6,0,0" Name="label26" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <Label Content="DBB[xxx] - BYTE" Height="28" HorizontalAlignment="Left" Margin="10,54,0,0" Name="label19" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <Label Content="DBD[xxx] - DWORD" Height="28" HorizontalAlignment="Left" Margin="154,30,0,0" Name="label20" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Line Info" Margin="116,15,497,12" Name="groupBox2" Foreground="{StaticResource ForeGround}" Background="{StaticResource LightBackground}" Width="277" Height="495">
+            <Grid>
+                <Label Content="Line DB" Height="28" HorizontalAlignment="Left" Margin="24,12,0,0" Name="label2" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <Label Content="cmdImmediateStop" Height="28" HorizontalAlignment="Left" Margin="24,43,0,0" Name="label3" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <Label Content="cmdHornOff" Height="28" HorizontalAlignment="Left" Margin="24,77,0,0" Name="label4" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <Label Content="cmdSeqStop" Height="28" HorizontalAlignment="Left" Margin="24,111,0,0" Name="label5" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="156,14,0,0" Name="txtLineDB" VerticalAlignment="Top" Width="98" MaxLength="10" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="156,48,0,0" Name="txtcmdImmStop" VerticalAlignment="Top" Width="98" MaxLength="10" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="156,82,0,0" Name="txtcmdHorn" VerticalAlignment="Top" Width="98" MaxLength="10" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="156,116,0,0" Name="txtcmdSeqStop" VerticalAlignment="Top" Width="98" MaxLength="10" />
+                <Label Content="cmdFaultReset" Height="28" HorizontalAlignment="Left" Margin="24,152,0,0" Name="label6" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <Label Content="cmdFeedOn" Height="28" HorizontalAlignment="Left" Margin="24,186,0,0" Name="label7" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <Label Content="cmdStart" Height="28" HorizontalAlignment="Left" Margin="24,220,0,0" Name="label8" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="156,154,0,0" Name="txtcmdFaultRes" VerticalAlignment="Top" Width="98" MaxLength="10" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="156,188,0,0" Name="txtcmdFeedOn" VerticalAlignment="Top" Width="98" MaxLength="10" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="156,222,0,0" Name="txtcmdStart" VerticalAlignment="Top" Width="98" MaxLength="10" />
+                <Label Content="cmdTransferOn" Height="28" HorizontalAlignment="Left" Margin="24,258,0,0" Name="label9" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <Label Content="RequestExecute" Height="28" HorizontalAlignment="Left" Margin="24,292,0,0" Name="label10" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <Label Content="cmdFeedOff" Height="28" HorizontalAlignment="Left" Margin="24,326,0,0" Name="label11" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <Label Content="LineStateCode" Height="28" HorizontalAlignment="Left" Margin="24,360,0,0" Name="label12" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="156,260,0,0" Name="txtcmdTransfer" VerticalAlignment="Top" Width="98" MaxLength="10" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="156,294,0,0" Name="txtReqExec" VerticalAlignment="Top" Width="98" MaxLength="10" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="156,328,0,0" Name="txtcmdFeedOff" VerticalAlignment="Top" Width="98" MaxLength="10" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="156,362,0,0" Name="txtLineStateCode" VerticalAlignment="Top" Width="98" MaxLength="10" />
+                <Button Height="45" HorizontalAlignment="Left" Margin="116,409,0,0" Name="btnUpdateLineInfo" VerticalAlignment="Top" Width="141" Click="btnUpdateLineInfo_Click" Template="{StaticResource ButtonTemplateMedium}" Foreground="{StaticResource ForeGround}">
+                    <DockPanel >
+                        <Image DockPanel.Dock="Left" Source="..\Images\GreenTick.png" Margin="5"/>
+                        <Label DockPanel.Dock="Right" VerticalAlignment="center" Content="Update Line" Background="Transparent"  Foreground="{StaticResource ForeGround}"/>
+                    </DockPanel>
+                </Button>
+                <Button  Height="45" HorizontalAlignment="Left" Margin="11,409,0,0" Name="btnClearLineInfo" VerticalAlignment="Top" Width="100" Click="btnClearLineInfo_Click" Template="{StaticResource ButtonTemplateSmall}" Foreground="{StaticResource ForeGround}">
+                    <DockPanel >
+                        <Image DockPanel.Dock="Left" Source="..\Images\RedCross.png" Margin="5"/>
+                        <Label DockPanel.Dock="Right" VerticalAlignment="center" Content="Clear " Background="Transparent"  Foreground="{StaticResource ForeGround}" />
+                    </DockPanel>
+                </Button>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Section Info" Margin="404,15,6,139" Name="groupBox3" Foreground="{StaticResource ForeGround}" Background="{StaticResource LightBackground}" Width="480" Height="368">
+            <Grid>
+                <Label Content="Section 1" Height="28" HorizontalAlignment="Left" Margin="129,14,0,0" Name="label21" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <Label Content="Section 2" Height="28" HorizontalAlignment="Left" Margin="241,14,0,0" Name="label22" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <Label Content="Section 3" Height="28" HorizontalAlignment="Left" Margin="353,14,0,0" Name="label23" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}" />
+                <Label Content="DB" Height="28" HorizontalAlignment="Left" Margin="13,45,0,0" Name="label13" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <Label Content="StateCode" Height="28" HorizontalAlignment="Left" Margin="13,76,0,0" Name="label14" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="129,47,0,0" MaxLength="10" Name="txtS1DB" VerticalAlignment="Top" Width="98" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="129,81,0,0" MaxLength="10" Name="txtS1State" VerticalAlignment="Top" Width="98" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="241,47,0,0" MaxLength="10" Name="txtS2DB" VerticalAlignment="Top" Width="98" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="241,81,0,0" MaxLength="10" Name="txtS2State" VerticalAlignment="Top" Width="98" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="353,47,0,0" MaxLength="10" Name="txtS3DB" VerticalAlignment="Top" Width="98" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="353,81,0,0" MaxLength="10" Name="txtS3State" VerticalAlignment="Top" Width="98" />
+                <Label Content="parEmptyingTime" Height="28" HorizontalAlignment="Left" Margin="13,113,0,0" Name="label15" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <Label Content="outEmptyingTime" Height="28" HorizontalAlignment="Left" Margin="13,147,0,0" Name="label16" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <Label Content="ErrorCode" Height="28" HorizontalAlignment="Left" Margin="13,178,0,0" Name="label17" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="129,118,0,0" MaxLength="10" Name="txtS1parEmpt" VerticalAlignment="Top" Width="98" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="129,152,0,0" MaxLength="10" Name="txtS1outEmpt" VerticalAlignment="Top" Width="98" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="129,186,0,0" MaxLength="10" Name="txtS1ErrCode" VerticalAlignment="Top" Width="98" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="241,118,0,0" MaxLength="10" Name="txtS2parEmpt" VerticalAlignment="Top" Width="98" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="241,152,0,0" MaxLength="10" Name="txtS2outEmpt" VerticalAlignment="Top" Width="98" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="241,186,0,0" MaxLength="10" Name="txtS2ErrCode" VerticalAlignment="Top" Width="98" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="353,118,0,0" MaxLength="10" Name="txtS3parEmpt" VerticalAlignment="Top" Width="98" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="353,152,0,0" MaxLength="10" Name="txtS3outEmpt" VerticalAlignment="Top" Width="98" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="353,186,0,0" MaxLength="10" Name="txtS3ErrCode" VerticalAlignment="Top" Width="98" />
+                <Label Content="ErrorObject" Height="28" HorizontalAlignment="Left" Margin="13,216,0,0" Name="label18" VerticalAlignment="Top" Foreground="{StaticResource ForeGround}"/>
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="129,221,0,0" MaxLength="10" Name="txtS1ErrObj" VerticalAlignment="Top" Width="98" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="241,221,0,0" MaxLength="10" Name="txtS2ErrObj" VerticalAlignment="Top" Width="98" />
+                <TextBox Height="23" HorizontalAlignment="Left" Margin="353,221,0,0" MaxLength="10" Name="txtS3ErrObj" VerticalAlignment="Top" Width="98" />
+                <Button Height="45" HorizontalAlignment="Left" Margin="271,275,0,0" Name="btnUpdateSectionInfo" VerticalAlignment="Top" Width="141" Click="btnUpdateSectionInfo_Click" Template="{StaticResource ButtonTemplateMedium}" Foreground="{StaticResource ForeGround}">
+                    <DockPanel >
+                        <Image DockPanel.Dock="Left" Source="..\Images\GreenTick.png" Margin="5"/>
+                        <Label DockPanel.Dock="Right" VerticalAlignment="center" Content="Update Section" Background="Transparent"  Foreground="{StaticResource ForeGround}"/>
+                    </DockPanel>
+                </Button>
+                <Button Height="45" HorizontalAlignment="Left" Margin="127,275,0,0" Name="btnClearSectionInfo" VerticalAlignment="Top" Width="141" Click="btnClearSectionInfo_Click" Template="{StaticResource ButtonTemplateMedium}" Foreground="{StaticResource ForeGround}">
+                    <DockPanel >
+                        <Image DockPanel.Dock="Left" Source="..\Images\RedCross.png" Margin="5"/>
+                        <Label DockPanel.Dock="Right" VerticalAlignment="center" Content="Clear Section" Background="Transparent"  Foreground="{StaticResource ForeGround}"/>
+                    </DockPanel>
+                </Button>
+            </Grid>
+        </GroupBox>
+    </Grid>
+</Page>

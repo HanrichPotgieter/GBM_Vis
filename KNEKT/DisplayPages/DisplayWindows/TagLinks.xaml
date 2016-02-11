@@ -1,0 +1,24 @@
+﻿<Window x:Class="KNEKT.DisplayPages.DisplayWindows.TagLinks"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+         Title="Tag Links" Height="482" Width="801" ResizeMode="NoResize" Icon="/KNEKT;component/Images/LinkIcon.png">
+    <Grid>
+        <ListBox Height="324" HorizontalAlignment="Left" Margin="12,108,0,0" Name="lstBoxElements" VerticalAlignment="Top" Width="211" SelectionChanged="lstBoxElements_SelectionChanged" BorderBrush="Gray"/>
+        <ListBox Height="324" HorizontalAlignment="Left" Margin="564,108,0,0" Name="lstBoxTags" VerticalAlignment="Top" Width="204" SelectionChanged="lstBoxTags_SelectionChanged"/>
+        <Label Content="Available Controls" Height="28" HorizontalAlignment="Left" Margin="12,76,0,0" Name="label1" VerticalAlignment="Top" Foreground="Black" FontSize="14" />
+        <Label Content="Database Tags" Height="28" HorizontalAlignment="Left" Margin="564,76,0,0" Name="label2" VerticalAlignment="Top" Foreground="Black" FontSize="14"/>
+        <Button Content="Link" Height="51" HorizontalAlignment="Left" Margin="449,199,0,0" Name="btnLink" VerticalAlignment="Top" Width="101" Click="btnLink_Click" />
+        <Button Content="Remove link" Height="52" HorizontalAlignment="Left" Margin="449,292,0,0" Name="btnRemovePropertyLink" VerticalAlignment="Top" Width="101" Click="btnRemovePropertyLink_Click" IsEnabled="False"/>
+        <ListBox Height="297" HorizontalAlignment="Left" Margin="222,135,0,0" Name="lstBoxProperties" VerticalAlignment="Top" Width="202" BorderBrush="Gray" />
+        <Rectangle Height="40" Name="rectangle1" Stroke="Black" VerticalAlignment="Top">
+            <Rectangle.Fill>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="0,1">
+                    <GradientStop Offset="0.0" Color="Black"/>
+                    <GradientStop Offset="1." Color="Gray"/>
+                </LinearGradientBrush>
+            </Rectangle.Fill>
+        </Rectangle>
+        <Label Content="Page Name" Height="36" Margin="322,2,307,0" Name="lblPageName" VerticalAlignment="Top" HorizontalContentAlignment="Center" FontSize="16" Foreground="White"/>
+        <Label Content="Control Properties" FontSize="14" Foreground="Black" Height="28" HorizontalAlignment="Left" Margin="229,108,0,0" Name="label3" VerticalAlignment="Top" />
+    </Grid>
+</Window>

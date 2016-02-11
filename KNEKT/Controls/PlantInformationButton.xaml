@@ -1,0 +1,38 @@
+﻿<UserControl x:Class="KNEKT.Controls.PlantInformationButton"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="432" d:DesignWidth="75">
+    <Grid>
+        <Button Margin="5,4,4,3" Name="btnPlantInformation" VerticalContentAlignment="Center" Focusable="False" Click="btnPlantInformation_Click">
+            <Button.Background>
+                <LinearGradientBrush StartPoint="1,0" EndPoint="0,0">
+                    <GradientStop Offset="0" Color="LimeGreen"  />
+                    <GradientStop Offset="0.4" Color="Green"/>
+                    <GradientStop Offset="1" Color="White"/>
+                </LinearGradientBrush>
+            </Button.Background>
+            <StackPanel>
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="16">P</TextBlock>
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="16">L</TextBlock>
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="16">A</TextBlock>
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="16">N</TextBlock>
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="16">T</TextBlock>
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="16"></TextBlock>
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="16">I</TextBlock>
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="16">N</TextBlock>
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="16">F</TextBlock>
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="16">O</TextBlock>
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="16">R</TextBlock>
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="16">M</TextBlock>
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="16">A</TextBlock>
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="16">T</TextBlock>
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="16">I</TextBlock>
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="16">O</TextBlock>
+                <TextBlock TextAlignment="Center" Foreground="White" FontSize="16">N</TextBlock>
+            </StackPanel>
+        </Button>
+    </Grid>
+</UserControl>

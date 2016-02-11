@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="KNEKT.Controls.S7300CPU"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             MinHeight="92" MinWidth="99"
+             MaxHeight="92" MaxWidth="99"
+             d:DesignHeight="92" d:DesignWidth="99">
+    <Grid>
+        <Border Background="Black" CornerRadius="0,0,0,0" BorderBrush="Black" Height="19" VerticalAlignment="Top">
+            <Label Content="S7 300 CPU" Height="18" HorizontalContentAlignment="Left" Name="lblTitle" Width="90" Foreground="White" FontSize="10" Padding="2,0,0,0"/>
+        </Border>
+        <Button Height="72" Width="99" Margin="0,19,0,1" Name="btn1" Focusable="False" >
+            <DockPanel></DockPanel>
+        </Button>
+        <!--<Rectangle Name="square_1" Width="14" Height="14" Stroke="Black" Margin="3,22,0,0" HorizontalAlignment="Left" VerticalAlignment="Top" />-->
+        <Image Source="/KNEKT;component/Images/S7300CPU.png" Margin="0,31,0,2" Name="ImgS7300" Visibility="Visible" />
+
+        <!--<Label Width="70" Height="25" Content="ONLINE" Margin="19,16,10,51" Name="TxtOnline" />
+        <Label Width="70" Height="25" Content="OFFLINE" Margin="19,16,10,51" Name="TxtOffline" />-->
+    </Grid>
+</UserControl>

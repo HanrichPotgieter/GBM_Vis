@@ -1,0 +1,27 @@
+﻿<UserControl x:Class="KNEKT.Controls.SliderH"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             MinHeight="70" MinWidth="200"
+             MaxHeight="70" MaxWidth="200"
+             d:DesignHeight="70" d:DesignWidth="200">
+
+    <UserControl.Resources>
+        <ContextMenu x:Key="contextMenu1">
+            <MenuItem x:Name="contMen_EnterVal" Header="Enter Value" Click="contMen_EnterVal_Click"/>            
+        </ContextMenu>
+    </UserControl.Resources>
+
+    <Grid>
+        <Border Background="Black" CornerRadius="0,10,0,0" Margin="3,4,4,0" BorderBrush="Black" Height="19" VerticalAlignment="Top">
+        <Label Content="Slider" Height="18" HorizontalContentAlignment="Left" Name="lblTitle" Width="186" Foreground="White" FontSize="10" Padding="2,0,0,0"/>
+        </Border>
+        <Rectangle Fill="White" Margin="3,22,4,4" Name="rectangle1" Stroke="Black" />
+        <Slider Height="23" HorizontalAlignment="Left" Name="slider1" VerticalAlignment="Top" Width="130" Margin="36,24,0,0" ValueChanged="slider1_ValueChanged" Minimum="0" Maximum="100" Interval="1" SmallChange="1" LargeChange="10" IsSnapToTickEnabled="True" TickPlacement="BottomRight" TickFrequency="2" IsMoveToPointEnabled="False" Focusable="False" Thumb.DragCompleted="slider1_DragCompleted"/>
+        <Label Content="0%" Margin="50,41,43,0" Name="lblPerentage" VerticalContentAlignment="Top" HorizontalContentAlignment="Center"  Height="28" VerticalAlignment="Top" />
+        <Button Content="-" Height="36" HorizontalAlignment="Left" Margin="7,26,0,0" Name="btnDown" VerticalAlignment="Top" Width="18" Click="btnDown_Click" Focusable="False"/>
+        <Button Content="+" Height="36" HorizontalAlignment="Left" Margin="174,26,0,0" Name="btnUp" VerticalAlignment="Top" Width="18" Click="btnUp_Click" Focusable="False"/>
+    </Grid>
+</UserControl>
