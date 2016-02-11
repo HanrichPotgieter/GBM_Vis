@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="WPFBuhlerControls.Line_Arrow"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="20" d:DesignWidth="20">
+    <Viewbox Stretch="Uniform">
+        <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="20" Height="20">
+
+            <Polyline Name="polyBotLeft" Points="0,10 10,10 10,20 0,10 10,10" StrokeThickness="0.7" Stroke="Black"/>
+            <Polyline Name="polyBotRight" Points="10,10 20,10 10,20 10,10 20,10" StrokeThickness="0.7" Stroke="Black"/>
+            <Polyline Name="polyTopLeft" Points="0,10 10,0 10,10 0,10 10,0" StrokeThickness="0.7" Stroke="Black"/>
+            <Polyline Name="polyTopRight" Points="10,10 10,0 20,10 10,10 10,0" StrokeThickness="0.7" Stroke="Black"/>
+
+        </Canvas>
+    </Viewbox>
+</UserControl>

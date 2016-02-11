@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="WPFBuhlerControls.Auger_InSilo1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+            d:DesignHeight="20" d:DesignWidth="70">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="70" Height="20">
+
+                <Rectangle Name="RectMain" Margin="0,0" Width="70" Height="20" />
+                <Polyline Stroke="Black" StrokeThickness="1" Points="5,15 15,5 25,15 35,5 45,15 55,5 65,15 " />
+
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>

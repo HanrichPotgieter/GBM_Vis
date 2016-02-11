@@ -1,0 +1,21 @@
+﻿<UserControl x:Class="WPFBuhlerControls.Scale_MSDM"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="40" d:DesignWidth="50">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="50" Height="40">
+
+               
+                <Rectangle Name="RectMain" Width="50" Height="40" StrokeThickness="1" Stroke="Black"/>
+                
+                <Polyline Name="polyScale1" Points="17,12 33,12" StrokeThickness="2" Stroke="Black"/>
+                <Polyline Name="polyScale2" Points="25,12 32,27 17,27 25,13" Fill="Black" StrokeThickness="1" Stroke="Black"/>
+                
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>

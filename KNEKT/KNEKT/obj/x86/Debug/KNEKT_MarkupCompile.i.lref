@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿C:\Projects\GBZ01_15\2014_GBM Milling (Lusaka) - 3018454703\4 SW\PLC_VIS\GBM_Vis\KNEKT\KNEKT\obj\x86\Debug\GeneratedInternalTypeHelper.g.i.cs
 
 FC:\Projects\GBZ01_15\2014_GBM Milling (Lusaka) - 3018454703\4 SW\PLC_VIS\GBM_Vis\KNEKT\KNEKT\DisplayPages\FCL1.xaml;;
@@ -8,4 +9,16 @@ FC:\Projects\GBZ01_15\2014_GBM Milling (Lusaka) - 3018454703\4 SW\PLC_VIS\GBM_Vi
 FC:\Projects\GBZ01_15\2014_GBM Milling (Lusaka) - 3018454703\4 SW\PLC_VIS\GBM_Vis\KNEKT\KNEKT\DisplayPages\MTR1.xaml;;
 FC:\Projects\GBZ01_15\2014_GBM Milling (Lusaka) - 3018454703\4 SW\PLC_VIS\GBM_Vis\KNEKT\KNEKT\DisplayPages\DisplayWindows\ManualControl.xaml;;
 FC:\Projects\GBZ01_15\2014_GBM Milling (Lusaka) - 3018454703\4 SW\PLC_VIS\GBM_Vis\KNEKT\KNEKT\MainWindow.xaml;;
+=======
+﻿C:\Projects\GitHub\GBM_Vis\KNEKT\KNEKT\obj\x86\Debug\GeneratedInternalTypeHelper.g.i.cs
+
+FC:\Projects\GitHub\GBM_Vis\KNEKT\KNEKT\DisplayPages\FCL1.xaml;;
+FC:\Projects\GitHub\GBM_Vis\KNEKT\KNEKT\DisplayPages\INT1.xaml;;
+FC:\Projects\GitHub\GBM_Vis\KNEKT\KNEKT\DisplayPages\MIL1A.xaml;;
+FC:\Projects\GitHub\GBM_Vis\KNEKT\KNEKT\DisplayPages\MIL1B.xaml;;
+FC:\Projects\GitHub\GBM_Vis\KNEKT\KNEKT\DisplayPages\ProfibusNetwork.xaml;;
+FC:\Projects\GitHub\GBM_Vis\KNEKT\KNEKT\DisplayPages\MTR1.xaml;;
+FC:\Projects\GitHub\GBM_Vis\KNEKT\KNEKT\DisplayPages\DisplayWindows\ManualControl.xaml;;
+FC:\Projects\GitHub\GBM_Vis\KNEKT\KNEKT\MainWindow.xaml;;
+>>>>>>> origin/master
 

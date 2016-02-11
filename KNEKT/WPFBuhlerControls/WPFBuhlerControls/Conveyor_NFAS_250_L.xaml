@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="WPFBuhlerControls.Conveyor_NFAS_250_L"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="30" d:DesignWidth="360">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="360" Height="30">
+
+                <Rectangle Name="RectMain" Margin="0,5" Width="360" Height="20" StrokeThickness="1" Stroke="Black"/>
+
+                <Polyline Stroke="Black" StrokeThickness="1" Points="5,20 15,10 25,20 35,10 45,20 55,10 65,20 75,10 85,20 95,10 105,20 115,10 125,20 135,10 145,20 155,10 165,20 175,10 185,20 195,10 205,20 215,10 225,20 235,10 245,20 255,10 265,20 275,10 285,20 295,10 305,20 315,10 325,20 335,10 345,20 355,10" />
+
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>

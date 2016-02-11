@@ -1,0 +1,18 @@
+﻿<UserControl x:Class="WPFBuhlerControls.PelletMill"
+              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="50" d:DesignWidth="50">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="50" Height="50">
+                <Polyline Name="PolyLine" Stroke="Black" StrokeThickness="1" Points="5,50 5,40" />
+                <Polyline Name="PolyL" Stroke="Black" StrokeThickness="1" Points="10,0 30,0 30,40 50,40 50,50 10,50 10,0 30,0"  />
+                <Rectangle Name="RectLeft" Width="10.5" Height="30" Margin="0,10" StrokeThickness="1" Stroke="Black"/>
+                <Rectangle Name="RectRight" Width="21" Height="30" Margin="29.5,10" StrokeThickness="1" Stroke="Black"/>
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>

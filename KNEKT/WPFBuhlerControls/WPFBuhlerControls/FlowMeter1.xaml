@@ -1,0 +1,20 @@
+﻿<UserControl x:Class="WPFBuhlerControls.FlowMeter1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+            d:DesignHeight="25" d:DesignWidth="25">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Height="25" Width="25">
+                                
+                <Polyline Name="poly1" Points="12.5,25 12.5,0" StrokeThickness="0.7" Stroke="Black"/>
+                <Polyline Name="poly2" Points="25,12.5 0,12.5" StrokeThickness="0.7" Stroke="Black"/>                
+                <Ellipse Name="ellipseMain" Width="15" Height="15" Stroke="Black" StrokeThickness="0.7" Margin="5" />
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>
+

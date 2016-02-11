@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="WPFBuhlerControls.Elevator_M"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="400" d:DesignWidth="50">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" Name="canvasmain" Width="50" Height="400">
+
+
+                <Polyline Name="PolyTop" Points="20.4,0 32,0 45,30 20.4,30 20.4,0" Stroke="Black" StrokeThickness="0.7"/>
+                <Polyline Name="PolyTopLeft" Points="20.4,0 31.6,0 31.6,30 8,30  20.4,0 32,0" Stroke="Black" StrokeThickness="0.7"/>
+                <Ellipse Name="SpeedMon_Top" Width="10" Height="10" Margin="21,10" Stroke="Black" StrokeThickness="0.7" />                
+
+                <Rectangle Name="RectMain" Height="340" Width="12" Margin="20,30" Stroke="Black" StrokeThickness="0.7" />
+                <Rectangle Name="BeltAlign_RectTop1" Height="8" Width="8" Margin="22,40" Stroke="Black" StrokeThickness="0.7"/>
+                <Rectangle Name="BeltAlign_RectTop2" Height="8" Width="8" Margin="22,50" Stroke="Black" StrokeThickness="0.7"/>
+                <Rectangle Name="BeltAlign_RectBot1" Height="8" Width="8" Margin="22,340" Stroke="Black" StrokeThickness="0.7"/>
+                <Rectangle Name="BeltAlign_RectBot2" Height="8" Width="8" Margin="22,350" Stroke="Black" StrokeThickness="0.7"/>
+                <Rectangle Margin="22,190" Height="8" Name="BeltAlign_RectMiddle" Stroke="Black" StrokeThickness="0.7" Width="8" />
+                <Polyline Name="PolyBot" Points="31.6,370 31.6,400 20,400 8,370 31.6,370" Stroke="Black" StrokeThickness="0.7"/>
+                <Polyline Name="PolyBotRight" Points="20.4,370 20.4,400 31.6,400 42,370 20.6,370" Stroke="Black" StrokeThickness="0.7"/>
+                <Polyline Name="PolyBotLeftAndRight" Points="20,400 8,370 31.6,370 42,370 31.6,400 20,400" Stroke="Black" StrokeThickness="0.7" />
+                <Ellipse Name="SpeedMon_Bot" Width="10" Height="10"  Margin="21,380" Stroke="Black" StrokeThickness="0.7"/>
+                
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>

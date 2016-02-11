@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="WPFBuhlerControls.AugerPacker_MWPU"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+           d:DesignHeight="80" d:DesignWidth="50">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="50" Height="80" >
+
+                <Rectangle Name="rectMain" Width="15" Height="30" Stroke="Black" StrokeThickness="0.7" Margin="17.5,19.6" />
+                <Rectangle Name="rectMid1" Width="15" Height="10" Stroke="Black" StrokeThickness="0.7" Margin="17.5,48.9" />
+                <Rectangle Name="rectMid2" Width="17" Height="20" Stroke="Black" StrokeThickness="0.7" Margin="16.5,58.5" />
+                <Ellipse Name="ellipseMain" Width="17" Height="10" Stroke="Black" StrokeThickness="0.7" Margin="16.5,54" Fill="White"/>
+
+                <Polyline Name="polyTriangle" Stroke="Black" StrokeThickness="0.7" Points="0,0 32.1,0 32.1,20 18,20 0,0 32.1,0" />
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>
