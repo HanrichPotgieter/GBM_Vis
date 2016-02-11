@@ -6,8 +6,6 @@
         MinWidth="1024" MinHeight="768"
         Name="WindowMain"
         Background="BlanchedAlmond" xmlns:my="clr-namespace:KNEKT.Controls" Closing="WindowMain_Closing" WindowStartupLocation="CenterScreen" WindowStyle="None" WindowState="Maximized" TouchDown="WindowMain_TouchDown" MouseDown="WindowMain_MouseDown" Icon="/KNEKT;component/Images/Logo.ico">
-
-
     <Grid Name="mainWindowGrid">
         <Frame x:Name="_mainFrame" Margin="2,54,0,51" BorderThickness="0.5" BorderBrush="Gray" NavigationUIVisibility="Hidden" Background="White" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" />
         <Rectangle Height="50" HorizontalAlignment="Right" Margin="0,1,1,0" Name="rectangle1" StrokeThickness="0.1" VerticalAlignment="Top" Width="161" Fill="LightGray" />
