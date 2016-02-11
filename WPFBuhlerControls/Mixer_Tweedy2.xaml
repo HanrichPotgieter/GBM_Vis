@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="WPFBuhlerControls.Mixer_Tweedy2"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+              d:DesignHeight="80" d:DesignWidth="80">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="80" Height="80">
+
+             
+                <Rectangle Name="RectTop1" Width="70" Height="8" Margin="5,3" StrokeThickness="1" Stroke="Black" Canvas.Top="-2" />
+                <Rectangle Name="RectTop2" Width="70" Height="8" Margin="5,7" StrokeThickness="1" Stroke="Black" Canvas.Top="1" />
+                <Rectangle Name="RectBot1" Width="30" Height="10" Margin="25,57" StrokeThickness="1" Stroke="Black"/>
+                <Rectangle Name="RectBot2" Width="30" Height="5" Margin="25,66" StrokeThickness="1" Stroke="Black"/>                
+                <Rectangle Name="RectBotLeft1" Width="6" Height="10" Margin="15,66" StrokeThickness="1" Stroke="Black"/>
+                <Rectangle Name="RectBotRight1" Width="6" Height="10" Margin="60,66" StrokeThickness="1" Stroke="Black"/>
+                <Border Name="borderMid" Width="70" Height="43" CornerRadius="0,0,15,15" BorderBrush="Black" Margin="5,15" BorderThickness="1"/>
+
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>

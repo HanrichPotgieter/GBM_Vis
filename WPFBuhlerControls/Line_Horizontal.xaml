@@ -1,0 +1,14 @@
+﻿<UserControl x:Class="WPFBuhlerControls.Line_Horizontal"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="10" d:DesignWidth="200" MaxWidth="199" MaxHeight="10">
+    <Viewbox Stretch="UniformToFill" MaxWidth="199" MaxHeight="10">
+        <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="200" Height="10">
+            
+            <Polyline Name="polyLineH" StrokeThickness="1"/>
+        </Canvas>
+    </Viewbox>
+</UserControl>

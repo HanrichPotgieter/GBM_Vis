@@ -109,9 +109,6 @@
     <Reference Include="WindowsBase" />
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="WPFBuhlerControls">
-      <HintPath>Binaries\WPFBuhlerControls.dll</HintPath>
-    </Reference>
     <Reference Include="Wpf_Final_TagLink">
       <HintPath>..\..\..\..\MCneel Millers Thika Kenya\SW_VIS\KNEKT - Template\KNEKT\bin\Debug\Wpf_Final_TagLink.exe</HintPath>
     </Reference>
@@ -833,6 +830,12 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Repeater.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\WPFBuhlerControls\WPFBuhlerControls.csproj">
+      <Project>{15814f55-f807-4f45-b072-8b0edc11fcdb}</Project>
+      <Name>WPFBuhlerControls</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

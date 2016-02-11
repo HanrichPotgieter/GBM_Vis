@@ -1,0 +1,31 @@
+﻿<UserControl x:Class="WPFBuhlerControls.BaggingStation_MWPM"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+              d:DesignHeight="50" d:DesignWidth="80">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="80" Height="50" >
+
+                <Rectangle Name="rectMain" Width="80" Height="8" Stroke="Black" StrokeThickness="0.7" Margin="0,0"/>
+
+
+                <Rectangle Name="rectMid1" Width="12" Height="12" Stroke="Black" StrokeThickness="0.7" Margin="2,7.5"/>
+                <Rectangle Name="rectMid2" Width="12" Height="12" Stroke="Black" StrokeThickness="0.7" Margin="18,7.5"/>
+                <Rectangle Name="rectMid3" Width="12" Height="12" Stroke="Black" StrokeThickness="0.7" Margin="34,7.5"/>
+                <Rectangle Name="rectMid4" Width="12" Height="12" Stroke="Black" StrokeThickness="0.7" Margin="50,7.5"/>
+                <Rectangle Name="rectMid5" Width="12" Height="12" Stroke="Black" StrokeThickness="0.7" Margin="66,7.5"/>
+                
+                <Rectangle Name="rectMid6" Width="13.7" Height="14" Stroke="Black" StrokeThickness="0.7" Margin="65.1,22.7"/>
+                <Ellipse Name="ellipseMain" Width="14" Height="8" Stroke="Black" StrokeThickness="0.7" Margin="65,19" Fill="White"/>
+
+                <Polyline Name="polyTriangle1" Stroke="Black" StrokeThickness="0.7" Points="5,20 5,36 14,36 5,20 5,36" Margin="0,5"/>
+                <Polyline Name="polyTriangle2" Stroke="Black" StrokeThickness="0.7" Points="5,20 5,36 14,36 5,20 5,36" Margin="20,5"/>
+                <Polyline Name="polyTriangle3" Stroke="Black" StrokeThickness="0.7" Points="5,20 5,36 14,36 5,20 5,36" Margin="40,5"/>
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>

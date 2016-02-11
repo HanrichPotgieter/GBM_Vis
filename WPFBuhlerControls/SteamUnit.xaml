@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="WPFBuhlerControls.SteamUnit"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="145" d:DesignWidth="120">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="120" Height="145">
+                
+                <Rectangle Name="Rectmain" Width="75" Height="145" Margin="45,0" StrokeThickness="0.7" Stroke="Black"/>
+
+                <Ellipse Name="elipseMain" Height="25" Width="25" Margin="10,115" StrokeThickness="0.7" Stroke="Black"/>
+                <Ellipse Name="elipseSmall" Height="15" Width="15" Margin="15,120" StrokeThickness="0.7" Stroke="Black"/>
+                <Polyline Name="polyBot1" Points="34,130 45,130 45,139 26,139" StrokeThickness="0.7" Stroke="Black"/>                
+                
+                <Polyline Name="polyMid" Points="20,10 110,10 55,30 110 30 55,50 110,50 55,70 110,70 55,90 110,90 55,110 110,110 55,130 118,130" StrokeThickness="1" Stroke="Black"/>
+                
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>

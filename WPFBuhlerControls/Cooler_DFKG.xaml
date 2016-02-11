@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="WPFBuhlerControls.Cooler_DFKG"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+                    d:DesignHeight="100" d:DesignWidth="70">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="70" Height="100">
+                <Polyline Name="PolyTop" Stroke="Black" StrokeThickness="1" Points="5,13 17,0 65,0 65,13 5,13 17,0" />
+                <Polyline Name="PolyUpperBody" Stroke="Black" StrokeThickness="1" Points="5,80 5,13 65,13 65,80" />
+                <Polyline Name="PolyBottom" Stroke="Black" StrokeThickness="1" Points="0,78 24,92 45,92 70,78" />
+                <Polyline Name="PolyTriangle2Upper" Stroke="Black" StrokeThickness="1" Points="20,70 32,65 46,70" />
+                <Polyline Name="PolyTriangle1Upper" Stroke="Black" StrokeThickness="1" Points="20,26 32,19 46,26" />
+                <Polyline Name="PolyTriangle1Side1" Stroke="Black" StrokeThickness="1" Points="5,35 17,27.5" />
+                <Polyline Name="PolyTriangle1Side2" Stroke="Black" StrokeThickness="1" Points="65,35 49,27.5" />
+                <Polyline Name="PolyLegs" Stroke="Black" StrokeThickness="1" Points="0,58 70,58 70,100 63,100 56,58 12,58 7,100 0,100 0,58 70,58" />
+                <Polyline Name="PolyLowerBody" Stroke="Black" StrokeThickness="1" Points="5,70 5,78  65,78 65,70"  />
+                <Polyline Name="PolyTriangle2Side1" Stroke="Black" StrokeThickness="1" Points="5,78 17,71" />
+                <Polyline Name="PolyFillLeg1" Stroke="Black" StrokeThickness="1" Points="5,58 5,65" />
+                <Polyline Name="PolyFillLeg2" Stroke="Black" StrokeThickness="1" Points="65,58 65,65" />
+                <Polyline Name="PolyTriangle2Side2" Stroke="Black" StrokeThickness="1" Points="65,78 49,71"  />
+                <!--<Polyline Name="PolyBot" Stroke="Black" StrokeThickness="1" Points="0.5,45 0.5,90 7,90 7,60 35,80 63,60 63,90 69.5,90 69.5,45 0,45"/>-->
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>
+

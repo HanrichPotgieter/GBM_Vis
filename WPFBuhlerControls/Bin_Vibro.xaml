@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="WPFBuhlerControls.Bin_Vibro"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="40" d:DesignWidth="80">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="80" Height="40">
+
+                <Rectangle Name="RectTop" Width="80" Height="15"  StrokeThickness="1" Stroke="Black"/>
+                <Polyline Name="polyMid" Points="1.4,14.5 78.6,14.5 65,25 15,25 1.4,14.5 78.6,14.5" StrokeThickness="1" Stroke="Black"/>
+                <Polyline Name="polyBot" Points="15,25 20.5,31 25,36 30,39.5 40,40 50,39.5 55,36 59.5,31 65,25 15,25" StrokeThickness="1" Stroke="Black"/>
+                
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>

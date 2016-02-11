@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="WPFBuhlerControls.Scourer_DRPA"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+          d:DesignHeight="70" d:DesignWidth="90">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="90" Height="70">
+
+                <Rectangle Name="RectMain" Width="60" Height="19" Margin="9,10" StrokeThickness="1" Stroke="Black" />
+                <Rectangle Name="RectLeft" Width="10" Height="60" Margin="0,10" StrokeThickness="1" Stroke="Black" />
+                <Rectangle Name="RectRight" Width="10" Height="60" Margin="68,10" StrokeThickness="1" Stroke="Black" />
+                <Rectangle Name="RectTopSmall" Width="16" Height="10" Margin="62,1" StrokeThickness="1" Stroke="Black" />
+                <Rectangle Name="RectRightSmall" Width="13" Height="19" Margin="77,10" StrokeThickness="1" Stroke="Black" />
+
+                <Polyline Name="PolyMain" Stroke="Black" Points="10,28 36,50 38,51 40,51 44,51 46,50 68,28 10,28" />
+                <Polyline Name="PolyOutlet" Stroke="Black" Points="78,28 89.5,28 89.5,43 83.5,43 77.5,34 77.5,28" />
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>

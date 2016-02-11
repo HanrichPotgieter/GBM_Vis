@@ -1,0 +1,30 @@
+﻿<UserControl x:Class="WPFBuhlerControls.KnockingHammer1"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+             d:DesignHeight="20" d:DesignWidth="15">
+    <Grid >
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="15" Height="20" >
+                
+                <Polyline Name="polyMain" Stroke="Black" StrokeThickness="0.7" Points="5,0 5,20"/>                
+
+                <Path Stroke="Black" StrokeThickness="0.7" Name="ellipseMain">
+                    <Path.Data>
+                        <PathGeometry>
+                            <PathFigure StartPoint="5,3">
+                                <ArcSegment IsLargeArc="True"
+                                Size="5,5"
+                                Point="5, 17"
+                                SweepDirection="Clockwise" />
+                            </PathFigure>
+                        </PathGeometry>
+                    </Path.Data>
+                </Path>
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>

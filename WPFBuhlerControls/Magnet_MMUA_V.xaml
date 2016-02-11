@@ -1,0 +1,19 @@
+﻿<UserControl x:Class="WPFBuhlerControls.Magnet_MMUA_V"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d" 
+              d:DesignHeight="50" d:DesignWidth="30">
+    <Grid>
+        <Viewbox Stretch="Uniform">
+            <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="30" Height="50">
+
+                <Rectangle Name="RectMain" Width="20" Height="40" Margin="5,5" StrokeThickness="1" Stroke="Black"/>
+                <Polyline Name="polyTop" Points="8,13 13,13 13,37 8,37" StrokeThickness="1" Stroke="Black"/>
+                <Polyline Name="polyBot" Points="22,13 17,13 17,37 22,37" StrokeThickness="1" Stroke="Black"/>
+
+            </Canvas>
+        </Viewbox>
+    </Grid>
+</UserControl>
