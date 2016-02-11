@@ -142,6 +142,7 @@
     <Compile Include="Classes\MyObjectInfo.cs" />
     <Compile Include="Classes\ParameterSetting.cs" />
     <Compile Include="Classes\ParameterValue.cs" />
+    <Compile Include="Classes\plc\plc.cs" />
     <Compile Include="Classes\Products\ProductsModel.cs" />
     <Compile Include="Classes\Products\ProductsViewModel.cs" />
     <Compile Include="Classes\Recipe.cs" />

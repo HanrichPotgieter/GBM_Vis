@@ -16,6 +16,7 @@
         <Button Content="MTR1" Height="35" Margin="139,0,0,8" Name="btnLine3" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="60" Click="btnLine3_Click" Focusable="False"/>
         <Button Content="MIL1" Focusable="False" Height="35" HorizontalAlignment="Left" Margin="206,0,0,8" Name="btnLine4" VerticalAlignment="Bottom" Width="60" Click="btnLine4_Click" />
         <Button Content="MIL2" Focusable="False" Height="35" HorizontalAlignment="Left" Margin="273,0,0,8" Name="btnLine5" VerticalAlignment="Bottom" Width="60" Click="btnLine5_Click"/>
+        <WPFBuhlerControls:test></WPFBuhlerControls:test>
         <!--<Button Content="BAG2" Focusable="False" Height="35" HorizontalAlignment="Left" Margin="644,0,0,8" Name="btnLine11" Click="btnLine11_Click" VerticalAlignment="Bottom" Width="60" />-->
         <!--PAGES-->
 
