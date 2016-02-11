@@ -121,6 +121,8 @@
     <Compile Include="CerealCooker1.xaml.cs">
       <DependentUpon>CerealCooker1.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Classes\plc\plc.cs" />
+    <Compile Include="Classes\plc\snap7.net.cs" />
     <Compile Include="CombiCleaner_MTKB.xaml.cs">
       <DependentUpon>CombiCleaner_MTKB.xaml</DependentUpon>
     </Compile>

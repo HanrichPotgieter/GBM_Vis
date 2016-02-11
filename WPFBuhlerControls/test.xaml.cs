@@ -11,6 +11,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Snap7;
 
 
 namespace WPFBuhlerControls
@@ -21,13 +22,20 @@ namespace WPFBuhlerControls
     public partial class test : UserControl
     {
         public String name { get; set; }
-        
 
         public test()
         {
             InitializeComponent();
             name = "hanrich";
-            
+            S7Client test = Plc.Instance;
+            if (test.Connected())
+            {
+                Console.WriteLine("Control is connected");
+            }
+            else
+            {
+                Console.WriteLine("no connection");
+            }
         }
 
     }
