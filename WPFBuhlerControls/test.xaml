@@ -11,7 +11,7 @@
             <TextBlock Name="Box" Text="Hello" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="-361" Canvas.Top="11" Width="81.076" Height="120">
             </TextBlock>
             <Rectangle Height="258.92" Canvas.Left="10" Canvas.Top="11.04" Width="110" Stroke="Black" Fill="Gray"/>
-            <Rectangle Width="20" Height="20" Name="InnerBox" Canvas.Top="11.04" Canvas.Left="10" RadiusY="5" RadiusX="5" Margin="5"></Rectangle>
+            <Rectangle Width="20" Height="20" Name="InnerBox" Canvas.Top="11.04" Canvas.Left="10" RadiusY="5" RadiusX="5" Margin="5" Stroke="Black"></Rectangle>
             <Label x:Name="Status" Content="Running" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="40" Canvas.Top="16" Height="20" Width="80" FontSize="8"/>
         </Canvas>
 

@@ -109,6 +109,7 @@ namespace WPFBuhlerControls
         }
         public void setStatus(int status)
         {
+            Console.Out.WriteLine(status);
             InnerBox.Dispatcher.Invoke((Action)(() => {
                 if(status == 8)
                     InnerBox.Fill = new SolidColorBrush(Color.FromRgb(0, 255, 0));
