@@ -91,7 +91,7 @@ namespace KNEKT
         public static string stat_OSKPath;                                                      //Path to the On Screen Keyboard
         public static bool bThreadsToRun = false;                                               //True if all threads should continue running
 
-
+       
         public static string sqlServername = "";
         public static string sqlDatabase = "";
         public static string sqlUsername = "";
@@ -130,9 +130,9 @@ namespace KNEKT
         public static string dllName = "DBCredential.dll";
         public static string sVNCDirectory = "";
 
-        public static string PLCIpAddress = "";                                                 //IP address of the PLC
-        public static string PLCRackNo = "";                                                    //Rack Nunmber of the PLC
-        public static string PLCSlotNum = "";                                                   //Slot Number of the PLC
+        public static string PLCIpAddress = "10.0.0.210";                                                 //IP address of the PLC
+        public static string PLCRackNo = "0";                                                    //Rack Nunmber of the PLC
+        public static string PLCSlotNum = "2";                                                   //Slot Number of the PLC
 
         bool bFirstTagRead = true;                                                              //True on start up of application, after first tag read, false
         bool bFirstAdditionalTagRead = true;                                                    //True on start up of application, after first tag read, false
@@ -208,6 +208,8 @@ namespace KNEKT
         DisplayPages.MTR1 pageMTR1;
         DisplayPages.MIL1A pageMIL1;
         DisplayPages.MIL1B pageMIL2;
+
+        
      
 
 
@@ -324,9 +326,9 @@ namespace KNEKT
         public MainWindow()
         {
             InitializeComponent();
+            dllName = DllDirectory + dllName;
 
-            S7Client test = Plc.Instance;
-            test.ConnectTo("10.0.0.210", 0, 2);
+            Plc.Instance.ConnectTo("10.0.0.210",0,2);
 
             DisplayPages.DisplayWindows.SplashScreenWindow.CurrentLoadingStatus("Initializing Objects...", 10);
             Thread.Sleep(500);
@@ -340,8 +342,7 @@ namespace KNEKT
 
             if (bExists)
             {
-                dllName = DllDirectory + dllName;
-
+                
                 DisplayPages.DisplayWindows.SplashScreenWindow.CurrentLoadingStatus("Loading Credentials...", 30);
                 Thread.Sleep(500);
                 standardCode.GetDatabaseCredentials();
@@ -373,8 +374,8 @@ namespace KNEKT
 
                         try
                         {
-                            PLC1_R = new Controller(PLCIpAddress, Controller.CPU.S7300, sRackSlot);         //Set PLC Rack and Slot number
-                            PLC1_W = new Controller(PLCIpAddress, Controller.CPU.S7300, sRackSlot);         //Set PLC Rack and Slot number
+                            //PLC1_R = new Controller(PLCIpAddress, Controller.CPU.S7300, sRackSlot);         //Set PLC Rack and Slot number
+                            //PLC1_W = new Controller(PLCIpAddress, Controller.CPU.S7300, sRackSlot);         //Set PLC Rack and Slot number
                             bContinue = true;
                         }
                         catch (Exception ex)
@@ -425,13 +426,13 @@ namespace KNEKT
                             #region S7 Link Initialization
 
 
-                            tagroupSecStaFeedOff = new TagGroup(PLC1_R);
-                            tagroupSmartTags = new TagGroup(PLC1_R);
-                            tagroupAdditionalSmartTags = new TagGroup(PLC1_R);
-                            tagroupSecStates = new TagGroup();
-                            tagroupSecStatesFAULT = new TagGroup();
-                            tagroupSecParEmptying = new TagGroup(PLC1_R);
-                            tagroupSecOutEmptying = new TagGroup(PLC1_R);
+                            //tagroupSecStaFeedOff = new TagGroup(PLC1_R);
+                            //tagroupSmartTags = new TagGroup(PLC1_R);
+                            //tagroupAdditionalSmartTags = new TagGroup(PLC1_R);
+                            //tagroupSecStates = new TagGroup();
+                            //tagroupSecStatesFAULT = new TagGroup();
+                            //tagroupSecParEmptying = new TagGroup(PLC1_R);
+                            //tagroupSecOutEmptying = new TagGroup(PLC1_R);
 
 
                             #endregion
@@ -526,7 +527,7 @@ namespace KNEKT
                             _mainFrame.Navigate(new DisplayPages.StartPage());                          //--> *Navigate to the start page
 
                             LoadVisualApplicationSettings();                                           //Loads the visual application settings                            
-                            StartCommunicationThread();                                                 //Start the commincation threads
+                            //StartCommunicationThread();                                                 //Start the commincation threads
                             InitSendersAndRecievers();                                                  //Initialize all senders and recievers
                             bLoggedIn = false;                                                          //Set LoggedIn status to False     
 

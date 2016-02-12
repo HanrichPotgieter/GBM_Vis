@@ -83,10 +83,10 @@ namespace KNEKT.DisplayPages
         {
             try
             {
-                string[] values = sMatrixTransformValue.Split(',');
+                //string[] values = sMatrixTransformValue.Split(',');
 
-                xform = new MatrixTransform(double.Parse(values[0]), double.Parse(values[1]), double.Parse(values[2]), double.Parse(values[3]), double.Parse(values[4]), double.Parse(values[5]));
-                grid1.RenderTransform = xform;
+                //xform = new MatrixTransform(double.Parse(values[0]), double.Parse(values[1]), double.Parse(values[2]), double.Parse(values[3]), double.Parse(values[4]), double.Parse(values[5]));
+                //grid1.RenderTransform = xform;
             }
             catch
             {

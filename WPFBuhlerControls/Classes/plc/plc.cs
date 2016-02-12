@@ -29,18 +29,20 @@ public sealed class Plc
                     {
                         instance = new S7Client();
                     }
-                    catch(Exception ex)
+                    catch (Exception ex)
                     {
                         Console.Out.WriteLine(ex);
                     }
-                   
+
                 }
                 return instance;
             }
         }
     }
 
-
-
+    public void connect(String IP,int Rack,int Slot)
+    {
+        Plc.instance.ConnectTo(IP,Rack,Slot);
+    }
 }
 

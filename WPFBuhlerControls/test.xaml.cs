@@ -47,13 +47,11 @@ namespace WPFBuhlerControls
                             parent.setConnected();
                             Console.Out.WriteLine("Connected");
                             S7Client.S7CpuInfo Info = new S7Client.S7CpuInfo();
-                            
                             plc.GetCpuInfo(ref Info);
                             int i = 0;
                             plc.PlcGetStatus(ref i);
                             parent.setText(Info.SerialNumber);
                             parent.setStatus(i);
-                       
                         }
                         else
                         {

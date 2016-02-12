@@ -1,18 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
 using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 using System.ComponentModel;
 using WPFBuhlerControls.FB_Code;
+using Snap7;
+using System.Threading;
 
 namespace WPFBuhlerControls
 {
@@ -28,10 +20,58 @@ namespace WPFBuhlerControls
         private bool _MotorOnLeft = false;
         private string _ObjectNo;
         private string _PLCName;
+        private S7Client PLC;
+       
+
+        // The worker threads runs in the background and updates our control
+        #region[Worker Thread]
+        public class Worker
+        {
+            S7Client plc;
+            Conveyor_Chain_MNKA50_DH parent;
+            private int updateTime = 100;
+
+            public Worker(S7Client tmp, Conveyor_Chain_MNKA50_DH parent)
+            {
+                plc = tmp;
+                this.parent = parent;
+            }
+            // This method will be called when the thread is started.
+            public void DoWork()
+            {
+                while (!_shouldStop)
+                {
+                    if (plc != null)
+                    {
+                        if (plc.Connected())
+                        {
+                            byte[] Buffer = new byte[1];
+                            plc.DBRead(161, 439, 1, Buffer);
+                            Console.Out.Write(Buffer);
+                        }
+                    }
+                }
+                Thread.Sleep(updateTime);
+            }
+            public void RequestStop()
+            {
+                _shouldStop = true;
+            }
+            // Volatile is used as hint to the compiler that this data
+            // member will be accessed by multiple threads.
+            private volatile bool _shouldStop;
+        }
+        #endregion
+
 
         public Conveyor_Chain_MNKA50_DH()
         {
             InitializeComponent();
+            Worker workerObject = new Worker(Plc.Instance, this);
+            Thread workerThread = new Thread(workerObject.DoWork);
+            // Start the worker thread.
+            workerThread.Start();
+
         }
 
          //------------------------------------------------------------------------------//
