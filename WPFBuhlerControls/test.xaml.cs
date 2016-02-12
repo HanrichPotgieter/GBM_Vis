@@ -37,13 +37,16 @@ namespace WPFBuhlerControls
             {
                 while (!_shouldStop)
                 {
-                    if (plc.Connected())
+                    if (plc != null)
                     {
-                        //Console.Out.WriteLine("Connected");
-                    }
-                    else
-                    {
-                        //Console.Out.WriteLine("Not Connected");
+                        if (plc.Connected())
+                        {
+                            //Console.Out.WriteLine("Connected");
+                        }
+                        else
+                        {
+                            //Console.Out.WriteLine("Not Connected");
+                        }
                     }
                 }
                 

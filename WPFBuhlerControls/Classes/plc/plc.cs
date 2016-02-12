@@ -14,6 +14,8 @@ public sealed class Plc
     {
     }
 
+    public bool allowCreate = false;
+
     public static S7Client Instance
     {
         get
@@ -22,7 +24,16 @@ public sealed class Plc
             {
                 if (instance == null)
                 {
-                    instance = new S7Client();
+                    try
+                    {
+                        instance = new S7Client();
+                    }
+                    catch(Exception ex)
+                    {
+                        Console.Out.WriteLine(ex);
+                        return instance;
+                    }
+                   
                 }
                 return instance;
             }
