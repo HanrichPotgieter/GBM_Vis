@@ -192,7 +192,6 @@
                 <WPFBuhlerControls:Line_Horizontal Height="10" Margin="224,484,641,170" />
 
             </Grid>
-            <Slider x:Name="uiScaleSlider" ToolTip="Scale the current page" Value="1" Minimum="0.1" Maximum="1.5" ValueChanged="uiScaleSlider_ValueChanged" Orientation="Vertical" Margin="-1,38,0,67" HorizontalAlignment="Left" Width="27" LargeChange="0.5" TickFrequency="0.2" Grid.RowSpan="2" />
         </Grid>
         <WPFBuhlerControls:Label_C Margin="468,418,507,242" />
         <WPFBuhlerControls:Label_C Margin="477,418,498,242" />

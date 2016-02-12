@@ -21,8 +21,8 @@ namespace KNEKT.DisplayPages
     /// </summary>
     public partial class INT1 : Page
     {
-        public static string sMatrixTransformValue;
-        MatrixTransform xform;
+        //public static string sMatrixTransformValue;
+        //MatrixTransform xform;
         Controller PLCW;
 
         public INT1(Controller PLC_W)
@@ -40,9 +40,9 @@ namespace KNEKT.DisplayPages
             //}
             //else
             //{
-            uiScaleSlider.Visibility = Visibility.Visible;
-            ScaleTransform st = new ScaleTransform(uiScaleSlider.Value, uiScaleSlider.Value);
-            grid1.LayoutTransform = st;
+            //uiScaleSlider.Visibility = Visibility.Visible;
+            //ScaleTransform st = new ScaleTransform(uiScaleSlider.Value, uiScaleSlider.Value);
+            //grid1.LayoutTransform = st;
             //}
         }
 
@@ -75,34 +75,34 @@ namespace KNEKT.DisplayPages
             }
             catch
             {
-                MessageBox.Show("Zoom settings not loaded! \n\nValue : " + sMatrixTransformValue.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+                //MessageBox.Show("Zoom settings not loaded! \n\nValue : " + sMatrixTransformValue.ToString(), "Error", MessageBoxButton.OK, MessageBoxImage.Error);
             }
         }
 
         protected override void OnManipulationStarting(ManipulationStartingEventArgs args)
         {
-            args.ManipulationContainer = this;
-            args.Handled = true;
-            base.OnManipulationStarting(args);
+            //args.ManipulationContainer = this;
+            //args.Handled = true;
+            //base.OnManipulationStarting(args);
         }
 
         protected override void OnManipulationDelta(ManipulationDeltaEventArgs args)
         {
-            UIElement element = args.Source as UIElement;
-            xform = element.RenderTransform as MatrixTransform;
-            Matrix matrix = xform.Matrix;
-            ManipulationDelta delta = args.DeltaManipulation;
-            Point center = args.ManipulationOrigin;
+            //UIElement element = args.Source as UIElement;
+            //xform = element.RenderTransform as MatrixTransform;
+            //Matrix matrix = xform.Matrix;
+            //ManipulationDelta delta = args.DeltaManipulation;
+            //Point center = args.ManipulationOrigin;
 
-            matrix.ScaleAt(delta.Scale.X, delta.Scale.Y, center.X, center.Y);
+            //matrix.ScaleAt(delta.Scale.X, delta.Scale.Y, center.X, center.Y);
             //matrix.RotateAt(delta.Rotation, center.X, center.Y);
-            matrix.Translate(delta.Translation.X, delta.Translation.Y);
-            xform.Matrix = matrix;
+            //matrix.Translate(delta.Translation.X, delta.Translation.Y);
+            //xform.Matrix = matrix;
 
-            sMatrixTransformValue = "" + matrix;
+            //sMatrixTransformValue = "" + matrix;
 
-            args.Handled = true;
-            base.OnManipulationDelta(args);
+            //args.Handled = true;
+            //base.OnManipulationDelta(args);
         }
 
         //------------------------------------------------------------------------------//
@@ -290,8 +290,8 @@ namespace KNEKT.DisplayPages
 
         private void uiScaleSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            ScaleTransform st = new ScaleTransform(uiScaleSlider.Value, uiScaleSlider.Value);
-            grid1.LayoutTransform = st;
+            //ScaleTransform st = new ScaleTransform(uiScaleSlider.Value, uiScaleSlider.Value);
+            //grid1.LayoutTransform = st;
         }
         
         //------------------------------------------------------------------------------//
@@ -432,7 +432,6 @@ namespace KNEKT.DisplayPages
         private void _A0190_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
             MainWindow.isValve = false;
-
         }
      
 
