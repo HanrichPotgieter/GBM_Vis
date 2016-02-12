@@ -79,7 +79,7 @@
                                               " Arrow_SetDirection="3" Margin="279,515,692,139" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="2" Height="10" Margin="878,61,93,593" Width="10" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="2" Height="10" Margin="947,34,24,620" Width="10" />
-                <my:ScaleInfo1 Margin="373,151,468,413" x:Name="ScaleInfo_A0015" ScaleInfo_Title="Raw Wheat Scale" />
+                <my:ScaleInfo1 Margin="373,151,468,413" x:Name="ScaleInfo_A0015"/>
                 <WPFBuhlerControls:Bin Height="190" Width="65" Bin_BinText="101" Margin="632,148,284,326" />
                 <WPFBuhlerControls:Line_Vertical Height="38" Width="10" Margin="658,112,313,514" />
                 <WPFBuhlerControls:Hopper_Small Height="49" Width="28" Margin="899,418,54,197" />
