@@ -9123,26 +9123,6 @@ namespace KNEKT
                 //    break;
 
 
-                //ScaleInfo_A0650
-                case "_A0650_PWC03.OutFlowrate":
-
-                    pageINT1.ScaleInfo_A0650.lblOutFlowrate.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        pageINT1.ScaleInfo_A0650.lblOutFlowrate.Content = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                    }));
-                    pageFCL1.ScaleInfo_A0650.lblOutFlowrate.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        pageFCL1.ScaleInfo_A0650.lblOutFlowrate.Content = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                    }));
-                    pageMTR1.ScaleInfo_A0650.lblOutFlowrate.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        pageMTR1.ScaleInfo_A0650.lblOutFlowrate.Content = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                    }));
-                    pageMIL2.ScaleInfo_A0650.lblOutFlowrate.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        pageMIL2.ScaleInfo_A0650.lblOutFlowrate.Content = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                    }));
-                    break;
 
              //   case "A0650_PWC03.OutFlowrate":
              //       pageMIL1.ScaleInfo_A4002.lblOutFlowrate.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
@@ -9155,116 +9135,8 @@ namespace KNEKT
            //         CalculateYield();
            //         break;
 
-                case "_A0650_PWC03.OutAlarmNoLog":
-                    pageINT1.ScaleInfo_A0650.lblAlarmNo.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        pageINT1.ScaleInfo_A0650.lblAlarmNo.Content = t.Value.ToString();
-                    }));
-                    pageFCL1.ScaleInfo_A0650.lblAlarmNo.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        pageFCL1.ScaleInfo_A0650.lblAlarmNo.Content = t.Value.ToString();
-                    }));
-                    pageMTR1.ScaleInfo_A0650.lblAlarmNo.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        pageMTR1.ScaleInfo_A0650.lblAlarmNo.Content = t.Value.ToString();
-                    }));
-                    pageMIL2.ScaleInfo_A0650.lblAlarmNo.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        pageMIL2.ScaleInfo_A0650.lblAlarmNo.Content = t.Value.ToString();
-                    }));
-                    break;
 
-                case "_A0650_PWC03.OutJobWeight":
-                    pageINT1.ScaleInfo_A0650.lblJobWeight.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageINT1.ScaleInfo_A0650.lblJobWeight.Content = currentTonnage.ToString();
-                    }));
-                    pageFCL1.ScaleInfo_A0650.lblJobWeight.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageFCL1.ScaleInfo_A0650.lblJobWeight.Content = currentTonnage.ToString();
-                    }));
-                    pageMTR1.ScaleInfo_A0650.lblJobWeight.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageMTR1.ScaleInfo_A0650.lblJobWeight.Content = currentTonnage.ToString();
-                    }));
-                    pageMIL2.ScaleInfo_A0650.lblJobWeight.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageMIL2.ScaleInfo_A0650.lblJobWeight.Content = currentTonnage.ToString();
-                    }));
-                    break;
 
-                case "_A0650_PWC03.OutNotErasableWeight":
-                    pageINT1.ScaleInfo_A0650.lblNEWeight.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageINT1.ScaleInfo_A0650.lblNEWeight.Content = currentTonnage.ToString();
-
-                    }));                    
-                    pageFCL1.ScaleInfo_A0650.lblNEWeight.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageFCL1.ScaleInfo_A0650.lblNEWeight.Content = currentTonnage.ToString();
-                    }));
-
-                    pageMTR1.ScaleInfo_A0650.lblNEWeight.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageMTR1.ScaleInfo_A0650.lblNEWeight.Content = currentTonnage.ToString();
-                    }));
-
-                    pageMIL2.ScaleInfo_A0650.lblNEWeight.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageMIL2.ScaleInfo_A0650.lblNEWeight.Content = currentTonnage.ToString();
-                    }));
-                    break;
-
-                //ScaleInfo_A0650
-                case "_A0015_PWC03.OutFlowrate":
-
-                    pageINT1.ScaleInfo_A0015.lblOutFlowrate.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        pageINT1.ScaleInfo_A0015.lblOutFlowrate.Content = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                    }));
-                    break;
-
-                //   case "A0650_PWC03.OutFlowrate":
-                //       pageMIL1.ScaleInfo_A4002.lblOutFlowrate.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                //       {
-                //           double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                //            pageMIL1.ScaleInfo_A4002.lblOutFlowrate.Content = currentTonnage.ToString();
-                //         }));
-
-                //         _d4002B1OutFlowrate = Convert.ToDouble(t.Value);
-                //         CalculateYield();
-                //         break;
-
-                case "_A0015_PWC03.OutAlarmNoLog":
-                    pageINT1.ScaleInfo_A0015.lblAlarmNo.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        pageINT1.ScaleInfo_A0015.lblAlarmNo.Content = t.Value.ToString();
-                    }));
-                    break;
-
-                case "_A0015_PWC03.OutJobWeight":
-                    pageINT1.ScaleInfo_A0015.lblJobWeight.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageINT1.ScaleInfo_A0015.lblJobWeight.Content = currentTonnage.ToString();
-                    }));
-                    break;
-
-                case "_A0015_PWC03.OutNotErasableWeight":
-                    pageINT1.ScaleInfo_A0015.lblNEWeight.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageINT1.ScaleInfo_A0015.lblNEWeight.Content = currentTonnage.ToString();
-                    }));
-                    break;
 
 
                 ////====================

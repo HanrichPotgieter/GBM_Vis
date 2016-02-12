@@ -56,22 +56,7 @@ namespace KNEKT.DisplayPages
         public void SetShowTagnamesVisibility()
         {
             Visibility v1 = MainWindow.bShowTagnames == true ? Visibility.Visible : Visibility.Hidden;
-
-            //textLabelA1000.Visibility = v1;
-            textLabelA0005.Visibility = v1;
-            textLabelA0015.Visibility = v1;
-            textLabelA0020.Visibility = v1;
-            textLabelA0025.Visibility = v1;
-            textLabelA0030.Visibility = v1;
-            textLabelA0035.Visibility = v1;
-            textLabelA0040.Visibility = v1;
-            textLabelA0185.Visibility = v1;
-            textLabelA0190.Visibility = v1;
-            textLabelA0620.Visibility = v1;
-            textLabelA0635.Visibility = v1;
-            textLabelA0650.Visibility = v1;
-            textLabelA0665.Visibility = v1;
-           
+      
         }
 
 
@@ -394,75 +379,60 @@ namespace KNEKT.DisplayPages
 
         private void _A0620_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            MainWindow.sElementState = _A0620.Status_Conveyor;
-            MainWindow.sElementDescription = _A0620.Description_Conveyor;
-            MainWindow.sActiveControlName = "_A0620";
+
         }
 
         private void _A0620_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
             MainWindow.isValve = false;
-            MainWindow.stat_sActiveObjectNo = _A0620.ObjectNumber;
+
         }
 
         private void _A0620F_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            MainWindow.sElementState = _A0620F.Status_Overflow;
-            MainWindow.sElementDescription = _A0620F.Description_Overflow;
-            MainWindow.sActiveControlName = "_A0620F";
+
         }
 
         private void _A0635_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            MainWindow.sElementState = _A0635.Status_HighLevel;
-            MainWindow.sElementDescription = _A0635.Description_HighLevel;
-            MainWindow.sActiveControlName = "_A0635";
+
         }
 
         private void _A0650_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            MainWindow.sElementState = _A0650.Status_Scale;
-            MainWindow.sElementDescription = _A0650.Description_Scale;
-            MainWindow.sActiveControlName = "_A0650";
+
         }
 
         private void _A0665_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            MainWindow.sElementState = _A0665.Status_Conveyor;
-            MainWindow.sElementDescription = _A0665.Description_Conveyor;
-            MainWindow.sActiveControlName = "_A0665";
+
         }
 
         private void _A0665_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
-            MainWindow.isValve = false;
-            MainWindow.stat_sActiveObjectNo = _A0665.ObjectNumber;
+       
         }
 
         private void _A0185_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            MainWindow.sElementState = _A0185.Status_Motor;
-            MainWindow.sElementDescription = _A0185.Status_Motor;
-            MainWindow.sActiveControlName = "_A0185";
+
         }
 
         private void _A0185_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
             MainWindow.isValve = false;
-            MainWindow.stat_sActiveObjectNo = _A0185.ObjectNumber;
+
         }
 
         private void _A0190_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            MainWindow.sElementState = _A0190.Status_Motor;
-            MainWindow.sElementDescription = _A0190.Status_Motor;
-            MainWindow.sActiveControlName = "_A0190";
+
         }
 
         private void _A0190_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
         {
             MainWindow.isValve = false;
-            MainWindow.stat_sActiveObjectNo = _A0190.ObjectNumber;
+
         }
      
 

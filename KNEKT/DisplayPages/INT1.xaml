@@ -7,7 +7,6 @@
      d:DesignHeight="664" d:DesignWidth="981"
       xmlns:WPFBuhlerControls="clr-namespace:WPFBuhlerControls;assembly=WPFBuhlerControls" xmlns:my="clr-namespace:KNEKT.Controls"
 	Title="INT1" Loaded="Page_Loaded">
-
     <Page.Background>
         <LinearGradientBrush StartPoint="0,0" EndPoint="0,10">
             <GradientStop Color="White" Offset="0"/>
@@ -20,26 +19,19 @@
             <MenuItem x:Name="contMen_CmdManOn" Header="CmdManualOn" Click="contMen_CmdManOn_Click"/>
             <MenuItem x:Name="contMen_CmdManOff" Header="CmdManualOff" Click="contMen_CmdManOff_Click"/>
         </ContextMenu>
-
-        <!--<ContextMenu x:Key="ContextMenu2">
-            <MenuItem x:Name="contMen_Empty" Header="Force Empty" Click="contMen_Empty_Click"/>
-        </ContextMenu>-->
         <ContextMenu x:Key="ContextMenuFlap">
-
             <MenuItem x:Name="contMen_FlapHighNumber" Header="CmdHN" Click="contMen_CmdManOn_Click"/>
             <MenuItem x:Name="contMen_FlapLowNumber" Header="CmdLN" Click="contMen_CmdManOff_Click"/>
         </ContextMenu>
     </Page.Resources>
     <Grid>
-
         <Grid Margin="1,0,-1,0">
-
             <Grid x:Name="grid1" Margin="0,2,0,-2">
                 <WPFBuhlerControls:Line_Vertical Width="10" Margin="290,450,681,186" />
                 <TextBlock Text="Bag Intake" Margin="245,374,680,273" RenderTransformOrigin="0.29,1.926"/>
                 <WPFBuhlerControls:SlideGate Margin="284,431,675,207"/>
                 <WPFBuhlerControls:Hopper_BagIntake Height="31" Width="30"  Margin="270,408,681,225" />
-                <WPFBuhlerControls:Elevator_L Width="50" Margin="340,47,591,66" Elevator_HasSpeedMonitorBottom="True" Name="_A0005" MouseDown="_A0005_MouseDown" MouseRightButtonDown="_A0005_MouseRightButtonDown" Loaded="_A0005_Loaded" />
+                <WPFBuhlerControls:Elevator_L Width="50" Margin="340,47,591,66" Elevator_HasSpeedMonitorBottom="True" Name="_A0005" MouseDown="_A0005_MouseDown" MouseRightButtonDown="_A0005_MouseRightButtonDown"/>
                 <WPFBuhlerControls:Elevator_L Width="39" Margin="542,47,400,186" Elevator_HasSpeedMonitorBottom="True" Name="_A0035" MouseDown="_A0035_MouseDown" MouseRightButtonDown="_A0035_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Vertical Width="10" Margin="434,146,537,501" />
                 <WPFBuhlerControls:Scale_Dosing1 Margin="429,236,530,394" Name="_A0015" MouseDown="_A0015_MouseDown" />
@@ -53,7 +45,7 @@
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="512,361,459,293" Width="10" />
                 <WPFBuhlerControls:Separator_MANB Height="24" Width="21"  Margin="505,309,455,331" MotorColor="1"/>
                 <WPFBuhlerControls:Airlock_MPSN Height="10" Width="10" Margin="512,333,459,321" Name="_A0030" MouseDown="_A0030_MouseDown" MouseRightButtonDown="_A0030_MouseRightButtonDown"  />
-                <WPFBuhlerControls:Hopper_1 Margin="420,155,519,417" Loaded="Hopper_1_Loaded" />
+                <WPFBuhlerControls:Hopper_1 Margin="420,155,519,417"/>
                 <WPFBuhlerControls:Label_1 Background="Moccasin" Content="RAW WHEAT BINS" Height="30" HorizontalContentAlignment="Center" Margin="906,339,-36,66" VerticalContentAlignment="Center" Visibility="Hidden" Width="110" />
                 <WPFBuhlerControls:Line_Arrow Height="10" Width="10" Arrow_SetDirection="3" Margin="350,556,621,98" />
                 <WPFBuhlerControls:Bin Bin_BinText="101" Margin="682,226,221,210" />
@@ -75,7 +67,7 @@
                 <WPFBuhlerControls:Line_Horizontal Height="10" Margin="395,124,558,530" />
                 <WPFBuhlerControls:Line_Vertical Width="10" Margin="715,174,256,438" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="715,220,256,434" Width="10" />
-                <WPFBuhlerControls:Line_Vertical Width="10" Margin="374,78,597,552" Loaded="Line_Vertical_Loaded" />
+                <WPFBuhlerControls:Line_Vertical Width="10" Margin="374,78,597,552" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Margin="630,152,341,504" Width="10" />
                 <WPFBuhlerControls:Hopper_ChainConveyor Margin="134,408,787,236"/>
                 <WPFBuhlerControls:Line_Vertical Margin="208,450,763,192" Width="10"/>
@@ -103,8 +95,8 @@
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
                 <WPFBuhlerControls:Line_Arrow Height="10" Width="10" Arrow_SetDirection="3" Margin="278,402,693,252" />
-                <WPFBuhlerControls:Line_Vertical Line_DashStyle="1" Loaded="Line_Vertical_Loaded" Margin="486,324,453,297"/>
-                <WPFBuhlerControls:Line_Vertical Width="10" Margin="569,72,402,556" Loaded="Line_Vertical_Loaded" />
+                <WPFBuhlerControls:Line_Vertical Line_DashStyle="1" Margin="486,324,453,297"/>
+                <WPFBuhlerControls:Line_Vertical Width="10" Margin="569,72,402,556"/>
                 <WPFBuhlerControls:Line_Horizontal Height="10" Margin="590,119,359,535" />
                 <WPFBuhlerControls:Line_Vertical Width="10" Margin="630,140,341,507" />
                 <WPFBuhlerControls:Line_Bend Margin="499,393,458,243" RenderTransformOrigin="0.5,0.5">

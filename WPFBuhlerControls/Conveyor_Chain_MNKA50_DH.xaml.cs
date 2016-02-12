@@ -63,15 +63,16 @@ namespace WPFBuhlerControls
         }
         #endregion
 
-
         public Conveyor_Chain_MNKA50_DH()
         {
             InitializeComponent();
-            Worker workerObject = new Worker(Plc.Instance, this);
-            Thread workerThread = new Thread(workerObject.DoWork);
-            // Start the worker thread.
-            workerThread.Start();
-
+            if (System.ComponentModel.LicenseManager.UsageMode == System.ComponentModel.LicenseUsageMode.Runtime)
+            {
+                Worker workerObject = new Worker(Plc.Instance, this);
+                Thread workerThread = new Thread(workerObject.DoWork);
+                workerThread.Start();
+            }
+          
         }
 
          //------------------------------------------------------------------------------//
