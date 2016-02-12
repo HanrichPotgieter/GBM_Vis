@@ -31,6 +31,7 @@ using System.IO;
 using System.Diagnostics;
 using System.Collections.ObjectModel;
 using System.Windows.Media.Animation;
+using Snap7;
 
 
 namespace KNEKT
@@ -324,6 +325,9 @@ namespace KNEKT
         {
             InitializeComponent();
 
+            S7Client test = Plc.Instance;
+            test.ConnectTo("10.0.0.210", 0, 2);
+
             DisplayPages.DisplayWindows.SplashScreenWindow.CurrentLoadingStatus("Initializing Objects...", 10);
             Thread.Sleep(500);
 
@@ -415,6 +419,8 @@ namespace KNEKT
                                 timerApplicationHints.IsEnabled = true;
                                 timerApplicationHints.Start();
                             }
+
+                          
 
                             #region S7 Link Initialization
 

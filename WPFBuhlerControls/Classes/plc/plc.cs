@@ -5,6 +5,7 @@ using System.Text;
 using Snap7;
 
 
+
 public sealed class Plc
 {
     private static S7Client instance = null;
@@ -31,7 +32,6 @@ public sealed class Plc
                     catch(Exception ex)
                     {
                         Console.Out.WriteLine(ex);
-                        return instance;
                     }
                    
                 }

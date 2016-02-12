@@ -18,8 +18,9 @@
         <Button Content="MIL2" Focusable="False" Height="35" HorizontalAlignment="Left" Margin="273,0,0,8" Name="btnLine5" VerticalAlignment="Bottom" Width="60" Click="btnLine5_Click"/>
         <!--<Button Content="BAG2" Focusable="False" Height="35" HorizontalAlignment="Left" Margin="644,0,0,8" Name="btnLine11" Click="btnLine11_Click" VerticalAlignment="Bottom" Width="60" />-->
         <!--PAGES-->
-        <WPFBuhlerControls:test></WPFBuhlerControls:test>
+
         <!--CONTROL BUTTONS-->
+        <WPFBuhlerControls:test Width="50" RenderTransformOrigin="-2.92,0.54" Margin="758,749,464,8"/>
         <Button Height="45" HorizontalAlignment="Right" Margin="0,0,272,4" Name="btnControlStart" VerticalAlignment="Bottom" Width="47" ToolTip="Start Line" Click="btnControlStart_Click" Focusable="False">
             <Button.Content>
                 <Canvas>
@@ -159,7 +160,7 @@
 
         <Image Height="32" HorizontalAlignment="Right" Margin="0,55,7,0" Name="imageBuhlerLogo" Stretch="Fill" VerticalAlignment="Top" Width="139" Source="/KNEKT;component/Images/BuhlerLogoWatermark.png" Opacity="0.6"/>
         <!--<Image Height="70" HorizontalAlignment="Left" Margin="8,63,0,0" Name="imageCustomerLogo" Stretch="Fill" VerticalAlignment="Top" Width="81" Source="/KNEKT;component/Images/AFGRIHarrismith.png" Opacity="0.3" Visibility="Hidden" />-->
-        
+
 
         <Button Content="Enable Zoom" Height="23" HorizontalAlignment="Left" Margin="5,55,0,0" Name="btnEnableZoom" VerticalAlignment="Top" Width="80"  Background="Yellow" Click="btnEnableZoom_Click" Focusable="False"/>
         <Button Content="Disable Zoom" Height="23" HorizontalAlignment="Left" Margin="90,55,0,0" Name="btnDisableZoom" VerticalAlignment="Top" Width="80" Background="Yellow" Click="btnDisableZoom_Click" Focusable="False"/>
@@ -199,7 +200,7 @@
                 </LinearGradientBrush>
             </TextBox.Background>
         </TextBox>
-       
+
     </Grid>
 
 </Window>

@@ -5,10 +5,15 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:WPFBuhlerControls"
              mc:Ignorable="d" 
-             d:DesignHeight="300" d:DesignWidth="300">
+             d:DesignHeight="300" d:DesignWidth="150">
     <Grid>
-        <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Height="142.353"  Width="210.251" Background="White" Margin="63.781,69.58,25.968,88.067">
-            <TextBlock Width="100" Height="100" Canvas.Left="10" Canvas.Top="10" Text="{Binding name}"></TextBlock>
+        <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Background="White" Margin="10" Height="280" Width="130">
+            <TextBlock Name="Box" Text="Hello" HorizontalAlignment="Left" VerticalAlignment="Center" Canvas.Left="-361" Canvas.Top="11" Width="81.076" Height="120">
+            </TextBlock>
+            <Rectangle Height="258.92" Canvas.Left="10" Canvas.Top="11.04" Width="110" Stroke="Black" Fill="Gray"/>
+            <Rectangle Width="20" Height="20" Name="InnerBox" Canvas.Top="11.04" Canvas.Left="10" RadiusY="5" RadiusX="5" Margin="5"></Rectangle>
+            <Label x:Name="Status" Content="Running" HorizontalAlignment="Left" VerticalAlignment="Top" Canvas.Left="40" Canvas.Top="16" Height="20" Width="80" FontSize="8"/>
         </Canvas>
+
     </Grid>
 </UserControl>
