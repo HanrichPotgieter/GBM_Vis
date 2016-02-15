@@ -48,12 +48,10 @@ namespace WPFBuhlerControls
                     {
                         if (plc.Connected())
                         {
-                            Console.Out.WriteLine(dbnumber);
-                            Console.Out.WriteLine(dboffset);
                             byte[] buffer = new byte[2];
                             plc.DBRead(dbnumber, dboffset, 2, buffer);
                             Array.Reverse(buffer);
-                            Console.Out.WriteLine(BitConverter.ToUInt16(buffer, 0));
+                            //Console.Out.WriteLine(BitConverter.ToUInt16(buffer, 0));
                             parent.MotorColor = BitConverter.ToUInt16(buffer, 0);
                             Thread.Sleep(200);   
                         }
