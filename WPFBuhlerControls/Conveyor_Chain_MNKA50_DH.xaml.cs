@@ -30,11 +30,15 @@ namespace WPFBuhlerControls
             S7Client plc;
             Conveyor_Chain_MNKA50_DH parent;
             private int updateTime = 100;
+            int dbnumber;
+            int dboffset;
 
-            public Worker(S7Client tmp, Conveyor_Chain_MNKA50_DH parent)
+            public Worker(S7Client tmp, Conveyor_Chain_MNKA50_DH parent,int dbnumber,int dboffset)
             {
                 plc = tmp;
                 this.parent = parent;
+                this.dbnumber = dbnumber;
+                this.dboffset = dboffset;
             }
             // This method will be called when the thread is started.
             public void DoWork()
@@ -45,9 +49,9 @@ namespace WPFBuhlerControls
                     {
                         if (plc.Connected())
                         {
-                            byte[] Buffer = new byte[1];
-                            plc.DBRead(161, 439, 1, Buffer);
-                            Console.Out.Write(Buffer);
+                            byte[] buffer = new byte[1];
+                            plc.DBRead(dbnumber, dboffset, 1, buffer);
+                            Console.Out.Write(buffer.GetValue(1));
                         }
                     }
                 }
@@ -68,16 +72,19 @@ namespace WPFBuhlerControls
             InitializeComponent();
             if (System.ComponentModel.LicenseManager.UsageMode == System.ComponentModel.LicenseUsageMode.Runtime)
             {
-                Worker workerObject = new Worker(Plc.Instance, this);
+                Worker workerObject = new Worker(Plc.Instance, this, dbnumber, dboffset);
                 Thread workerThread = new Thread(workerObject.DoWork);
                 workerThread.Start();
             }
           
         }
 
-         //------------------------------------------------------------------------------//
+        //------------------------------------------------------------------------------//
         //                                 Properties                                   //
         //------------------------------------------------------------------------------//
+
+        public int dbnumber { get; set; }
+        public int dboffset { get; set; }
 
         [Category("Buhler")]
         public int MotorColor
