@@ -50,6 +50,7 @@ namespace WPFBuhlerControls
                             byte[] buffer = new byte[1];
                             plc.DBRead(dbnumber, dboffset, 1, buffer);
                             parent.MotorColor = buffer[0];
+                            Console.Out.WriteLine(buffer[0]);
                             /*
                             bool StStopped = (buffer[0] & 0x01) != 0;
                             bool StStarted = (buffer[0] & 0x02) != 0;
