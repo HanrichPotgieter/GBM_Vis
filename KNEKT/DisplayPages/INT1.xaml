@@ -70,7 +70,7 @@
                 <WPFBuhlerControls:Line_Vertical Height="45" Width="10" Margin="375,78,596,541" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Margin="630,152,341,504" Width="10" />
                 <WPFBuhlerControls:Hopper_ChainConveyor Height="50" Width="35" Margin="149,393,797,221"/>
-                <WPFBuhlerControls:Line_Vertical Height="24" Width="25" Margin="200,450,755,189"/>
+                <WPFBuhlerControls:Line_Vertical Height="24" Width="20" Margin="200,450,755,189"/>
                 <WPFBuhlerControls:Line_Bend Height="25" Width="25" Margin="146,383,810,256" RenderTransformOrigin="0.5,0.5">
                     <WPFBuhlerControls:Line_Bend.RenderTransform>
                         <TransformGroup>
@@ -190,6 +190,7 @@
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
                 <WPFBuhlerControls:Level_High_Bin Height="10" Width="12" Margin="433,176,535,478" x:Name="_A0040_Copy" MouseDown="_0040_MouseDown" />
+                <WPFBuhlerControls:Line_Horizontal Height="20" Width="30" Margin="512,404,438,240" />
 
             </Grid>
         </Grid>
