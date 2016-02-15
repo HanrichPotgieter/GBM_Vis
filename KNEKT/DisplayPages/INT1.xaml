@@ -26,17 +26,18 @@
     </Page.Resources>
     <Grid>
         <Grid Margin="1,0,-1,0">
+
             <Grid x:Name="grid1">
                 <WPFBuhlerControls:Line_Vertical Height="50" Width="10" Margin="290,450,681,186" />
-                <TextBlock Text="Bag Intake" Margin="245,374,680,273" RenderTransformOrigin="0.29,1.926"/>
-                <WPFBuhlerControls:SlideGate Margin="284,431,675,207"/>
+                <TextBlock Text="Bag Intake"  Height="25" Width="65" Margin="245,374,680,273" RenderTransformOrigin="0.29,1.926"/>
+                <WPFBuhlerControls:SlideGate Height="25" Width="25" Margin="284,431,675,207"/>
                 <WPFBuhlerControls:Hopper_BagIntake Height="31" Width="30"  Margin="270,408,681,225" />
-                <WPFBuhlerControls:Elevator_L Width="50" Margin="340,47,591,66" Elevator_HasSpeedMonitorBottom="True" Name="_A0005" MouseDown="_A0005_MouseDown" MouseRightButtonDown="_A0005_MouseRightButtonDown"/>
-                <WPFBuhlerControls:Elevator_L Width="39" Margin="542,47,400,186" Elevator_HasSpeedMonitorBottom="True" Name="_A0035" MouseDown="_A0035_MouseDown" MouseRightButtonDown="_A0035_MouseRightButtonDown" />
+                <WPFBuhlerControls:Elevator_L Height="950" Width="50" Margin="340,-152,591,-134" Elevator_HasSpeedMonitorBottom="True" Name="_A0005" MouseDown="_A0005_MouseDown" MouseRightButtonDown="_A0005_MouseRightButtonDown"/>
+                <WPFBuhlerControls:Elevator_L Height="750" Width="39" Margin="543,-111,399,25" Elevator_HasSpeedMonitorBottom="True" Name="_A0035" MouseDown="_A0035_MouseDown" MouseRightButtonDown="_A0035_MouseRightButtonDown" RenderTransformOrigin="0.59,0.511" />
                 <WPFBuhlerControls:Line_Vertical Height="25" Width="20" Margin="434,146,537,501" />
                 <WPFBuhlerControls:Scale_Dosing1 Height="35" Width="30" Margin="424,235,527,394" Name="_A0015" MouseDown="_A0015_MouseDown" />
                 <WPFBuhlerControls:Line_Vertical Height="100" Width="25" Margin="435,270,536,303" />
-                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Margin="435,158,538,498" />
+                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3"  Height="10" Width="10" Margin="434,158,537,496" />
                 <WPFBuhlerControls:Slide_Manual Height="7" Width="20" Margin="429,267,532,390" />
                 <WPFBuhlerControls:Magnet_MMUA_H Height="25" Width="20" Margin="430,294,531,345" />
                 <WPFBuhlerControls:Separator_MTRC Height="40" Width="58" Margin="435,361,488,263" Name="_A0020" MouseDown="_A0020_MouseDown" MouseRightButtonDown="_A0020_MouseRightButtonDown" />
@@ -45,12 +46,12 @@
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="512,358,459,296" Width="10" />
                 <WPFBuhlerControls:Separator_MANB Height="24" Width="21"  Margin="505,303,455,337" MotorColor="1"/>
                 <WPFBuhlerControls:Airlock_MPSN Height="10" Width="10" Margin="512,328,459,326" Name="_A0030" MouseDown="_A0030_MouseDown" MouseRightButtonDown="_A0030_MouseRightButtonDown"  />
-                <WPFBuhlerControls:Hopper_1 Height="100" Width="40" Margin="420,151,521,413"/>
+                <WPFBuhlerControls:Hopper_1 Height="100" Width="40" Margin="420,152,521,412"/>
                 <WPFBuhlerControls:Label_1 Background="Moccasin" Content="RAW WHEAT BINS" Height="30" HorizontalContentAlignment="Center" Margin="906,339,-36,66" VerticalContentAlignment="Center" Visibility="Hidden" Width="110" />
                 <WPFBuhlerControls:Line_Arrow Height="10" Width="10" Arrow_SetDirection="3" Margin="350,556,621,98" />
                 <WPFBuhlerControls:Bin Bin_BinText="101" Margin="682,226,221,210" />
                 <WPFBuhlerControls:Level_High_Bin Height="10" Width="10" Margin="715,252,256,402" Name="_A0040" MouseDown="_0040_MouseDown" />
-                <WPFBuhlerControls:Line_Vertical Margin="468,401,509,249" />
+                <WPFBuhlerControls:Line_Vertical  Height="10" Width="5" Margin="468,403,509,251" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Margin="477,410,500,248" />
                 <WPFBuhlerControls:Label_1 Background="Transparent" Content="SILO 4" Height="30" HorizontalContentAlignment="Center" Margin="395,369,535,36" VerticalContentAlignment="Center" Visibility="Hidden" Width="50" />
                 <WPFBuhlerControls:Label_1 Background="Transparent" Content="SILO 3" Height="30" HorizontalContentAlignment="Center" Margin="467,368,463,37" VerticalContentAlignment="Center" Visibility="Hidden" Width="50" />
@@ -192,7 +193,6 @@
                 <WPFBuhlerControls:Line_Horizontal Height="10" Margin="224,484,641,170" />
 
             </Grid>
-            <Slider x:Name="uiScaleSlider" ToolTip="Scale the current page" Value="1" Minimum="0.1" Maximum="1.5" ValueChanged="uiScaleSlider_ValueChanged" Orientation="Vertical" Margin="-1,38,0,67" HorizontalAlignment="Left" Width="27" LargeChange="0.5" TickFrequency="0.2" Grid.RowSpan="2" />
         </Grid>
         <WPFBuhlerControls:Label_C Margin="468,418,507,242" />
         <WPFBuhlerControls:Label_C Margin="477,418,498,242" />

@@ -1400,7 +1400,7 @@ namespace KNEKT
                             case "VIS_ZOOML1":
                                 //dValue = Convert.ToDouble(sValue);
                                 //pageINT1.uiScaleSlider.Value = dValue;
-                                DisplayPages.INT1.sMatrixTransformValue = sValue;
+                                //DisplayPages.INT1.sMatrixTransformValue = sValue;
                                 break;
                                 ///
                             case "VIS_ZOOML2":
@@ -10320,7 +10320,7 @@ namespace KNEKT
 
             if (stat_iActiveLineNumber == 1)
             {
-                bSettingSaved = standardCode.SaveZoomValue(SqlConnectionString, "VIS_ZOOML1", "" + DisplayPages.INT1.sMatrixTransformValue);
+                //bSettingSaved = standardCode.SaveZoomValue(SqlConnectionString, "VIS_ZOOML1", "" + DisplayPages.INT1.sMatrixTransformValue);
             }
             else if (stat_iActiveLineNumber == 2)
             {
