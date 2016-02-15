@@ -20,7 +20,6 @@
         <!--PAGES-->
 
         <!--CONTROL BUTTONS-->
-        <WPFBuhlerControls:test Width="50" RenderTransformOrigin="-2.92,0.54" Margin="758,744,464,8"/>
         <Button Height="45" HorizontalAlignment="Right" Margin="0,0,272,4" Name="btnControlStart" VerticalAlignment="Bottom" Width="47" ToolTip="Start Line" Click="btnControlStart_Click" Focusable="False">
             <Button.Content>
                 <Canvas>

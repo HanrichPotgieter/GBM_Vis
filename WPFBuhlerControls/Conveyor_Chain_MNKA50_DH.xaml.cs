@@ -5,6 +5,7 @@ using System.ComponentModel;
 using WPFBuhlerControls.FB_Code;
 using Snap7;
 using System.Threading;
+using System.Collections;
 
 namespace WPFBuhlerControls
 {
@@ -30,15 +31,15 @@ namespace WPFBuhlerControls
             S7Client plc;
             Conveyor_Chain_MNKA50_DH parent;
             private int updateTime = 100;
-            int dbnumber;
-            int dboffset;
+            int dbnumber = 161;
+            int dboffset = 439;
 
             public Worker(S7Client tmp, Conveyor_Chain_MNKA50_DH parent,int dbnumber,int dboffset)
             {
                 plc = tmp;
                 this.parent = parent;
-                this.dbnumber = dbnumber;
-                this.dboffset = dboffset;
+                //this.dbnumber = dbnumber;
+                //this.dboffset = dboffset;
             }
             // This method will be called when the thread is started.
             public void DoWork()
@@ -51,7 +52,25 @@ namespace WPFBuhlerControls
                         {
                             byte[] buffer = new byte[1];
                             plc.DBRead(dbnumber, dboffset, 1, buffer);
-                            Console.Out.Write(buffer.GetValue(1));
+                            parent.MotorColor = buffer[0];
+                            /*
+                            bool StStopped = (buffer[0] & 0x01) != 0;
+                            bool StStarted = (buffer[0] & 0x02) != 0;
+                            bool StStartedFwd = (buffer[0] & 0x04) != 0;
+                            bool StFault = (buffer[0] & 0x08) != 0;
+                            bool StStrtedRev = (buffer[0] & 0x16) != 0;
+                            Console.Out.WriteLine("DB number:" + dbnumber.ToString() + " Offset:" + dboffset.ToString());
+                            Console.Out.WriteLine("=====================");
+                            Console.Out.WriteLine(buffer[0]);
+                            Console.Out.WriteLine(StStopped);
+                            Console.Out.WriteLine(StStarted);
+                            Console.Out.WriteLine(StStartedFwd);
+                            Console.Out.WriteLine(StFault);
+                            Console.Out.WriteLine(StStrtedRev);
+                            Console.Out.WriteLine("=====================");
+                            */
+                            Thread.Sleep(200);
+                           
                         }
                     }
                 }
