@@ -18,12 +18,9 @@ namespace WPFBuhlerControls
         private string DescriptionConveyor;
         private string StatusConveyor;
         private bool FaultConveyor;
-        private bool _MotorOnLeft = false;
         private string _ObjectNo;
         private string _PLCName;
-        private S7Client PLC;
        
-
         // The worker threads runs in the background and updates our control
         #region[Worker Thread]
         public class Worker
@@ -101,8 +98,10 @@ namespace WPFBuhlerControls
         //------------------------------------------------------------------------------//
         //                                 Properties                                   //
         //------------------------------------------------------------------------------//
-
+        [Category("Buhler")]
         public int dbnumber { get; set; }
+
+        [Category("Buhler")]
         public int dboffset { get; set; }
 
         [Category("Buhler")]

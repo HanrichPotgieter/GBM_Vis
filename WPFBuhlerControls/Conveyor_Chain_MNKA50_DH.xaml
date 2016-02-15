@@ -8,12 +8,10 @@
     <Grid>
         <Viewbox Stretch="Uniform">
             <Canvas HorizontalAlignment="Center" VerticalAlignment="Center" Name="canvasMain" Width="150" Height="35">
-
                 <Rectangle Name="RectLeft" Margin="0,15.5" Width="30" Height="20" StrokeThickness="1" Stroke="Black"/>
                 <Polyline Name="PolyConveyor" Stroke="Black" StrokeThickness="1" Points="30,0 95,0 95,15 120,15 120,35 30,35 30,0 95,0"/>
                 <!--<Rectangle Name="RectMain" Margin="29,15" Width="940" Height="20" StrokeThickness="1" Stroke="Black"/>-->
                 <Rectangle Name="RectRight" Margin="120,10.5" Width="30" Height="25" StrokeThickness="1" Stroke="Black"/>
-
                 <Polyline Stroke="Black" StrokeThickness="1" Points="6,15 15,6 24,15 15,24 6,15 15,6" Margin="0,10" />
                 <Polyline Stroke="Black" StrokeThickness="1" Points="6,15 15,6 24,15 15,24 6,15 15,6" Margin="120,10"/>
                 <Polyline Name="PolyDash1" Stroke="Black" StrokeThickness="1" Points="40,15 50,15"/>
