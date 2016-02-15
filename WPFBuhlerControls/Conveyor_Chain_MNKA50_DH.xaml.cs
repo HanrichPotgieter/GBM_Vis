@@ -56,7 +56,9 @@ namespace WPFBuhlerControls
                             bool StStartedFwd = (buffer[0] & 0x04) != 0;
                             bool StFault = (buffer[0] & 0x08) != 0;
                             bool StStrtedRev = (buffer[0] & 0x16) != 0;
-                            Console.Out.WriteLine("DB number:" + dbnumber.ToString() + " Offset:" + dboffset.ToString());
+                            */
+                            //Console.Out.WriteLine("DB number:" + dbnumber.ToString() + " Offset:" + dboffset.ToString());
+                            /*
                             Console.Out.WriteLine("=====================");
                             Console.Out.WriteLine(buffer[0]);
                             Console.Out.WriteLine(StStopped);
