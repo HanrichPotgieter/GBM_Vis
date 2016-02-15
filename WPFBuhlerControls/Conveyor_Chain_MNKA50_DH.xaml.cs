@@ -5,9 +5,6 @@ using System.ComponentModel;
 using WPFBuhlerControls.FB_Code;
 using Snap7;
 using System.Threading;
-using System.Collections;
-using System.Windows.Media.Animation;
-using System.Windows;
 
 namespace WPFBuhlerControls
 {
@@ -49,7 +46,7 @@ namespace WPFBuhlerControls
                         if (plc.Connected())
                         {
                             byte[] buffer = new byte[2];
-                            plc.DBRead(dbnumber, dboffset, 2, buffer);
+                            Plc.DBRead(dbnumber, dboffset, 2, buffer);
                             Array.Reverse(buffer);
                             //Console.Out.WriteLine(BitConverter.ToUInt16(buffer, 0));
                             parent.MotorColor = BitConverter.ToUInt16(buffer, 0);

@@ -10,6 +10,7 @@ public sealed class Plc
 {
     private static S7Client instance = null;
     private static readonly object padlock = new object();
+    private static readonly object padlockDBRead = new object();
 
     Plc()
     {
@@ -43,6 +44,22 @@ public sealed class Plc
     public void connect(String IP,int Rack,int Slot)
     {
         Plc.instance.ConnectTo(IP,Rack,Slot);
+    }
+
+    public static int DBRead(int DB,int Offset,int length,byte[] Buffer)
+    {
+        if(instance != null)
+        {
+            lock (padlockDBRead)
+            {
+                return instance.DBRead(DB, Offset, length, Buffer);
+            }
+        }
+        else
+        {
+            return 0;
+        }
+       
     }
 }
 
