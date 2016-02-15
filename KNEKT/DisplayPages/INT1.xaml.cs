@@ -21,8 +21,8 @@ namespace KNEKT.DisplayPages
     /// </summary>
     public partial class INT1 : Page
     {
-        //public static string sMatrixTransformValue;
-        //MatrixTransform xform;
+        public static string sMatrixTransformValue;
+        MatrixTransform xform;
         Controller PLCW;
 
         public INT1(Controller PLC_W)
@@ -34,16 +34,16 @@ namespace KNEKT.DisplayPages
             //
             // Check screen type for zooming settings
             //
-            //if (MainWindow.stat_bMultitouchS1) //Multitouch is enabled
-            //{
-            //    uiScaleSlider.Visibility = Visibility.Hidden;
-            //}
-            //else
-            //{
-            //uiScaleSlider.Visibility = Visibility.Visible;
-            //ScaleTransform st = new ScaleTransform(uiScaleSlider.Value, uiScaleSlider.Value);
-            //grid1.LayoutTransform = st;
-            //}
+            if (MainWindow.stat_bMultitouchS1) //Multitouch is enabled
+            {
+                uiScaleSlider.Visibility = Visibility.Hidden;
+            }
+            else
+            {
+            uiScaleSlider.Visibility = Visibility.Visible;
+            ScaleTransform st = new ScaleTransform(uiScaleSlider.Value, uiScaleSlider.Value);
+            grid1.LayoutTransform = st;
+            }
         }
 
         //------------------------------------------------------------------------------//
@@ -68,10 +68,10 @@ namespace KNEKT.DisplayPages
         {
             try
             {
-                //string[] values = sMatrixTransformValue.Split(',');
+                string[] values = sMatrixTransformValue.Split(',');
 
-                //xform = new MatrixTransform(double.Parse(values[0]), double.Parse(values[1]), double.Parse(values[2]), double.Parse(values[3]), double.Parse(values[4]), double.Parse(values[5]));
-                //grid1.RenderTransform = xform;
+                xform = new MatrixTransform(double.Parse(values[0]), double.Parse(values[1]), double.Parse(values[2]), double.Parse(values[3]), double.Parse(values[4]), double.Parse(values[5]));
+                grid1.RenderTransform = xform;
             }
             catch
             {
@@ -81,28 +81,28 @@ namespace KNEKT.DisplayPages
 
         protected override void OnManipulationStarting(ManipulationStartingEventArgs args)
         {
-            //args.ManipulationContainer = this;
-            //args.Handled = true;
-            //base.OnManipulationStarting(args);
+            args.ManipulationContainer = this;
+            args.Handled = true;
+            base.OnManipulationStarting(args);
         }
 
         protected override void OnManipulationDelta(ManipulationDeltaEventArgs args)
         {
-            //UIElement element = args.Source as UIElement;
-            //xform = element.RenderTransform as MatrixTransform;
-            //Matrix matrix = xform.Matrix;
-            //ManipulationDelta delta = args.DeltaManipulation;
-            //Point center = args.ManipulationOrigin;
+            UIElement element = args.Source as UIElement;
+            xform = element.RenderTransform as MatrixTransform;
+            Matrix matrix = xform.Matrix;
+            ManipulationDelta delta = args.DeltaManipulation;
+            Point center = args.ManipulationOrigin;
 
-            //matrix.ScaleAt(delta.Scale.X, delta.Scale.Y, center.X, center.Y);
-            //matrix.RotateAt(delta.Rotation, center.X, center.Y);
-            //matrix.Translate(delta.Translation.X, delta.Translation.Y);
-            //xform.Matrix = matrix;
+            matrix.ScaleAt(delta.Scale.X, delta.Scale.Y, center.X, center.Y);
+            matrix.RotateAt(delta.Rotation, center.X, center.Y);
+            matrix.Translate(delta.Translation.X, delta.Translation.Y);
+            xform.Matrix = matrix;
 
-            //sMatrixTransformValue = "" + matrix;
+            sMatrixTransformValue = "" + matrix;
 
-            //args.Handled = true;
-            //base.OnManipulationDelta(args);
+            args.Handled = true;
+            base.OnManipulationDelta(args);
         }
 
         //------------------------------------------------------------------------------//
@@ -290,8 +290,8 @@ namespace KNEKT.DisplayPages
 
         private void uiScaleSlider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
-            //ScaleTransform st = new ScaleTransform(uiScaleSlider.Value, uiScaleSlider.Value);
-            //grid1.LayoutTransform = st;
+            ScaleTransform st = new ScaleTransform(uiScaleSlider.Value, uiScaleSlider.Value);
+            grid1.LayoutTransform = st;
         }
         
         //------------------------------------------------------------------------------//
