@@ -29,24 +29,20 @@ namespace WPFBuhlerControls
         private bool FaultSeparator;
         private string _ObjectNo;
         private string _PLCName;
-
-        public Separator_MTRC()
-        {
-            InitializeComponent();
-        }
+        Worker workerObject;
 
         // The worker threads runs in the background and updates our control
         #region[Worker Thread]
         public class Worker
         {
             S7Client plc;
-            Scale_Dosing1 parent;
+            Separator_MTRC parent;
             private int updateTime = 100;
             public int dbnumber { get; set; }
             public int dboffset { get; set; }
             public int dboffsetSpeedMonitor { get; set; }
 
-            public Worker(S7Client tmp, Scale_Dosing1 parent)
+            public Worker(S7Client tmp, Separator_MTRC parent)
             {
                 plc = tmp;
                 this.parent = parent;
@@ -64,7 +60,7 @@ namespace WPFBuhlerControls
                             Plc.DBRead(dbnumber, dboffset, 2, buffer);
                             Array.Reverse(buffer);
                             //Console.Out.WriteLine(BitConverter.ToUInt16(buffer, 0));
-                            parent.ScaleColor = BitConverter.ToUInt16(buffer, 0);
+                            parent.MotorColor = BitConverter.ToUInt16(buffer, 0);
                             Thread.Sleep(200);
                         }
                     }
@@ -94,6 +90,32 @@ namespace WPFBuhlerControls
         //------------------------------------------------------------------------------//
         //                                  Properties                                  //
         //------------------------------------------------------------------------------//
+
+        [Category("Buhler")]
+        public int dbnumber
+        {
+            get
+            {
+                return dbnumber;
+            }
+            set
+            {
+                workerObject.dbnumber = value;
+            }
+        }
+
+        [Category("Buhler")]
+        public int dboffset
+        {
+            get
+            {
+                return dbnumber;
+            }
+            set
+            {
+                workerObject.dboffset = value;
+            }
+        }
 
         [Category("Buhler")]
         public int MotorColor
