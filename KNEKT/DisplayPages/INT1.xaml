@@ -43,8 +43,6 @@
                                               dboffsetSpeedMonitor="144" 
                                               Height="550" Width="50" Margin="340,-152,591,-134"
                                               Elevator_HasSpeedMonitorBottom="True" Name="_A0005" 
-                                              MouseDown="_A0005_MouseDown" 
-                                              MouseRightButtonDown="_A0005_MouseRightButtonDown"
                                               Elevator_HasSpeedMonitorTop="False"
                                               Elevator_HasBeltAlignTop="False"
                                               Elevator_HasBeltAlignBottom="False"/>
@@ -53,30 +51,28 @@
                                               dboffsetSpeedMonitor="144" 
                                               Height="450" Width="45" Margin="539,48,396,166" 
                                               Elevator_HasSpeedMonitorBottom="True" Name="_A0035" 
-                                              MouseDown="_A0035_MouseDown" 
-                                              MouseRightButtonDown="_A0035_MouseRightButtonDown" 
                                               RenderTransformOrigin="0.59,0.511" 
                                               Elevator_HasSpeedMonitorTop="False"
                                               Elevator_HasBeltAlignTop="False"
                                               Elevator_HasBeltAlignBottom="False"/>
 >>>>>>> origin/master
                 <WPFBuhlerControls:Line_Vertical Height="30" Width="20" Margin="429,137,531,497" />
-                <WPFBuhlerControls:Scale_Dosing1 Height="35" Width="30" Margin="424,235,527,394" Name="_A0015" MouseDown="_A0015_MouseDown" />
+                <WPFBuhlerControls:Scale_Dosing1 Height="35" Width="30" Margin="424,235,527,394" Name="_A0015" />
                 <WPFBuhlerControls:Line_Vertical Height="100" Width="25" Margin="435,270,536,303" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3"  Height="10" Width="10" Margin="434,159,536,495" />
                 <WPFBuhlerControls:Slide_Manual Height="7" Width="20" Margin="429,267,532,390" />
                 <WPFBuhlerControls:Magnet_MMUA_H Height="25" Width="20" Margin="430,294,531,345" />
-                <WPFBuhlerControls:Separator_MTRC Height="40" Width="58" Margin="435,361,488,263" Name="_A0020" MouseDown="_A0020_MouseDown" MouseRightButtonDown="_A0020_MouseRightButtonDown" />
-                <WPFBuhlerControls:Aspirator_MVSI Height="35" Width="25" Margin="488,361,468,268" Name="_A0025" MouseDown="_A0025_MouseDown" MouseRightButtonDown="_A0025_MouseRightButtonDown" MotorColor="1" />
+                <WPFBuhlerControls:Separator_MTRC Height="40" Width="58" Margin="435,361,488,263" Name="_A0020" />
+                <WPFBuhlerControls:Aspirator_MVSI Height="35" Width="25" Margin="488,361,468,268" Name="_A0025" MotorColor="1" />
                 <WPFBuhlerControls:Line_Vertical Height="26" Width="10" Margin="512,337,458,301" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="512,357,458,297" Width="10" />
                 <WPFBuhlerControls:Separator_MANB Height="24" Width="21"  Margin="505,303,455,337" MotorColor="1"/>
-                <WPFBuhlerControls:Airlock_MPSN Height="10" Width="10" Margin="512,327,458,327" Name="_A0030" MouseDown="_A0030_MouseDown" MouseRightButtonDown="_A0030_MouseRightButtonDown"  />
+                <WPFBuhlerControls:Airlock_MPSN Height="10" Width="10" Margin="512,327,458,327" Name="_A0030" />
                 <WPFBuhlerControls:Hopper_1 Height="70" Width="40" Margin="420,152,521,412"/>
                 <WPFBuhlerControls:Label_1 Background="Moccasin" Content="RAW WHEAT BINS" Height="30" HorizontalContentAlignment="Center" Margin="906,339,-36,66" VerticalContentAlignment="Center" Visibility="Hidden" Width="110" />
                 <WPFBuhlerControls:Line_Arrow Height="10" Width="10" Arrow_SetDirection="3" Margin="345,556,625,98" />
                 <WPFBuhlerControls:Bin Height="200" Width="70"  Bin_BinText="101" Margin="685,228,225,236" />
-                <WPFBuhlerControls:Level_High_Bin Height="10" Width="10" Margin="714,247,256,407" Name="_A0040" MouseDown="_0040_MouseDown" />
+                <WPFBuhlerControls:Level_High_Bin Height="10" Width="10" Margin="714,247,256,407" Name="_A0040" />
                 <WPFBuhlerControls:Line_Vertical  Height="15" Width="3" Margin="468,399,509,250" />
                 <WPFBuhlerControls:Line_Arrow Height="3" Width="3" Arrow_SetDirection="3" Margin="480,412,497,249" />
                 <WPFBuhlerControls:Label_1 Background="Transparent" Content="SILO 4" Height="30" HorizontalContentAlignment="Center" Margin="395,369,535,36" VerticalContentAlignment="Center" Visibility="Hidden" Width="50" />
@@ -229,7 +225,7 @@
                         </TransformGroup>
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
-                <WPFBuhlerControls:Level_High_Bin dbnumber="120" dboffset="128" Height="10" Width="12" Margin="433,176,535,478" x:Name="_A0040_Copy" MouseDown="_0040_MouseDown" />
+                <WPFBuhlerControls:Level_High_Bin dbnumber="120" dboffset="128" Height="10" Width="12" Margin="433,176,535,478" x:Name="_A0040_Copy" />
                 <WPFBuhlerControls:Line_Horizontal Height="20" Width="30" Margin="512,404,438,240" />
                 <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="12" HorizontalContentAlignment="Center" Margin="462,414,503,238" x:Name="txtlabelScreening2" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="15" RenderTransformOrigin="0.493,0.5" />
                 <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="12" HorizontalContentAlignment="Center" Margin="474,414,491,238" x:Name="txtlabelScreening2_Copy1" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="15" RenderTransformOrigin="0.493,0.5" />
