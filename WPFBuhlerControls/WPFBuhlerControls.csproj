@@ -324,7 +324,7 @@
     <Compile Include="FB Code\FB12.cs" />
     <Compile Include="FB Code\FB13.cs" />
     <Compile Include="FB Code\FB14.cs" />
-    <Compile Include="Classes\KNEKTColors.cs" />
+    <Compile Include="Classes\plc\KNEKTColors.cs" />
     <Compile Include="FB Code\FB16.cs" />
     <Compile Include="FB Code\FB17.cs" />
     <Compile Include="FB Code\FB18.cs" />
@@ -1801,6 +1801,9 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <AppDesigner Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

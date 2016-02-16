@@ -13,8 +13,9 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WPFBuhlerControls.FB_Code;
 using System.ComponentModel;
-using Snap7;
 using System.Threading;
+using Snap7;
+
 
 namespace WPFBuhlerControls
 {

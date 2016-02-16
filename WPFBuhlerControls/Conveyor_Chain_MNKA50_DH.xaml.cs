@@ -7,6 +7,7 @@ using Snap7;
 using System.Threading;
 using System.Windows.Media.Animation;
 using System.Windows;
+using System.Windows.Input;
 
 namespace WPFBuhlerControls
 {
@@ -77,7 +78,9 @@ namespace WPFBuhlerControls
                 Thread workerThread = new Thread(workerObject.DoWork);
                 workerThread.Start();
             }
-          
+
+            this.MouseLeftButtonUp += new MouseButtonEventHandler(_myCustomUserControl_MouseLeftButtonUp);
+
         }
 
         //------------------------------------------------------------------------------//
@@ -135,19 +138,6 @@ namespace WPFBuhlerControls
             set
             {
                 this._ObjectNo = value;
-            }
-        }
-
-        [Category("Buhler")]
-        public string Description_Conveyor
-        {
-            get
-            {
-                return this.DescriptionConveyor;
-            }
-            set
-            {
-                this.DescriptionConveyor = value;
             }
         }
 
@@ -329,5 +319,46 @@ namespace WPFBuhlerControls
         //        }));
         //    }
         //}
+
+        //------------------------------------------------------------------------------//
+        //                                 Clicked Controls                             //
+        //------------------------------------------------------------------------------//
+        [Category("Buhler")]
+        public string description
+        {
+            get
+            {
+                return description;
+            }
+            set
+            {
+                description = value;
+            }
+        }
+
+        [Category("Buhler")]
+        public string name
+        {
+            get
+            {
+                return name;
+            }
+            set
+            {
+                name = value;
+            }
+        }
+
+        bool _doubleClicked;
+        void _myCustomUserControl_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            if (_doubleClicked)
+            {
+                _doubleClicked = false;
+                return;
+            }
+            
+            e.Handled = true;
+        }
     }
 }
