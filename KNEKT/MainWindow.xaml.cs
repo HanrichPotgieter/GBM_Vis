@@ -32,6 +32,7 @@ using System.Diagnostics;
 using System.Collections.ObjectModel;
 using System.Windows.Media.Animation;
 using Snap7;
+using System.Web.Script.Serialization;
 
 
 namespace KNEKT
@@ -323,10 +324,7 @@ namespace KNEKT
             InitializeComponent();
             dllName = DllDirectory + dllName;
 
-         
             Plc.Instance.ConnectTo(PLCIpAddress, 0,2);
-
-            
 
             threadPLCComms = new Thread(new ThreadStart(CheckPLCComms));
             threadPLCComms.Start();
@@ -452,6 +450,8 @@ namespace KNEKT
 
                             //Create instance of each display page to navigate to using buttons
                             pageINT1 = new DisplayPages.INT1(Plc.Instance);
+                            var json = new JavaScriptSerializer().Serialize(pageINT1);
+                            Console.Out.WriteLine(json);
                             pageFCL1 = new DisplayPages.FCL1(PLC1_W);
                             pageMTR1 = new DisplayPages.MTR1(PLC1_W);
                             pageMIL1 = new DisplayPages.MIL1A(PLC1_W);
