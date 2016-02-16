@@ -151,6 +151,142 @@ namespace WPFBuhlerControls.FB_Code
             }
         }
 
+        public Color SetColorAnimated(int State)
+        {
+            State = State % 256;
+
+            switch (State)
+            {
+                case 1:                     //StStopped
+                    Status = "StStopped";
+                    return KNEKTColors.cGray;
+
+                case 2:                     //StStarting
+                    Status = "StStarting";
+                    return KNEKTColors.cLime;
+
+                case 3:                     //StStartedFwdSlow
+                    Status = "StStartedFwdSlow";
+                    return KNEKTColors.cGreen;
+
+                case 4:                     //StStartedFwdFast
+                    Status = "StStartedFwdFast";
+                    return KNEKTColors.cGreen;
+
+                case 5:                     //StStartedRevSlow
+                    Status = "StStartedRevSlow";
+                    return KNEKTColors.cGreen;
+
+                case 6:                     //StStartedRevFast
+                    Status = "StStartedRevFast";
+                    return KNEKTColors.cGreen;
+
+                case 7:                     //StStopping
+                    Status = "StStopping";
+                    return KNEKTColors.cAqua;
+
+                case 9:                     //StStartRequest
+                    Status = "StStartRequest";
+                    return KNEKTColors.cGray;
+
+                case 11:                     //StStartingDelay
+                    Status = "StStartingDelay";
+                    return KNEKTColors.cGray;
+
+                case 31:                     //StFault.FaultDev
+                    Status = "StFault.FaultDev";
+                    Fault = true;
+                    return KNEKTColors.cRed;
+
+                case 32:                     //StFault
+                    Status = "StFault";
+                    Fault = true;
+                    return KNEKTColors.cRed;
+
+                case 33:                     //StFault.Isolated
+                    Status = "StFault.Isolated";
+                    Fault = true;
+                    return KNEKTColors.cRed;
+
+                case 34:                     //StFault.Overload
+                    Status = "StFault.Overload";
+                    Fault = true;
+                    return KNEKTColors.cRed;
+
+                case 35:                     //StFault.Service
+                    Status = "StFault.Service";
+                    Fault = true;
+                    return KNEKTColors.cRed;
+
+                case 513:                     //StStoppedPassive
+                    Status = "StStoppedPassive";
+                    return KNEKTColors.cGray;
+
+                case 514:                     //St-----
+                    Status = "St-----";
+                    return KNEKTColors.cYellow;
+
+                case 515:                     //St-----
+                    Status = "St-----";
+                    return KNEKTColors.cGray;
+
+                case 516:                     //StStoppingManual
+                    Status = "StStStoppingManual";
+                    return KNEKTColors.cAqua;
+
+                case 258:                     //StStartingManual
+                    Status = "StStartingManual";
+                    return KNEKTColors.cLime;
+
+                case 259:                     //StStartedManual
+                    Status = "StStartedManual";
+                    return KNEKTColors.cGreen;
+
+                case 265:                     //StStopepdManual
+                    Status = "StStopepdManual";
+                    return KNEKTColors.cGray;
+
+                case 267:                     //StStartWarningManual
+                    Status = "StStartWarningManual";
+                    return KNEKTColors.cGray;
+
+                case 288:                     //StFaultManual
+                    Status = "StFaultManual";
+                    Fault = true;
+                    return KNEKTColors.cRed;
+
+                case 1537:                     //StStoppedManualForce
+                    Status = "StStoppedManualForce";
+                    return KNEKTColors.cGray;
+
+                case 2049:                     //StStoppedHardware
+                    Status = "StStStoppedHardware";
+                    return KNEKTColors.cRed;
+
+                case 8223:                     //StFaultDevice
+                    Status = "StFaultDevice";
+                    return KNEKTColors.cFaultDevice;
+
+                case 16387:                     //StStartedWarning
+                    Status = "StStartedWarning";
+                    return KNEKTColors.cGreen;
+
+                case 24:
+                    Status = "StDosing.NIVEAULOW";
+                    return KNEKTColors.cGreen;
+
+                case 14:
+                    Status = "StStopped.NIVEAULOW";
+                    return KNEKTColors.cGray;
+
+
+                default:                    //State Not Included
+                    Status = "State Not Included";
+                    return KNEKTColors.cBlack;
+
+            }
+        }
+
         public string Status_Motor
         {
             get

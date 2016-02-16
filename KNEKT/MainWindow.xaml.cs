@@ -324,6 +324,9 @@ namespace KNEKT
             dllName = DllDirectory + dllName;
 
             Plc.Instance.ConnectTo(PLCIpAddress, 0,2);
+            threadPLCComms = new Thread(new ThreadStart(CheckPLCComms));
+            threadPLCComms.Start();
+            bThreadsToRun = true;
 
             DisplayPages.DisplayWindows.SplashScreenWindow.CurrentLoadingStatus("Initializing Objects...", 10);
             //Thread.Sleep(500);
@@ -331,7 +334,7 @@ namespace KNEKT
             standardCode = new StandardCode();
 
             DisplayPages.DisplayWindows.SplashScreenWindow.CurrentLoadingStatus("Checking Directories...", 20);
-            Thread.Sleep(500);
+            //Thread.Sleep(500);
 
             bool bExists = standardCode.CreateDirectoryStructure();
 
@@ -783,7 +786,7 @@ namespace KNEKT
 
                             if (!Plc.Instance.Connected())
                             {
-                                Plc.Connect();
+                                Plc.Instance.ConnectTo(PLCIpAddress, 0, 2);
                             }
                         }
                         else                                                                    //Active interface on local machine, no ping reply from plc
@@ -791,6 +794,8 @@ namespace KNEKT
                             brColor = Brushes.Red;
                             sPLCCommText = "BAD PLC";
                             MainWindow.bPLCCommsGood = false;
+                            Plc.Instance.Disconnect();
+                            Plc.Instance.ConnectTo(PLCIpAddress,0,2);
                         }
                     }
                     else                                                                        //No active interface on local machine
@@ -1377,9 +1382,9 @@ namespace KNEKT
                         switch (sID)
                         {
                             case "VIS_ZOOML1":
-                                //dValue = Convert.ToDouble(sValue);
-                                //pageINT1.uiScaleSlider.Value = dValue;
-                                //DisplayPages.INT1.sMatrixTransformValue = sValue;
+                                double dValue = Convert.ToDouble(sValue);
+                                pageINT1.uiScaleSlider.Value = dValue;
+                                DisplayPages.INT1.sMatrixTransformValue = sValue;
                                 break;
                                 ///
                             case "VIS_ZOOML2":

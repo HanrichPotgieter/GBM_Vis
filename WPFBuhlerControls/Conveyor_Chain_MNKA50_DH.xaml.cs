@@ -5,6 +5,8 @@ using System.ComponentModel;
 using WPFBuhlerControls.FB_Code;
 using Snap7;
 using System.Threading;
+using System.Windows.Media.Animation;
+using System.Windows;
 
 namespace WPFBuhlerControls
 {
@@ -81,6 +83,8 @@ namespace WPFBuhlerControls
         //------------------------------------------------------------------------------//
         //                                 Properties                                   //
         //------------------------------------------------------------------------------//
+
+
         [Category("Buhler")]
         public int dbnumber {
             get {
@@ -115,7 +119,7 @@ namespace WPFBuhlerControls
             {
                 _MotorColor = value;
                 FB12 Motor = new FB12();
-                _SetColor(Motor.SetColor(value));
+                _SetColor(Motor.SetColorAnimated(value),Motor);
                 StatusConveyor = Motor.Status_Motor;
                 FaultConveyor = Motor.Fault_Motor;
             }
@@ -196,22 +200,92 @@ namespace WPFBuhlerControls
         //------------------------------------------------------------------------------//
         //                                 Methods                                      //
         //------------------------------------------------------------------------------//
-        private void _SetColor(Brush brushColor)
+
+
+        private void _SetColor(Color brushColor,FB12 Motor)
         {
+            
+            
 
             PolyConveyor.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
             {
-                PolyConveyor.Fill = brushColor;
+                ColorAnimation animation;
+                animation = new ColorAnimation();
+                SolidColorBrush oldBrush;
+                try
+                {
+                    oldBrush = PolyConveyor.Fill as SolidColorBrush;
+                    animation.From = oldBrush.Color;
+                }
+                catch
+                {
+                    animation.From = Colors.White;
+                }
+                animation.To = brushColor;
+                animation.Duration = new Duration(TimeSpan.FromSeconds(1));
+                if (PolyConveyor.Fill != null)
+                {
+                    PolyConveyor.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
+                else
+                {
+                    PolyConveyor.Fill = new SolidColorBrush(Colors.White);
+                    PolyConveyor.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
             }));
 
             RectLeft.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
             {
-                RectLeft.Fill = brushColor;
+                ColorAnimation animation;
+                animation = new ColorAnimation();
+                SolidColorBrush oldBrush;
+                try
+                {
+                    oldBrush = PolyConveyor.Fill as SolidColorBrush;
+                    animation.From = oldBrush.Color;
+                }
+                catch
+                {
+                    animation.From = Colors.White;
+                }
+                animation.To = brushColor;
+                animation.Duration = new Duration(TimeSpan.FromSeconds(1));
+                if (RectLeft.Fill != null)
+                {
+                    RectLeft.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
+                else
+                {
+                    RectLeft.Fill = new SolidColorBrush(Colors.White);
+                    RectLeft.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
             }));
 
             RectRight.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
             {
-                RectRight.Fill = brushColor;
+                ColorAnimation animation;
+                animation = new ColorAnimation();
+                SolidColorBrush oldBrush;
+                try
+                {
+                    oldBrush = PolyConveyor.Fill as SolidColorBrush;
+                    animation.From = oldBrush.Color;
+                }
+                catch
+                {
+                    animation.From = Colors.White;
+                }
+                animation.To = brushColor;
+                animation.Duration = new Duration(TimeSpan.FromSeconds(1));
+                if (RectRight.Fill != null)
+                {
+                    RectRight.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
+                else
+                {
+                    RectRight.Fill = new SolidColorBrush(Colors.White);
+                    RectRight.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
             }));
         }
 
