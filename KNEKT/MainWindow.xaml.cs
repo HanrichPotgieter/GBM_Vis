@@ -209,16 +209,11 @@ namespace KNEKT
         DisplayPages.MIL1A pageMIL1;
         DisplayPages.MIL1B pageMIL2;
 
-        
-     
-
-
 
         //public static string sActiveControl;                                                    //
         public static string stat_sActiveObjectNo;                                              // Used for manual start / stop commands
         public static bool isValve; 
       
-
         DisplayPages.Settings pageSettings;
         DisplayPages.ReportViewer pageReportViewer;
         DisplayPages.ProfibusNetwork pageProfibusNetwork;                                                                               //
@@ -452,7 +447,7 @@ namespace KNEKT
                             //ProductsViewModelDataContext = new KNEKT.Classes.Products.ProductsViewModel();
 
                             //Create instance of each display page to navigate to using buttons
-                            pageINT1 = new DisplayPages.INT1(PLC1_W);
+                            pageINT1 = new DisplayPages.INT1(Plc.Instance);
                             pageFCL1 = new DisplayPages.FCL1(PLC1_W);
                             pageMTR1 = new DisplayPages.MTR1(PLC1_W);
                             pageMIL1 = new DisplayPages.MIL1A(PLC1_W);

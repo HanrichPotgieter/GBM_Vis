@@ -12,6 +12,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using S7Link;
+using Snap7;
 
 
 namespace KNEKT.DisplayPages
@@ -23,14 +24,14 @@ namespace KNEKT.DisplayPages
     {
         public static string sMatrixTransformValue;
         MatrixTransform xform;
-        Controller PLCW;
+        S7Client plc;
 
-        public INT1(Controller PLC_W)
+        public INT1(S7Client plc)
         {
             InitializeComponent();
 
             SetShowTagnamesVisibility();
-            PLCW = PLC_W;
+            this.plc = plc;
             //
             // Check screen type for zooming settings
             //
@@ -115,6 +116,7 @@ namespace KNEKT.DisplayPages
             {
                 try
                 {
+                    /*
                     if (!PLCW.IsConnected)
                         PLCW.Connect();
 
@@ -159,11 +161,13 @@ namespace KNEKT.DisplayPages
                         PLCW.GroupWrite(tg1);
                         PLCW.Disconnect();
                         MainWindow.stat_sActiveObjectNo = "";
+                        
                     }
                     else
                     {
                         MessageBox.Show("Not Connected");
                     }
+                    */
                 }
                 catch (Exception ex)
                 {
@@ -182,6 +186,7 @@ namespace KNEKT.DisplayPages
             {
                 try
                 {
+                    /*
                     if (!PLCW.IsConnected)
                         PLCW.Connect();
 
@@ -250,6 +255,7 @@ namespace KNEKT.DisplayPages
                     {
                         MessageBox.Show("Not Connected");
                     }
+                    */
                 }
                 catch (Exception ex)
                 {
@@ -297,144 +303,8 @@ namespace KNEKT.DisplayPages
         //------------------------------------------------------------------------------//
         //                               Mouse / Touch Events                           //
         //------------------------------------------------------------------------------// 
-       
-        private void _A0005_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.sElementState = _A0005.Status_Motor;
-            MainWindow.sElementDescription = _A0005.Description_Motor;
-            MainWindow.sActiveControlName = "_A0005";
-        }
-
-        private void _A0005_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.isValve = false;
-            MainWindow.stat_sActiveObjectNo = _A0005.ObjectNumber;
-        }
-
-        private void _A0015_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.sElementState = _A0015.Status_Scale;
-            MainWindow.sElementDescription = _A0015.Description_Scale;
-            MainWindow.sActiveControlName = "_A0015";
-        }
-
-        private void _A0020_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.sElementState = _A0020.Status_Separator;
-            MainWindow.sElementDescription = _A0020.Description_Separator;
-            MainWindow.sActiveControlName = "_A0020";
-        }
-
-        private void _A0020_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.isValve = false;
-            MainWindow.stat_sActiveObjectNo = _A0020.ObjectNumber;
-        }
-
-        private void _A0025_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.sElementState = _A0025.Status_Motor;
-            MainWindow.sElementDescription = _A0025.Status_Motor;
-            MainWindow.sActiveControlName = "_A0025";
-        }
-
-        private void _A0025_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.isValve = false;
-            MainWindow.stat_sActiveObjectNo = _A0025.ObjectNumber;
-        }
-
-        private void _A0030_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.sElementState = _A0030.Status_Motor;
-            MainWindow.sElementDescription = _A0030.Status_Motor;
-            MainWindow.sActiveControlName = "_A0030";
-        }
-
-        private void _A0030_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.isValve = false;
-            MainWindow.stat_sActiveObjectNo = _A0030.ObjectNumber;
-        }
-
-        private void _A0035_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.sElementState = _A0035.Status_Motor;
-            MainWindow.sElementDescription = _A0035.Status_Motor;
-            MainWindow.sActiveControlName = "_A0035";
-        }
-
-        private void _A0035_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.isValve = false;
-            MainWindow.stat_sActiveObjectNo = _A0035.ObjectNumber;
-        }
-
-        private void _0040_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.sElementState = _A0040.Status_HighLevel;
-            MainWindow.sElementDescription = _A0040.Description_HighLevel;
-            MainWindow.sActiveControlName = "_A0040";
-        }
-
-        private void _A0620_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void _A0620_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.isValve = false;
-
-        }
-
-        private void _A0620F_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void _A0635_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void _A0650_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void _A0665_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void _A0665_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-       
-        }
-
-        private void _A0185_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void _A0185_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.isValve = false;
-
-        }
-
-        private void _A0190_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void _A0190_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.isValve = false;
-        }
-     
-
+      
+    
     }
 
 }
