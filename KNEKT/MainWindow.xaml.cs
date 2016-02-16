@@ -324,6 +324,7 @@ namespace KNEKT
             dllName = DllDirectory + dllName;
 
             Plc.Instance.ConnectTo(PLCIpAddress, 0,2);
+
             threadPLCComms = new Thread(new ThreadStart(CheckPLCComms));
             threadPLCComms.Start();
             bThreadsToRun = true;
