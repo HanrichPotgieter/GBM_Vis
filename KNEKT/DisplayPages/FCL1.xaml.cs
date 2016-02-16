@@ -346,9 +346,9 @@ namespace KNEKT.DisplayPages
 
         private void _A0090_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            MainWindow.sElementState = _A0090.Status_MYFC;
-            MainWindow.sElementDescription = _A0090.Status_MYFC;
-            MainWindow.sActiveControlName = "_A0090";
+            //MainWindow.sElementState = _A0090.Status_MYFC;
+            //MainWindow.sElementDescription = _A0090.Status_MYFC;
+            //MainWindow.sActiveControlName = "_A0090";
         }
 
         private void _A0095_MouseDown(object sender, MouseButtonEventArgs e)
@@ -416,37 +416,37 @@ namespace KNEKT.DisplayPages
 
         private void _A0620_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            MainWindow.sElementState = _A0620.Status_Conveyor;
-            MainWindow.sElementDescription = _A0620.Status_Conveyor;
-            MainWindow.sActiveControlName = "_A0620";
+            //MainWindow.sElementState = _A0620.Status_Conveyor;
+            //MainWindow.sElementDescription = _A0620.Status_Conveyor;
+            //MainWindow.sActiveControlName = "_A0620";
         }
 
         private void _A0620F_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            MainWindow.sElementState = _A0620F.Status_Overflow;
-            MainWindow.sElementDescription = _A0620F.Status_Overflow;
-            MainWindow.sActiveControlName = "_A0620F";
+            //MainWindow.sElementState = _A0620F.Status_Overflow;
+            //MainWindow.sElementDescription = _A0620F.Status_Overflow;
+            //MainWindow.sActiveControlName = "_A0620F";
         }
 
         private void _A0635_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            MainWindow.sElementState = _A0635.Status_HighLevel;
-            MainWindow.sElementDescription = _A0635.Status_HighLevel;
-            MainWindow.sActiveControlName = "_A0635";
+            //MainWindow.sElementState = _A0635.Status_HighLevel;
+            //MainWindow.sElementDescription = _A0635.Status_HighLevel;
+            //MainWindow.sActiveControlName = "_A0635";
         }
 
         private void _A0650_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            MainWindow.sElementState = _A0650.Status_Scale;
-            MainWindow.sElementDescription = _A0650.Status_Scale;
-            MainWindow.sActiveControlName = "_A0650";
+            //MainWindow.sElementState = _A0650.Status_Scale;
+            //MainWindow.sElementDescription = _A0650.Status_Scale;
+            //MainWindow.sActiveControlName = "_A0650";
         }
 
         private void _A0665_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            MainWindow.sElementState = _A0665.Status_Conveyor;
-            MainWindow.sElementDescription = _A0665.Status_Conveyor;
-            MainWindow.sActiveControlName = "_A0665";
+            //MainWindow.sElementState = _A0665.Status_Conveyor;
+            //MainWindow.sElementDescription = _A0665.Status_Conveyor;
+            //MainWindow.sActiveControlName = "_A0665";
         }
     }
 }
