@@ -50,7 +50,7 @@
                                               Elevator_HasBeltAlignTop="False"
                                               Elevator_HasBeltAlignBottom="False"/>
                 <WPFBuhlerControls:Line_Vertical Height="30" Width="20" Margin="429,137,531,497" />
-                <WPFBuhlerControls:Scale_Dosing1 Height="35" Width="30" Margin="424,235,527,394" Name="_A0015" />
+                <WPFBuhlerControls:Scale_Dosing1 dbnumber="164" dboffset="70" Height="35" Width="30" Margin="424,235,527,394" Name="_A0015" />
                 <WPFBuhlerControls:Line_Vertical Height="100" Width="25" Margin="435,270,536,303" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3"  Height="10" Width="10" Margin="434,159,536,495" />
                 <WPFBuhlerControls:Slide_Manual Height="7" Width="20" Margin="429,267,532,390" />
