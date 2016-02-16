@@ -316,14 +316,17 @@ namespace KNEKT
         //------------------------------------------------------------------------------//
         //                                  Constructor                                 //
         //------------------------------------------------------------------------------//        
-
+ 
 
         public MainWindow()
         {
             InitializeComponent();
             dllName = DllDirectory + dllName;
 
+         
             Plc.Instance.ConnectTo(PLCIpAddress, 0,2);
+
+            
 
             threadPLCComms = new Thread(new ThreadStart(CheckPLCComms));
             threadPLCComms.Start();

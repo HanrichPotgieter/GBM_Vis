@@ -16,7 +16,6 @@ using System.ComponentModel;
 using System.Threading;
 using Snap7;
 
-
 namespace WPFBuhlerControls
 {
     /// <summary>

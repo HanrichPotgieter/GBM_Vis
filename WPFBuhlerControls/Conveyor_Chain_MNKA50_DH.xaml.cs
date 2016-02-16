@@ -17,7 +17,6 @@ namespace WPFBuhlerControls
     public partial class Conveyor_Chain_MNKA50_DH : UserControl
     {
         private int _MotorColor;
-        private string DescriptionConveyor;
         private string StatusConveyor;
         private bool FaultConveyor;
         private string _ObjectNo;
@@ -357,7 +356,6 @@ namespace WPFBuhlerControls
                 _doubleClicked = false;
                 return;
             }
-            
             e.Handled = true;
         }
     }
