@@ -30,10 +30,36 @@
             <Grid x:Name="grid1" Margin="-6,0,7,0">
                 <WPFBuhlerControls:Line_Vertical Height="25" Width="20" Margin="285,450,675,190" />
                 <TextBlock Text="Bag Intake"  Height="25" Width="65" Margin="245,374,680,273" RenderTransformOrigin="0.29,1.926"/>
+<<<<<<< HEAD
                 <WPFBuhlerControls:SlideGate Height="20" Width="20" Margin="285,435,675,209"/>
                 <WPFBuhlerControls:Hopper_BagIntake Height="32" Width="26"  Margin="270,408,681,225" />
                 <WPFBuhlerControls:Elevator_L Height="550" Width="50" Margin="340,-152,591,-134" Elevator_HasSpeedMonitorBottom="True" Name="_A0005" MouseDown="_A0005_MouseDown" MouseRightButtonDown="_A0005_MouseRightButtonDown"/>
                 <WPFBuhlerControls:Elevator_L Height="450" Width="45" Margin="539,48,396,166" Elevator_HasSpeedMonitorBottom="True" Name="_A0035" MouseDown="_A0035_MouseDown" MouseRightButtonDown="_A0035_MouseRightButtonDown" RenderTransformOrigin="0.59,0.511" />
+=======
+                <WPFBuhlerControls:SlideGate dbnumber="151" dboffset="70" Height="20" Width="20" Margin="285,434,675,210"/>
+                <WPFBuhlerControls:Hopper_BagIntake Height="31" Width="30"  Margin="270,408,681,225" />
+                <WPFBuhlerControls:Elevator_L dbnumber="150" 
+                                              dboffset="434" 
+                                              dboffsetSpeedMonitor="144" 
+                                              Height="550" Width="50" Margin="340,-152,591,-134"
+                                              Elevator_HasSpeedMonitorBottom="True" Name="_A0005" 
+                                              MouseDown="_A0005_MouseDown" 
+                                              MouseRightButtonDown="_A0005_MouseRightButtonDown"
+                                              Elevator_HasSpeedMonitorTop="False"
+                                              Elevator_HasBeltAlignTop="False"
+                                              Elevator_HasBeltAlignBottom="False"/>
+                <WPFBuhlerControls:Elevator_L dbnumber="150" 
+                                              dboffset="434" 
+                                              dboffsetSpeedMonitor="144" 
+                                              Height="450" Width="45" Margin="539,48,396,166" 
+                                              Elevator_HasSpeedMonitorBottom="True" Name="_A0035" 
+                                              MouseDown="_A0035_MouseDown" 
+                                              MouseRightButtonDown="_A0035_MouseRightButtonDown" 
+                                              RenderTransformOrigin="0.59,0.511" 
+                                              Elevator_HasSpeedMonitorTop="False"
+                                              Elevator_HasBeltAlignTop="False"
+                                              Elevator_HasBeltAlignBottom="False"/>
+>>>>>>> origin/master
                 <WPFBuhlerControls:Line_Vertical Height="30" Width="20" Margin="429,137,531,497" />
                 <WPFBuhlerControls:Scale_Dosing1 Height="35" Width="30" Margin="424,235,527,394" Name="_A0015" MouseDown="_A0015_MouseDown" />
                 <WPFBuhlerControls:Line_Vertical Height="100" Width="25" Margin="435,270,536,303" />
@@ -57,14 +83,20 @@
                 <WPFBuhlerControls:Label_1 Background="Transparent" Content="SILO 3" Height="30" HorizontalContentAlignment="Center" Margin="467,368,463,37" VerticalContentAlignment="Center" Visibility="Hidden" Width="50" />
                 <WPFBuhlerControls:Label_1 Background="Transparent" Content="SILO 2" Height="30" HorizontalContentAlignment="Center" Margin="589,368,341,37" VerticalContentAlignment="Center" Visibility="Hidden" Width="50" />
                 <WPFBuhlerControls:Label_1 Background="Transparent" Content="SILO 1" Height="30" HorizontalContentAlignment="Center" Margin="661,368,269,37" VerticalContentAlignment="Center" Visibility="Hidden" Width="50" />
-                <WPFBuhlerControls:Conveyor_Chain_MNKA50_DH dbnumber="161" dboffset="439" Height="25" Width="100" Margin="123,426,757,213"/>
+                <WPFBuhlerControls:Conveyor_Chain_MNKA50_DH dbnumber="161" dboffset="434" Height="25" Width="100" Margin="123,426,757,213"/>
                 <WPFBuhlerControls:Conveyor_Chain_AHKA_S Height="25" Width="100" Margin="626,142,252,472"/>
                 <WPFBuhlerControls:Line_Vertical Height="40" Width="10" Margin="543,427,427,197"/>
                 <WPFBuhlerControls:Line_Horizontal Height="10" Width="10" Margin="516,409,443,245" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="543,462,427,192" Width="10" />
+<<<<<<< HEAD
                 <WPFBuhlerControls:Line_Vertical Height="15" Width="3" Margin="480,399,497,250" />
                 <WPFBuhlerControls:Line_Arrow Height="3" Width="3" Arrow_SetDirection="3" Margin="468,406,509,243" />
                 <WPFBuhlerControls:Line_Horizontal Height="21" Width="35" Margin="395,119,550,524" />
+=======
+                <WPFBuhlerControls:Line_Vertical Height="15" Width="3" Margin="477,399,500,250" />
+                <WPFBuhlerControls:Line_Arrow Height="15" Width="3" Arrow_SetDirection="3" Margin="468,406,509,243" />
+                <WPFBuhlerControls:Line_Horizontal Height="21" Width="35" Margin="395,118,550,525" />
+>>>>>>> origin/master
                 <WPFBuhlerControls:Line_Vertical Height="55" Width="10" Margin="714,173,256,436" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="714,219,256,435" Width="10" />
                 <WPFBuhlerControls:Line_Vertical Height="45" Width="10" Margin="375,78,596,541" />
@@ -128,7 +160,11 @@
                         </TransformGroup>
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
+<<<<<<< HEAD
                 <WPFBuhlerControls:Line_Bend Height="25" Width="22" Margin="376,110,582,529" RenderTransformOrigin="0.5,0.5">
+=======
+                <WPFBuhlerControls:Line_Bend Height="25" Width="24" Margin="375,109,582,530" RenderTransformOrigin="0.5,0.5">
+>>>>>>> origin/master
                     <WPFBuhlerControls:Line_Bend.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -138,7 +174,11 @@
                         </TransformGroup>
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
+<<<<<<< HEAD
                 <WPFBuhlerControls:Line_Bend Height="25" Width="22" Margin="421,124,537,515" RenderTransformOrigin="0.5,0.5">
+=======
+                <WPFBuhlerControls:Line_Bend Height="25" Width="24" Margin="420,123,537,516" RenderTransformOrigin="0.5,0.5">
+>>>>>>> origin/master
                     <WPFBuhlerControls:Line_Bend.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -189,12 +229,13 @@
                         </TransformGroup>
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
-                <WPFBuhlerControls:Level_High_Bin Height="10" Width="12" Margin="433,176,535,478" x:Name="_A0040_Copy" MouseDown="_0040_MouseDown" />
+                <WPFBuhlerControls:Level_High_Bin dbnumber="120" dboffset="128" Height="10" Width="12" Margin="433,176,535,478" x:Name="_A0040_Copy" MouseDown="_0040_MouseDown" />
                 <WPFBuhlerControls:Line_Horizontal Height="20" Width="30" Margin="512,404,438,240" />
                 <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="12" HorizontalContentAlignment="Center" Margin="462,414,503,238" x:Name="txtlabelScreening2" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="15" RenderTransformOrigin="0.493,0.5" />
                 <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="12" HorizontalContentAlignment="Center" Margin="474,414,491,238" x:Name="txtlabelScreening2_Copy1" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="15" RenderTransformOrigin="0.493,0.5" />
 
             </Grid>
+            <Slider x:Name="uiScaleSlider" ToolTip="Scale the current page" Value="1" Minimum="0.1" Maximum="1.5"  Orientation="Vertical" Margin="-1,38,0,67" HorizontalAlignment="Left" Width="27" LargeChange="0.5" TickFrequency="0.2" Grid.RowSpan="2" ValueChanged="uiScaleSlider_ValueChanged"/>
         </Grid>
         <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="15" HorizontalContentAlignment="Center" Margin="499,365,456,284" x:Name="txtlabelScreening2_Copy" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="26" RenderTransformOrigin="1.213,3.214" />
     </Grid>
