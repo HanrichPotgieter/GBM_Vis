@@ -323,10 +323,10 @@ namespace KNEKT
             InitializeComponent();
             dllName = DllDirectory + dllName;
 
-            Plc.Instance.ConnectTo("10.0.0.210",0,2);
+            Plc.Instance.ConnectTo(PLCIpAddress, 0,2);
 
             DisplayPages.DisplayWindows.SplashScreenWindow.CurrentLoadingStatus("Initializing Objects...", 10);
-            Thread.Sleep(500);
+            //Thread.Sleep(500);
 
             standardCode = new StandardCode();
 
@@ -339,27 +339,24 @@ namespace KNEKT
             {
                 
                 DisplayPages.DisplayWindows.SplashScreenWindow.CurrentLoadingStatus("Loading Credentials...", 30);
-                Thread.Sleep(500);
+                //Thread.Sleep(500);
                 standardCode.GetDatabaseCredentials();
 
                 SqlConnectionString = "Data Source=" + sqlServername + ";Initial Catalog=" + sqlDatabase + ";User Id=" + sqlUsername + ";Password=" + sqlPassword + "; Connection Timeout=10;";
 
                 DisplayPages.DisplayWindows.SplashScreenWindow.CurrentLoadingStatus("Testing Connection...", 40);
-                Thread.Sleep(500);
+                //Thread.Sleep(500);
                 bool validConnection = standardCode.TestSQLDatabaseConnection(SqlConnectionString);
 
                 if (validConnection)
                 {
                     DisplayPages.DisplayWindows.SplashScreenWindow.CurrentLoadingStatus("Validating Settings...", 50);
-                    Thread.Sleep(500);
+                    //Thread.Sleep(500);
                     bool bSettingsLoaded = standardCode.LoadApplicationSettings(SqlConnectionString);
                     //standardCode.GetSettingsFromXMLFile();
 
-
-
-
                     DisplayPages.DisplayWindows.SplashScreenWindow.CurrentLoadingStatus("Connecting To PLC...", 60);
-                    Thread.Sleep(500);
+                    //Thread.Sleep(500);
 
                     bool validFormat = standardCode.ValidatePLCConfiguration(PLCIpAddress, PLCRackNo, PLCSlotNum);  //Validates the loaded settings
                     if (validFormat)
@@ -380,7 +377,7 @@ namespace KNEKT
                         }
 
                         DisplayPages.DisplayWindows.SplashScreenWindow.CurrentLoadingStatus("PLC Objects Created...", 80);
-                        Thread.Sleep(500);
+                        //Thread.Sleep(500);
                         if (bContinue)
                         {
                             timerWriteLog.Tick += new EventHandler(timerWriteLog_Tick);
@@ -452,15 +449,7 @@ namespace KNEKT
                             pageMTR1 = new DisplayPages.MTR1(PLC1_W);
                             pageMIL1 = new DisplayPages.MIL1A(PLC1_W);
                             pageMIL2 = new DisplayPages.MIL1B(PLC1_W);
-                            //
 
-                           
-                            
-                            
-                           
-                           
-
-                           
                             //binProductManagement = new DisplayPages.DisplayWindows.BinProductManagement() { DataContext = ProductsViewModelDataContext };
 
                             pageSettings = new DisplayPages.Settings();
@@ -510,10 +499,6 @@ namespace KNEKT
                             alLineTypes.Add(2); //MIL1                            
                             alLineTypes.Add(2); //MIL2
                             //alLineTypes.Add(2); //MIL1B
-                            
-                            
-                            
-                            
 
                             DisplayPages.DisplayWindows.SplashScreenWindow.CurrentLoadingStatus("Application Starting...", 100);
                             Thread.Sleep(500);
@@ -558,7 +543,6 @@ namespace KNEKT
             }
 
         }
-
 
         //------------------------------------------------------------------------------//
         //                                  Properties                                  //
@@ -797,9 +781,9 @@ namespace KNEKT
                             sPLCCommText = "GOOD";
                             MainWindow.bPLCCommsGood = true;
 
-                            if (!PLC1_R.IsConnected)
+                            if (!Plc.Instance.Connected())
                             {
-                                PLC1_R.Connect();
+                                Plc.Connect();
                             }
                         }
                         else                                                                    //Active interface on local machine, no ping reply from plc
