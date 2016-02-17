@@ -49,7 +49,7 @@
                                               Elevator_HasSpeedMonitorTop="False"
                                               Elevator_HasBeltAlignTop="False"
                                               Elevator_HasBeltAlignBottom="False"/>
-                <WPFBuhlerControls:Line_Vertical Height="30" Width="20" Margin="429,137,531,497" />
+                <WPFBuhlerControls:Line_Vertical Height="25" Width="10" Margin="429,137,531,497" />
                 <WPFBuhlerControls:Scale_Dosing1 dbnumber="164" dboffset="70" Height="35" Width="30" Margin="424,235,527,394" Name="_A0015" />
                 <WPFBuhlerControls:Line_Vertical Height="100" Width="25" Margin="435,270,536,303" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3"  Height="10" Width="10" Margin="434,159,536,495" />
@@ -79,10 +79,10 @@
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="543,462,427,192" Width="10" />
                 <WPFBuhlerControls:Line_Vertical Height="15" Width="3" Margin="480,399,497,250" />
                 <WPFBuhlerControls:Line_Arrow Height="3" Width="3" Arrow_SetDirection="3" Margin="468,406,509,243" />
-                <WPFBuhlerControls:Line_Horizontal Height="21" Width="35" Margin="395,119,550,524" />
+                <WPFBuhlerControls:Line_Horizontal Height="10" Width="25" Margin="395,119,550,524" />
                 <WPFBuhlerControls:Line_Vertical Height="55" Width="10" Margin="714,173,256,436" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="714,219,256,435" Width="10" />
-                <WPFBuhlerControls:Line_Vertical Height="45" Width="10" Margin="375,78,596,541" />
+                <WPFBuhlerControls:Line_Vertical Height="35" Width="10" Margin="379,79,591,550" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Margin="630,152,341,504" Width="10" />
                 <WPFBuhlerControls:Hopper_ChainConveyor Height="49" Width="36" Margin="148,392,796,222"/>
                 <WPFBuhlerControls:Line_Vertical Height="24" Width="20" Margin="200,450,755,189"/>
@@ -110,9 +110,9 @@
                 </WPFBuhlerControls:Line_Bend>
                 <WPFBuhlerControls:Line_Arrow Height="10" Width="10" Arrow_SetDirection="3" Margin="277,401,693,253" />
                 <WPFBuhlerControls:Line_Vertical Height="45" Width="7" Line_DashStyle="1" Margin="486,317,453,304"/>
-                <WPFBuhlerControls:Line_Vertical Height="35" Width="10" Margin="571,73,399,556"/>
-                <WPFBuhlerControls:Line_Horizontal Height="11" Width="30" Margin="590,119,355,534" />
-                <WPFBuhlerControls:Line_Vertical Height="30" Width="10" Margin="630,140,341,507" />
+                <WPFBuhlerControls:Line_Vertical Height="35" Width="10" Margin="572,73,399,556"/>
+                <WPFBuhlerControls:Line_Horizontal Height="10"  Width="30" Margin="592,119,357,535" />
+                <WPFBuhlerControls:Line_Vertical Height="20" Width="10" Margin="630,139,340,506" />
                 <WPFBuhlerControls:Line_Bend Height="28" Width="30" Margin="499,393,458,243" RenderTransformOrigin="0.5,0.5">
                     <WPFBuhlerControls:Line_Bend.RenderTransform>
                         <TransformGroup>
@@ -143,7 +143,7 @@
                         </TransformGroup>
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
-                <WPFBuhlerControls:Line_Bend Height="25" Width="22" Margin="376,110,582,529" RenderTransformOrigin="0.5,0.5">
+                <WPFBuhlerControls:Line_Bend Height="25" Width="25" Margin="378,110,577,529" RenderTransformOrigin="0.5,0.5">
                     <WPFBuhlerControls:Line_Bend.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -153,8 +153,8 @@
                         </TransformGroup>
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
-                <WPFBuhlerControls:Line_Bend Height="25" Width="22" Margin="421,124,537,515" RenderTransformOrigin="0.5,0.5">
-                        <WPFBuhlerControls:Line_Bend.RenderTransform>
+                <WPFBuhlerControls:Line_Bend Height="25" Width="25" Margin="420,123,535,516" RenderTransformOrigin="0.5,0.5">
+                    <WPFBuhlerControls:Line_Bend.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
                             <SkewTransform/>
@@ -173,7 +173,7 @@
                         </TransformGroup>
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
-                <WPFBuhlerControls:Line_Bend Height="25" Width="24" Margin="571,105,386,534" RenderTransformOrigin="0.5,0.5">
+                <WPFBuhlerControls:Line_Bend Height="25" Width="25" Margin="571,105,386,534" RenderTransformOrigin="0.5,0.5">
                     <WPFBuhlerControls:Line_Bend.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -183,7 +183,7 @@
                         </TransformGroup>
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
-                <WPFBuhlerControls:Line_Bend Height="25" Width="24" Margin="616,119,340,520" RenderTransformOrigin="0.5,0.5">
+                <WPFBuhlerControls:Line_Bend Height="25" Width="25" Margin="616,118,339,521" RenderTransformOrigin="0.5,0.5">
                     <WPFBuhlerControls:Line_Bend.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -194,7 +194,7 @@
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
                 <WPFBuhlerControls:Line_Horizontal Height="25" Width="110" Margin="228,477,642,162" />
-                <WPFBuhlerControls:Line_Bend Height="25" Width="20" Margin="292,470,668,170" RenderTransformOrigin="0.5,0.5">
+                <WPFBuhlerControls:Line_Bend Height="24" Width="20" Margin="292,469,668,170" RenderTransformOrigin="0.5,0.5">
                     <WPFBuhlerControls:Line_Bend.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -204,10 +204,14 @@
                         </TransformGroup>
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
+                <WPFBuhlerControls:SpeedMonitor Height="10" Width="10" Margin="102,439,868,215"/>
                 <WPFBuhlerControls:Level_High_Bin dbnumber="120" dboffset="128" Height="10" Width="12" Margin="433,176,535,478" x:Name="_A0040_Copy" />
                 <WPFBuhlerControls:Line_Horizontal Height="20" Width="30" Margin="512,404,438,240" />
                 <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="12" HorizontalContentAlignment="Center" Margin="462,414,503,238" x:Name="txtlabelScreening2" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="15" RenderTransformOrigin="0.493,0.5" />
                 <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="12" HorizontalContentAlignment="Center" Margin="474,414,491,238" x:Name="txtlabelScreening2_Copy1" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="15" RenderTransformOrigin="0.493,0.5" />
+                <WPFBuhlerControls:Line_Horizontal Height="14" Width="11" Margin="112,437,857,213" />
+                <WPFBuhlerControls:SpeedMonitor Height="10" Width="10" Margin="606,162,364,492"/>
+                <WPFBuhlerControls:Line_Horizontal Height="14" Width="11" Margin="616,160,353,490" />
 
             </Grid>
             <Slider x:Name="uiScaleSlider" ToolTip="Scale the current page" Value="1" Minimum="0.1" Maximum="1.5"  Orientation="Vertical" Margin="-1,38,0,67" HorizontalAlignment="Left" Width="27" LargeChange="0.5" TickFrequency="0.2" Grid.RowSpan="2" ValueChanged="uiScaleSlider_ValueChanged"/>
