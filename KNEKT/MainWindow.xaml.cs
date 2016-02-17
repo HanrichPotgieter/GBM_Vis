@@ -447,11 +447,9 @@ namespace KNEKT
                             //MainWindow mw;
 
                             //ProductsViewModelDataContext = new KNEKT.Classes.Products.ProductsViewModel();
-
+                            
                             //Create instance of each display page to navigate to using buttons
                             pageINT1 = new DisplayPages.INT1(Plc.Instance);
-                            var json = new JavaScriptSerializer().Serialize(pageINT1);
-                            Console.Out.WriteLine(json);
                             pageFCL1 = new DisplayPages.FCL1(PLC1_W);
                             pageMTR1 = new DisplayPages.MTR1(PLC1_W);
                             pageMIL1 = new DisplayPages.MIL1A(PLC1_W);
@@ -508,7 +506,7 @@ namespace KNEKT
                             //alLineTypes.Add(2); //MIL1B
 
                             DisplayPages.DisplayWindows.SplashScreenWindow.CurrentLoadingStatus("Application Starting...", 100);
-                            Thread.Sleep(500);
+                            //Thread.Sleep(500);
                             DisplayPages.DisplayWindows.SplashScreenWindow.EndDisplay();
 
                             _mainFrame.Navigate(new DisplayPages.StartPage());                          //--> *Navigate to the start page
@@ -7539,8 +7537,6 @@ namespace KNEKT
           
 
             //#endregion
-
-
 
             //#region FINAL PRODUCT HANDLING 1
 

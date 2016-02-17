@@ -55,7 +55,7 @@
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3"  Height="10" Width="10" Margin="434,159,536,495" />
                 <WPFBuhlerControls:Slide_Manual Height="7" Width="20" Margin="429,267,532,390" />
                 <WPFBuhlerControls:Magnet_MMUA_H Height="25" Width="20" Margin="430,294,531,345" />
-                <WPFBuhlerControls:Separator_MTRC dbnu Height="40" Width="58" Margin="435,361,488,263" Name="_A0020" />
+                <WPFBuhlerControls:Separator_MTRC Height="40" Width="58" Margin="435,361,488,263" Name="_A0020" />
                 <WPFBuhlerControls:Aspirator_MVSI  Height="35" Width="25" Margin="488,361,468,268" Name="_A0025" MotorColor="1" />
                 <WPFBuhlerControls:Line_Vertical Height="26" Width="10" Margin="512,337,458,301" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="512,357,458,297" Width="10" />

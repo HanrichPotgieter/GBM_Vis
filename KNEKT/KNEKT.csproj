@@ -771,6 +771,7 @@
   <ItemGroup>
     <Folder Include="Binaries\" />
     <Folder Include="Controls\NewFolder1\" />
+    <Folder Include="Controls\WPFBuhlerControls\" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Images\Calendar-icon.png" />

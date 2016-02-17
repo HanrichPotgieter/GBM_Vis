@@ -6,28 +6,28 @@
         MinWidth="1024" MinHeight="768"
         Name="WindowMain"
         Background="BlanchedAlmond" xmlns:my="clr-namespace:KNEKT.Controls" Closing="WindowMain_Closing" WindowStartupLocation="CenterScreen" WindowStyle="None" WindowState="Maximized" TouchDown="WindowMain_TouchDown" MouseDown="WindowMain_MouseDown" Icon="/KNEKT;component/Images/Logo.ico">
-    <Grid Name="mainWindowGrid">
-        <Frame x:Name="_mainFrame" Margin="2,54,0,51" BorderThickness="0.5" BorderBrush="Gray" NavigationUIVisibility="Hidden" Background="White" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" />
+    <Grid Name="mainWindowGrid" Background="#252120">
+        <Frame x:Name="_mainFrame" Margin="2,54,0,51" BorderThickness="0.5" BorderBrush="Gray" NavigationUIVisibility="Hidden" Background="white" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" VerticalContentAlignment="Stretch" HorizontalContentAlignment="Stretch" />
         <Rectangle Height="50" HorizontalAlignment="Right" Margin="0,1,1,0" Name="rectangle1" StrokeThickness="0.1" VerticalAlignment="Top" Width="161" Fill="LightGray" />
         <Label Content="INT1" FontFamily="Arial Rounded MT" FontSize="72" Foreground="DarkBlue" Height="96" Margin="95,51,12,0" Name="lblLineName" Opacity="0.05" VerticalAlignment="Top" />
         <!--PAGES-->
-        <Button Content="INT1" Height="35" Margin="5,0,0,8" Name="btnLine1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="60" Click="btnLine1_Click" Focusable="False"/>
-        <Button Content="FCL1" Focusable="False" Height="35" HorizontalAlignment="Left" Margin="72,0,0,8" Name="btnLine2" VerticalAlignment="Bottom" Width="60" Click="btnLine2_Click"/>
-        <Button Content="MTR1" Height="35" Margin="139,0,0,8" Name="btnLine3" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="60" Click="btnLine3_Click" Focusable="False"/>
-        <Button Content="MIL1" Focusable="False" Height="35" HorizontalAlignment="Left" Margin="206,0,0,8" Name="btnLine4" VerticalAlignment="Bottom" Width="60" Click="btnLine4_Click" />
-        <Button Content="MIL2" Focusable="False" Height="35" HorizontalAlignment="Left" Margin="273,0,0,8" Name="btnLine5" VerticalAlignment="Bottom" Width="60" Click="btnLine5_Click"/>
+        <Button Content="INT1" Height="35" Margin="5,0,0,8" Name="btnLine1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="60" Click="btnLine1_Click" Focusable="False" Background="#252120" Foreground="White" />
+        <Button Content="FCL1" Focusable="False" Height="35" HorizontalAlignment="Left" Margin="72,0,0,8" Name="btnLine2" VerticalAlignment="Bottom" Width="60" Click="btnLine2_Click" Background="#252120" Foreground="White"/>
+        <Button Content="MTR1" Height="35" Margin="139,0,0,8" Name="btnLine3" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="60" Click="btnLine3_Click" Focusable="False" Background="#252120" Foreground="White"/>
+        <Button Content="MIL1" Focusable="False" Height="35" HorizontalAlignment="Left" Margin="206,0,0,8" Name="btnLine4" VerticalAlignment="Bottom" Width="60" Click="btnLine4_Click" Background="#252120" Foreground="White"/>
+        <Button Content="MIL2" Focusable="False" Height="35" HorizontalAlignment="Left" Margin="273,0,0,8" Name="btnLine5" VerticalAlignment="Bottom" Width="60" Click="btnLine5_Click" Background="#252120" Foreground="White"/>
         <!--<Button Content="BAG2" Focusable="False" Height="35" HorizontalAlignment="Left" Margin="644,0,0,8" Name="btnLine11" Click="btnLine11_Click" VerticalAlignment="Bottom" Width="60" />-->
         <!--PAGES-->
 
         <!--CONTROL BUTTONS-->
-        <Button Height="45" HorizontalAlignment="Right" Margin="0,0,272,4" Name="btnControlStart" VerticalAlignment="Bottom" Width="47" ToolTip="Start Line" Click="btnControlStart_Click" Focusable="False">
+        <Button Height="45" HorizontalAlignment="Right" Margin="0,743,272,0" Name="btnControlStart" VerticalAlignment="Top" Width="47" ToolTip="Start Line" Click="btnControlStart_Click" Focusable="False" Background="#252120">
             <Button.Content>
                 <Canvas>
                     <Polyline Stroke="Black" StrokeThickness="0.5" StrokeLineJoin="Round" Fill="DarkGray" Points="-8,0, -8,-15 10,0 -8,15 -8,0"/>
                 </Canvas>
             </Button.Content>
         </Button>
-        <Button  Height="45" HorizontalAlignment="Right" Margin="0,0,219,4" Name="btnControlSuspend" VerticalAlignment="Bottom" Width="47" ToolTip="Pause Feed" Click="btnControlSuspend_Click" Focusable="False">
+        <Button  Height="45" HorizontalAlignment="Right" Margin="0,0,219,4" Name="btnControlSuspend" VerticalAlignment="Bottom" Width="47" ToolTip="Pause Feed" Click="btnControlSuspend_Click" Focusable="False" Background="#252120">
             <Button.Content>
                 <Canvas>
                     <Polyline Stroke="Black" StrokeThickness="0.5" StrokeLineJoin="Round" Fill="DarkGray" Points="-10,0, -10,-15 -2,-15 -2,15 -10,15 -10,0" />
@@ -35,14 +35,14 @@
                 </Canvas>
             </Button.Content>
         </Button>
-        <Button Height="45" HorizontalAlignment="Right" Margin="0,0,166,4" Name="btnControlSeqStop" VerticalAlignment="Bottom" Width="47" ToolTip="Sequence Stop Line" Click="btnControlSeqStop_Click" Focusable="False">
+        <Button Background="#252120" Height="45" HorizontalAlignment="Right" Margin="0,0,166,4" Name="btnControlSeqStop" VerticalAlignment="Bottom" Width="47" ToolTip="Sequence Stop Line" Click="btnControlSeqStop_Click" Focusable="False">
             <Button.Content>
                 <Canvas>
                     <Polyline Stroke="Black" StrokeThickness="0.5" StrokeLineJoin="Round" Fill="DarkGray" Points="-12,2, -12,-12 12,-12 12,12 -12,12 -12,2" />
                 </Canvas>
             </Button.Content>
         </Button>
-        <Button Height="45" HorizontalAlignment="Right" Margin="0,0,113,4" Name="btnControlAcknowledge" VerticalAlignment="Bottom" Width="47" ToolTip="Fault Acknowledge" Click="btnControlAcknowledge_Click" Focusable="False">
+        <Button Background="#252120" Height="45" HorizontalAlignment="Right" Margin="0,0,113,4" Name="btnControlAcknowledge" VerticalAlignment="Bottom" Width="47" ToolTip="Fault Acknowledge" Click="btnControlAcknowledge_Click" Focusable="False">
             <Button.Content>
                 <Canvas>
                     <Polyline Stroke="Black" StrokeThickness="0.5" StrokeLineJoin="Round" Fill="Lime" Points="-15,-3 -5,5 15,-15 -5,15 -15,-3" />
@@ -52,7 +52,7 @@
 
         <WPFBuhlerControls:AlarmHorn1 Name="AlarmHorn1" Margin="599,298,575,374" Width="84" Height="89" Visibility="Hidden"/>
 
-        <Button Height="45" HorizontalAlignment="Right" Margin="0,0,60,4" Name="btnControlMuteSiren" VerticalAlignment="Bottom" Width="47" ToolTip="Mute Siren" Click="btnControlMuteSiren_Click" Focusable="False">
+        <Button Background="#252120" Height="45" HorizontalAlignment="Right" Margin="0,0,60,4" Name="btnControlMuteSiren" VerticalAlignment="Bottom" Width="47" ToolTip="Mute Siren" Click="btnControlMuteSiren_Click" Focusable="False">
             <Button.Content>
                 <Canvas>
                     <Polyline Stroke="Black" StrokeThickness="0.5" StrokeLineJoin="Round" Fill="DarkGray" Points="-15,-5 -10,-5 5,-15 5,15 -10,5 -15,5 -15,-5" />
@@ -61,7 +61,7 @@
                 </Canvas>
             </Button.Content>
         </Button>
-        <Button Height="45" Margin="0,0,7,4" Name="btnControlEmergencyStop" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="47" ToolTip="Emergency Stop" Click="btnControlEmergencyStop_Click" Focusable="False">
+        <Button  Background="#252120" Height="45" Margin="0,0,7,4" Name="btnControlEmergencyStop" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="47" ToolTip="Emergency Stop" Click="btnControlEmergencyStop_Click" Focusable="False">
             <Button.Content>
                 <Canvas>
                     <Polyline Stroke="Black" StrokeThickness="1" StrokeLineJoin="Round" Fill="Red" Points="-15,8 -15,-8 -7.5,-15 7.5,-15 15,-8 15,8 7.5,15 -7.5,15 -15,8" />
@@ -113,13 +113,13 @@
         <TextBox BorderBrush="Gray" Focusable="False" HorizontalAlignment="Right" Margin="0,25,1,0" Name="txtLoggedInUser" Width="151" Height="27" VerticalAlignment="Top" HorizontalContentAlignment="Center" Background="LightCyan" IsReadOnly="True"/>
         <TextBox BorderBrush="Gray" Focusable="False" Height="27" HorizontalAlignment="Right" Margin="0,25,151,0" Name="txtDateTime" VerticalAlignment="Top" Width="168" Background="LightGray" IsReadOnly="True"/>
         <my:EmptyingTimer HorizontalAlignment="Left" Margin="1,0,0,89" x:Name="EmptyingTimer1" VerticalAlignment="Bottom" Height="58" Width="144" Visibility="Hidden"/>
-        <Button Focusable="False" Height="45" Margin="0,0,327,4" Name="btnJob" VerticalAlignment="Bottom" Click="btnJob_Click" HorizontalAlignment="Right" Width="47" Visibility="Visible">
-            <DockPanel Height="40" Width="40">
+        <Button Focusable="False" Height="45" Margin="0,0,327,4" Name="btnJob" VerticalAlignment="Bottom" Click="btnJob_Click" HorizontalAlignment="Right" Width="47" Visibility="Visible" Background="#252120">
+            <DockPanel Height="40" Width="40" Background="#252120">
                 <Image Source=".\Images\JobSelection.png" Width="40" Height="40"/>
             </DockPanel>
         </Button>
         <Button Height="35" HorizontalAlignment="Right" HorizontalContentAlignment="Left" Margin="0,0,424,8" Name="btnHelp" VerticalAlignment="Bottom" Width="35" Click="btnHelp_Click" Focusable="False">
-            <DockPanel >
+            <DockPanel Background="#252120" >
                 <Image DockPanel.Dock="Left" Source="Images\HelpIcon.png" />
             </DockPanel>
         </Button>
@@ -168,8 +168,8 @@
         <Label Background="white" BorderBrush="Black" BorderThickness="1" Content="Bad Tags >> " Foreground="Red" Height="23" Margin="395,55,7,0" Name="lblBadTags" Padding="2,1" VerticalAlignment="Top" />
         <my:MaintenanceSwitches x:Name="MaintenanceSwitches" HorizontalAlignment="Right" Margin="0,0,1,279" Width="180" Height="250" VerticalAlignment="Bottom"  Visibility="Visible"/>
         <my:PlantSwitches x:Name="PlantSwitches" Margin="0,0,1,88" HorizontalAlignment="Right" Width="180" Height="340" VerticalAlignment="Bottom"  Visibility="Visible"/>
-        <Button Focusable="False" Height="35" HorizontalAlignment="Right" HorizontalContentAlignment="Center" Margin="0,0,378,8" Name="btnReports" VerticalAlignment="Bottom" Width="42" Click="btnReports_Click">
-            <DockPanel>
+        <Button Focusable="False" Height="35" HorizontalAlignment="Right" HorizontalContentAlignment="Center" Margin="0,0,378,8" Name="btnReports" VerticalAlignment="Bottom" Width="42" Click="btnReports_Click" Background="#252120">
+            <DockPanel Background="#252120">
                 <Image DockPanel.Dock="Left" Source="Images\Report-Icon.png" />
             </DockPanel>
         </Button>
