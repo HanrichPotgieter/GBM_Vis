@@ -21,6 +21,8 @@ namespace WPFBuhlerControls
         private bool FaultConveyor;
         private string _ObjectNo;
         private string _PLCName;
+        private int _dbnumber;
+        private int _dboffset;
         Worker workerObject;
 
         // The worker threads runs in the background and updates our control
@@ -90,10 +92,11 @@ namespace WPFBuhlerControls
         [Category("Buhler")]
         public int dbnumber {
             get {
-                return dbnumber;
+                return _dbnumber;
             }
             set {
-                workerObject.dbnumber = value;
+                _dbnumber = value;
+                workerObject.dbnumber =_dbnumber;
             }
         }
 
@@ -102,11 +105,12 @@ namespace WPFBuhlerControls
         {
             get
             {
-                return dbnumber;
+                return _dboffset;
             }
             set
             {
-                workerObject.dboffset = value;
+                _dboffset = value;
+                workerObject.dboffset = _dboffset;
             }
         }
 
