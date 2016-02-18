@@ -69,7 +69,39 @@ namespace WPFBuhlerControls
                 {
                     polyMain.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal,new Action(delegate()
                     {
-                        polyMain.Fill = KNEKTColors.BinColor;
+                        // Create a linear gradient brush with five stops 
+                        LinearGradientBrush BinConeGradient = new LinearGradientBrush();
+                        BinConeGradient.StartPoint = new Point(0, 0);
+                        BinConeGradient.EndPoint = new Point(1, 0);
+
+                        // Create and add Gradient stops
+                        GradientStop Yellow = new GradientStop();
+                        Yellow.Color = Colors.DarkGoldenrod;
+                        Yellow.Offset = 0.0;
+                        BinConeGradient.GradientStops.Add(Yellow);
+
+                        // Create and add Gradient stops
+                        GradientStop White1= new GradientStop();
+                        White1.Color = Colors.LightGoldenrodYellow;
+                        White1.Offset = 0.3;
+                        BinConeGradient.GradientStops.Add(White1);
+
+                        // Create and add Gradient stops
+                        GradientStop White2= new GradientStop();
+                        White2.Color = Colors.LightGoldenrodYellow;
+                        White2.Offset = 0.7;
+                        BinConeGradient.GradientStops.Add(White2);
+
+                        // Create and add Gradient stops
+                        GradientStop YellowR = new GradientStop();
+                        YellowR.Color = Colors.DarkGoldenrod;
+                        YellowR.Offset = 1.0;
+                        BinConeGradient.GradientStops.Add(YellowR);
+
+
+                        //FromRgb(255, 228, 181)
+
+                        polyMain.Fill = BinConeGradient;
                     }));
                 }
             }

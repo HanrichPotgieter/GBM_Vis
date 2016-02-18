@@ -134,26 +134,6 @@
                 <my:ScaleInfo Height="130" Margin="92,112,743,358" x:Name="ScaleInfo_A0150" ScaleInfo_InFlowrateMaximum="12" ScaleInfo_InFlowrateMinimum="0" ScaleInfo_InFlowrateOffset="DB236.DBD142" ScaleInfo_IsValueWholeNumber="False" ScaleInfo_MultiplyWriteValue="100" ScaleInfo_Title="0150 B1 Scale" Width="145" />
                 <my:StoppingTimer Margin="288,87,614,473" x:Name="_A0340StoppingTimer" Width="60" />
                 <my:BYPASS_CONTROL BYPASS_DBOffset="DB2000.DBX58.2" BYPASS_ELEMENT_NAME="0485 HL Override" BYPASS_TimerMaximum="300" Margin="163,508,727,9" x:Name="ByPassControl_4006" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="12,566,943,24" Name="textLabelA0510" Padding="0,-2,0,0" Text="0510" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="445,421,495,169" Name="textLabelA4013" Padding="0,-2,0,0" Text="0325" VerticalContentAlignment="Center" Width="40" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="92,31,863,559" Name="textLabelA0305" Padding="0,-2,0,0" Text="0305" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="380,31,575,559" Name="textLabelA0330" Padding="0,-2,0,0" Text="0330" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="553,32,402,558" Name="textLabelA0355" Padding="0,-2,0,0" Text="0355" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="314,205,641,385" Name="textLabelA0340" Padding="0,-2,0,0" Text="0340" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="378,437,577,153" Name="textLabelA0320" Padding="0,-2,0,0" Text="0320" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="503,437,452,153" Name="textLabelA0380" Padding="0,-2,0,0" Text="0380" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="621,436,334,154" Name="textLabelA0405" Padding="0,-2,0,0" Text="0405" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="337,582,618,8" Name="textLabelA0490" Padding="0,-2,0,0" Text="0490" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="311,541,644,49" Name="textLabelA0485" Padding="0,-2,0,0" Text="0485" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="656,23,299,567" Name="textLabelA0480" Padding="0,-2,0,0" Text="0480" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="678,104,277,486" Name="textLabelA0455" Padding="0,-2,0,0" Text="0455" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="715,102,240,488" Name="textLabelA0460" Padding="0,-2,0,0" Text="0460" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="772,6,183,584" Name="textLabelA0465" Padding="0,-2,0,0" Text="0465" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="791,100,164,490" Name="textLabelA0470" Padding="0,-2,0,0" Text="0470" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="819,28,136,562" Name="textLabelA0475" Padding="0,-2,0,0" Text="0475" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="795,461,160,129" Name="textLabelA0605" Padding="0,-2,0,0" Text="0605" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="776,491,179,99" Name="textLabelA0615" Padding="0,-2,0,0" Text="0615" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="750,524,205,66" Name="textLabelA0620" Padding="0,-2,0,0" Text="0620" VerticalContentAlignment="Center" Width="25" />
 
                 <WPFBuhlerControls:Label_1 Content="Gr.2" FontSize="9" Height="11" Margin="511,195,452,394" Width="17" />
                 <WPFBuhlerControls:Label_1 Content="S2" FontSize="9" Height="11" Margin="535,506,434,83" Width="11" />
@@ -181,19 +161,8 @@
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="86,357,884,233" Width="10" />
                 <WPFBuhlerControls:Line_Vertical Height="25" Margin="98,392,872,183" Width="10" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Margin="98,410,872,180" Width="10" />
-
-
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="23,169,932,421" Name="textLabelA0145" Padding="0,-2,0,0" Text="0145" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="23,215,932,375" Name="textLabelA0150" Padding="0,-2,0,0" Text="0150" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="501,132,454,458" Name="textLabelA0430" Padding="0,-2,0,0" Text="0430" VerticalContentAlignment="Center" Width="25" />
                 <WPFBuhlerControls:Fan_Normal Margin="625,118,335,462" Name="_A0450" Width="20" MouseDown="_A0450_MouseDown" MouseRightButtonDown="_A0450_MouseRightButtonDown" ContextMenu="{StaticResource ContextMenu1}" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="647,124,308,466" Name="textLabelA0450" Padding="0,-2,0,0" Text="0450" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="674,164,281,426" Name="textLabelA0445" Padding="0,-2,0,0" Text="0445" VerticalContentAlignment="Center" Width="25" />
                 <WPFBuhlerControls:MOZF Height="20" Margin="77,252,883,328" Name="_A0165" Width="20" MouseDown="_A0165_MouseDown" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="27,269,928,321" Name="textLabelA0160" Padding="0,-2,0,0" Text="0160" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="98,254,857,336" Name="textLabelA0165" Padding="0,-2,0,0" Text="0165" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="27,306,928,284" Name="textLabelA0170" Padding="0,-2,0,0" Text="0170" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="30,363,925,227" Name="textLabelA0180" Padding="0,-2,0,0" Text="0180" VerticalContentAlignment="Center" Width="25" />
                 <WPFBuhlerControls:Line_Vertical Height="10" Line_DashStyle="2" Margin="957,5,13,585" Width="10" />
                 <WPFBuhlerControls:Line_Horizontal Height="10" Line_DashStyle="2" Margin="869,39,87,551" Width="24" />
                 <WPFBuhlerControls:Line_Horizontal Height="10" Line_DashStyle="2" Margin="935,20,31,570" Width="14" />
@@ -203,8 +172,6 @@
                 <WPFBuhlerControls:Airlock_MPSN_Cyclone Margin="890,35,31,483" Name="_A0495" Height="82" Width="51" MouseDown="_A0495_MouseDown" MouseRightButtonDown="_A0495_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="2" Height="10" Margin="888,39,82,551" Width="10" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="2" Height="10" Margin="941,20,29,570" Width="10" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="881,105,74,485" Name="textLabelA0495" Padding="0,-2,0,0" Text="0495" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="950,38,5,552" Name="textLabelA0500" Padding="0,-2,0,0" Text="0500" VerticalContentAlignment="Center" Width="25" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="914,121,56,469" Width="10" />
                 <WPFBuhlerControls:Line_Vertical Height="10" Margin="914,116,56,474" Width="10" />
                 <WPFBuhlerControls:Label_C Height="15" Margin="911,132,54,453" Width="15" />
@@ -214,8 +181,6 @@
                 <WPFBuhlerControls:Separator_MANB Height="29" Width="27" Margin="303,273,650,298" MotorColor="1"/>
                 <WPFBuhlerControls:Airlock_MPSN Height="10" Margin="314,302,656,288" Name="_A0350" Width="10" MouseDown="_A0350_MouseDown" MouseRightButtonDown="_A0350_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Vertical Height="25" Margin="314,312,656,263" Width="10" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="286,302,669,288" Name="textLabelA0350" Padding="0,-2,0,0" Text="0350" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="252,342,703,248" Name="textLabelA0345" Padding="0,-2,0,0" Text="0345" VerticalContentAlignment="Center" Width="25" />
                 <WPFBuhlerControls:Label_1 Content="2Bk" FontSize="9" Height="11" Margin="265,322,701,267" Width="14" />
                 <WPFBuhlerControls:Aspirator_MVSI Height="40" Margin="392,315,573,245" Name="_A0365" Width="15" MouseDown="_A0365_MouseDown" MouseRightButtonDown="_A0365_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="427,331,543,259" Width="10" />
@@ -223,8 +188,6 @@
                 <WPFBuhlerControls:Separator_MANB Height="29" Margin="416,273,537,298" Width="27" MotorColor="1"/>
                 <WPFBuhlerControls:Airlock_MPSN Height="10" Margin="427,302,543,288" Name="_A0370" Width="10" MouseDown="_A0370_MouseDown" MouseRightButtonDown="_A0370_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Vertical Height="25" Margin="427,312,543,263" Width="10" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="399,302,556,288" Name="textLabelA0370" Padding="0,-2,0,0" Text="0370" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="365,342,590,248" Name="textLabelA0365" Padding="0,-2,0,0" Text="0365" VerticalContentAlignment="Center" Width="25" />
                 <WPFBuhlerControls:Label_1 Content="S1" FontSize="9" Height="11" Margin="381,322,588,267" Width="11" />
                 <WPFBuhlerControls:Aspirator_MVSI Height="40" Margin="500,315,465,245" Name="_A0390" Width="15" MouseDown="_A0390_MouseDown" MouseRightButtonDown="_A0390_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="535,331,435,259" Width="10" />
@@ -232,8 +195,6 @@
                 <WPFBuhlerControls:Separator_MANB Height="29" Margin="524,273,429,298" Width="27" MotorColor="1"/>
                 <WPFBuhlerControls:Airlock_MPSN Height="10" Margin="535,302,435,288" Name="_A0395" Width="10" MouseDown="_A0395_MouseDown" MouseRightButtonDown="_A0395_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Vertical Height="25" Margin="535,312,435,263" Width="10" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="507,302,448,288" Name="textLabelA0395" Padding="0,-2,0,0" Text="0395" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="473,342,482,248" Name="textLabelA0390" Padding="0,-2,0,0" Text="0390" VerticalContentAlignment="Center" Width="25" />
                 <WPFBuhlerControls:Label_1 Content="S2" FontSize="9" Height="11" Margin="489,322,480,267" Width="11" />
                 <WPFBuhlerControls:Aspirator_MVSI Height="40" Margin="602,315,363,245" Name="_A0415" Width="15" MouseDown="_A0415_MouseDown" MouseRightButtonDown="_A0415_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="637,331,333,259" Width="10" />
@@ -241,8 +202,6 @@
                 <WPFBuhlerControls:Separator_MANB Height="29" Margin="626,273,327,298" Width="27" MotorColor="1"/>
                 <WPFBuhlerControls:Airlock_MPSN Height="10" Margin="637,302,333,288" Name="_A0420" Width="10" MouseDown="_A0420_MouseDown" MouseRightButtonDown="_A0420_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Vertical Height="25" Margin="637,312,333,263" Width="10" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="609,302,346,288" Name="textLabelA0420" Padding="0,-2,0,0" Text="0420" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="575,342,380,248" Name="textLabelA0415" Padding="0,-2,0,0" Text="0415" VerticalContentAlignment="Center" Width="25" />
                 <WPFBuhlerControls:Label_1 Content="G1" FontSize="9" Height="11" Margin="591,322,378,267" Width="11" />
                 <WPFBuhlerControls:Aspirator_MVSI Height="40" Margin="714,315,251,245" Name="_A0435" Width="15" MouseDown="_A0435_MouseDown" MouseRightButtonDown="_A0435_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="749,331,221,259" Width="10" />
@@ -250,15 +209,12 @@
                 <WPFBuhlerControls:Separator_MANB Height="29" Margin="738,273,215,298" Width="27" MotorColor="1"/>
                 <WPFBuhlerControls:Airlock_MPSN Height="10" Margin="749,302,221,288" Name="_A0440" Width="10" MouseDown="_A0440_MouseDown" MouseRightButtonDown="_A0440_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Vertical Height="25" Margin="749,312,221,263" Width="10" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="721,302,234,288" Name="textLabelA0440" Padding="0,-2,0,0" Text="0440" VerticalContentAlignment="Center" Width="25" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="687,342,268,248" Name="textLabelA0435" Padding="0,-2,0,0" Text="0435" VerticalContentAlignment="Center" Width="25" />
                 <WPFBuhlerControls:Label_1 Content="Gr2" FontSize="9" Height="11" Margin="699,322,266,267" Width="15" />
                 <WPFBuhlerControls:Hopper_BagIntake Margin="266,518,673,37" Height="45" Width="41" />
                 <WPFBuhlerControls:Level_High_Machine Height="10" Margin="291,541,679,49" Name="_A0485" Width="10" MouseDown="_A0485_MouseDown" />
                 <WPFBuhlerControls:Line_Horizontal Height="10" Margin="620,36,345,554" Width="15" />
                 <WPFBuhlerControls:Label_M Height="12" Margin="608,35,360,553" Name="_A0425" Width="12" MouseDown="_A0425_MouseDown" MouseRightButtonDown="_A0425_MouseRightButtonDown" />
                 <WPFBuhlerControls:Airlock_MPSN_Cyclone Height="40" Width="25" Margin="626,5,329,555" Name="_A0425A1" MouseDown="_A0425A1_MouseDown"  ContextMenu="{StaticResource ContextMenu1}" />
-                <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="582,36,373,554" Name="textLabelA4025" Padding="0,-2,0,0" Text="0425" VerticalContentAlignment="Center" Width="25" />
             </Grid>
             <Slider x:Name="uiScaleSlider" ToolTip="Scale the current page" Value="1" Minimum="0.1" Maximum="1.5" ValueChanged="uiScaleSlider_ValueChanged" Orientation="Vertical" Margin="-1,38,0,67" HorizontalAlignment="Left" Width="27" LargeChange="0.5" TickFrequency="0.2" />
           

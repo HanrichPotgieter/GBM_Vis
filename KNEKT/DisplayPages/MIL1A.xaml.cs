@@ -60,44 +60,7 @@ namespace KNEKT.DisplayPages
 
             //textLabelA1000.Visibility = v1;
 
-            textLabelA0145.Visibility = v1;
-            textLabelA0150.Visibility = v1;
-            textLabelA0160.Visibility = v1;
-            textLabelA0165.Visibility = v1;
-            textLabelA0170.Visibility = v1;
-            textLabelA0180.Visibility = v1;
-            textLabelA0305.Visibility = v1;
-            textLabelA0330.Visibility = v1;
-            textLabelA0355.Visibility = v1;
-            textLabelA0340.Visibility = v1;
-            textLabelA0345.Visibility = v1;
-            textLabelA0350.Visibility = v1;
-            textLabelA0365.Visibility = v1;
-            textLabelA0370.Visibility = v1;
-            textLabelA0390.Visibility = v1;
-            textLabelA0395.Visibility = v1;
-            textLabelA0320.Visibility = v1;
-            textLabelA0380.Visibility = v1;
-            textLabelA0415.Visibility = v1;
-            textLabelA0420.Visibility = v1;
-            textLabelA0435.Visibility = v1;
-            textLabelA0440.Visibility = v1;
-            textLabelA0405.Visibility = v1;
-            textLabelA0445.Visibility = v1;
-            textLabelA0450.Visibility = v1;
-            textLabelA0455.Visibility = v1;
-            textLabelA0460.Visibility = v1;
-            textLabelA0465.Visibility = v1;
-            textLabelA0470.Visibility = v1;
-            textLabelA0475.Visibility =v1;
-            textLabelA0485.Visibility = v1;
-            textLabelA0490.Visibility = v1;
-            textLabelA0495.Visibility = v1;
-            textLabelA0500.Visibility = v1;
-            textLabelA0510.Visibility = v1;
-            textLabelA0605.Visibility = v1;
-            textLabelA0615.Visibility = v1;
-            textLabelA0620.Visibility = v1;    
+
 
         }
 

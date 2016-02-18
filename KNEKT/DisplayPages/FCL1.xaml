@@ -31,88 +31,88 @@
         </ContextMenu>
     </Page.Resources>
     <Grid>
-        <Grid Name="grid1">
+        <Grid Name="grid1" Margin="2,0,-2,0">
 
-            <WPFBuhlerControls:Bin_ConeBottom BinLocked="False" Bin_BinText="101" Height="190" Margin="64,232,852,242" Width="65" />
-            <WPFBuhlerControls:Bin BinLocked="False" Bin_BinText="201" Height="150" Margin="677,302,254,212" Width="50" />
-            <WPFBuhlerControls:Bin BinLocked="False" Bin_BinText="202" Height="150" Margin="722,302,209,212" Width="50" />
-            <WPFBuhlerControls:Level_High_Bin Height="10" Margin="697,314,274,340" Name="_A0115" Width="10" MouseDown="_A0115_MouseDown"/>
-            <WPFBuhlerControls:Level_High_Bin Height="10" Margin="741,314,230,340" Name="_A0120" Width="10" MouseDown="_A0120_MouseDown"/>
-            <WPFBuhlerControls:Line_Vertical Height="30" Margin="385,127,586,507" Width="10" />
-            <WPFBuhlerControls:Line_Vertical Height="30" Margin="292,78,676,556" Width="13" />
-            <WPFBuhlerControls:Elevator_L ContextMenu="{StaticResource ContextMenu1}" Elevator_HasBeltAlignBottom="False" Elevator_HasBeltAlignTop="False" Height="550" Margin="256,48,675,66" Name="_A0050" Width="50" MouseDown="_A0050_MouseDown"/>
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="385,150,586,504" Width="10" />
-            <WPFBuhlerControls:Hopper_Small Height="49" Margin="376,157,577,458" Width="28" />
-            <WPFBuhlerControls:Level_High_Bin Height="10" Margin="385,166,586,488" Name="_A0055" Width="10" MouseDown="_A0055_MouseDown"/>
-            <WPFBuhlerControls:Scale_Dosing Height="35" Margin="373,202,578,427" Name="_A0060" Width="30" MouseDown="_A0060_MouseDown"/>
-            <WPFBuhlerControls:Line_Horizontal Height="10" Margin="125,373,831,281" Width="25" />
-            <WPFBuhlerControls:Line_Vertical Height="60" Margin="386,237,585,367" Width="10" />
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="386,292,585,362" Width="10" />
-            <WPFBuhlerControls:Separator_MTRC Height="40" Margin="386,302,537,322" Name="_A0065" Width="58" MouseDown="_A0065_MouseDown"/>
-            <WPFBuhlerControls:Aspirator_MVSI Height="39" Margin="443,303,516,322" Name="_A0025" Width="22" MotorColor="1"/>
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="1" Height="5" Margin="460,254,515,405" Width="7" />
-            <WPFBuhlerControls:Line_Vertical Height="25" Margin="467,278,505,361" Width="10" />
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="467,298,505,356" Width="10" />
-            <WPFBuhlerControls:Separator_MANB Height="25" Margin="461,241,501,398" Width="20" MotorColor="1"/>
-            <WPFBuhlerControls:Airlock_MPSN Height="11" Margin="467,266,503,387" Name="_A0075" Width="12" MouseDown="_A0075_MouseDown"/>
-            <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="403,360,559,294" Name="txtlabelScreening2" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="20" />
-            <WPFBuhlerControls:Destoner_MTSD Height="50" Margin="446,406,485,208" Name="_A0080" Width="50" MouseDown="_A0080_MouseDown"/>
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="450,395,521,259" Width="10" />
-            <WPFBuhlerControls:Line_Vertical Height="60" Margin="450,342,521,262" Width="10" />
-            <WPFBuhlerControls:Line_Vertical Height="90" Margin="478,440,493,124" Width="10" />
-            <WPFBuhlerControls:Fan_Normal Height="20" Margin="153,368,808,276" Name="_A0085" Width="20" MouseDown="_A0085_MouseDown"/>
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="425,350,547,304" Width="10" />
-            <WPFBuhlerControls:Line_Vertical Height="20" Margin="425,337,547,307" Width="10" />
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="408,350,564,304" Width="10" />
-            <WPFBuhlerControls:Line_Vertical Height="18" Margin="408,337,564,309" Width="10" />
-            <WPFBuhlerControls:Line_Vertical Height="19" Line_DashStyle="4" Margin="464,395,507,250" Width="10" />
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="1" Height="10" Margin="464,390,507,264" Width="10" />
-            <WPFBuhlerControls:Conveyor_NFAS Height="20" Margin="691,221,230,423" Name="_A0105" Width="60" MouseDown="_A0105_MouseDown"/>
-            <WPFBuhlerControls:MOZF Height="20" Margin="731,205,230,439" Name="_A0100" Width="20" />
-            <WPFBuhlerControls:Line_Vertical Height="30" Margin="694,192,277,442" Width="10" />
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="697,294,274,360" Width="10" />
-            <WPFBuhlerControls:Conveyor_OverflowFlap Height="12" Margin="742,225,225,427" Name="_A0105OF" Width="14" MouseDown="_A0105OF_MouseDown"/>
-            <WPFBuhlerControls:Conveyor_NFAS_250 Height="20" Margin="700,248,221,396" Name="_A0110" Width="60" MouseDown="_A0110_MouseDown"/>
-            <WPFBuhlerControls:Conveyor_OverflowFlap Height="12" Margin="689,252,278,400" Name="_A0110OF" Width="14" MouseDown="_A0110OF_MouseDown"/>
-            <WPFBuhlerControls:Line_Vertical Height="15" Margin="694,167,277,482" Width="10" />
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="694,215,277,439" Width="10" />
-            <WPFBuhlerControls:Line_Vertical Height="15" Margin="737,237,234,412" Width="10" />
-            <WPFBuhlerControls:Line_Vertical Height="40" Margin="697,264,274,360" Width="10" />
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="741,294,230,360" Width="10" />
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="694,122,277,532" Width="10" />
-            <WPFBuhlerControls:SlideGate_Manual Height="10" Margin="697,263,274,391" Name="_2027" Width="10" />
-            <WPFBuhlerControls:Elevator_L ContextMenu="{StaticResource ContextMenu1}" Elevator_HasBeltAlignBottom="False" Elevator_HasBeltAlignTop="False" Height="550" Margin="564,48,367,66" Name="_A0095" Width="50" MouseDown="_A0095_MouseDown"/>
-            <WPFBuhlerControls:Line_Vertical Height="15" Margin="478,521,494,128" Width="10" />
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="573,558,398,96" Width="10" />
-            <WPFBuhlerControls:Line_Horizontal Height="10" Margin="491,542,416,112" Width="75" />
-            <WPFBuhlerControls:Line_Vertical Height="25" Margin="594,78,362,561" Width="25" />
-            <WPFBuhlerControls:Line_Horizontal Height="25" Margin="619,98,292,541" Width="70" />
-            <WPFBuhlerControls:Line_Horizontal Height="10" Margin="202,517,714,137" Width="34" />
-            <WPFBuhlerControls:Line_Vertical Height="17" Margin="91,462,879,184" Width="11" />
-            <WPFBuhlerControls:Line_Vertical Height="25" Margin="198,490,774,149" Width="10" />
-            <WPFBuhlerControls:Line_Vertical Height="25" Margin="262,536,710,103" Width="10" />
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="8" Margin="93,473,880,183" Width="9" />
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="262,556,709,98" Width="10" />
-            <WPFBuhlerControls:Conveyor_Chain_AHKA_M Height="15" Margin="90,476,771,168" Name="_A0045" Width="120" MouseDown="_A0045_MouseDown"/>
-            <WPFBuhlerControls:Conveyor_OverflowFlap Height="10" Margin="207,480,763,174" Name="_A0045F" Width="11" />
-            <WPFBuhlerControls:Line_Vertical Height="20" Line_DashStyle="2" Margin="941,16,30,628" Width="10" />
-            <WPFBuhlerControls:Line_Horizontal Height="10" Line_DashStyle="2" Margin="837,67,120,587" Width="24" />
-            <WPFBuhlerControls:Line_Horizontal Height="10" Line_DashStyle="2" Margin="906,40,51,614" Width="24" />
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Width="9" Margin="891,185,81,469" />
-            <WPFBuhlerControls:Line_Bend Bend_DashStyle="1" Bend_Direction="1" Height="20" Line_Thickness="1.5" Margin="894,42,67,602" Width="20" />
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="1" Height="10" Margin="941,12,30,642" Width="10" />
-            <WPFBuhlerControls:Line_Vertical Height="20" Width="11" Margin="890,170,80,474" />
-            <WPFBuhlerControls:Label_C Height="12" Margin="406,577,561,75" Width="14" />
-            <WPFBuhlerControls:Fan_Normal ContextMenu="{StaticResource ContextMenu1}" Height="20" Margin="936,36,25,608" Name="_A0190" Width="20" MouseDown="_A0190_MouseDown"/>
-            <WPFBuhlerControls:Airlock_MPSN_Cyclone Height="112" Margin="866,59,56,493" Name="_A0185" Width="59" MouseDown="_A0185_MouseDown"/>
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="2" Height="10" Margin="856,67,115,587" Width="10" />
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="2" Height="10" Margin="925,40,46,614" Width="10" />
-            <WPFBuhlerControls:Flowbalancer Height="25" Width="26" Margin="86,438,871,201" />
-            <WPFBuhlerControls:Line_Vertical Height="5" Margin="92,433,880,226" Width="9" />
-            <WPFBuhlerControls:SlideGate_Manual Height="11" Width="15" Margin="89,425,877,228" x:Name="_2027_Copy" />
-            <WPFBuhlerControls:Line_Vertical Height="8" Width="9" Margin="92,419,880,237" />
-            <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="420,360,542,294" x:Name="txtlabelScreening2_Copy" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="20" />
-            <WPFBuhlerControls:Line_Bend Height="24" Width="20" Margin="200,503,761,137" RenderTransformOrigin="0.5,0.5">
+            <WPFBuhlerControls:Bin_ConeBottom BinLocked="False" Bin_BinText="101" Height="190" Margin="72,242,844,232" Width="65" />
+            <WPFBuhlerControls:Bin BinLocked="False" Bin_BinText="201" Height="150" Margin="685,312,246,202" Width="50" />
+            <WPFBuhlerControls:Bin BinLocked="False" Bin_BinText="202" Height="150" Margin="729,312,202,202" Width="50" />
+            <WPFBuhlerControls:Level_High_Bin Height="10" Margin="705,324,266,330" Name="_A0115" Width="10" MouseDown="_A0115_MouseDown"/>
+            <WPFBuhlerControls:Level_High_Bin Height="10" Margin="749,324,222,330" Name="_A0120" Width="10" MouseDown="_A0120_MouseDown"/>
+            <WPFBuhlerControls:Line_Vertical Height="30" Margin="393,137,578,497" Width="10" />
+            <WPFBuhlerControls:Line_Vertical Height="30" Margin="300,88,668,546" Width="13" />
+            <WPFBuhlerControls:Elevator_L ContextMenu="{StaticResource ContextMenu1}" Elevator_HasBeltAlignBottom="False" Elevator_HasBeltAlignTop="False" Height="550" Margin="264,58,667,56" Name="_A0050" Width="50" MouseDown="_A0050_MouseDown"/>
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="393,160,578,494" Width="10" />
+            <WPFBuhlerControls:Hopper_Small Height="49" Margin="384,167,569,448" Width="28" />
+            <WPFBuhlerControls:Level_High_Bin Height="10" Margin="393,176,578,478" Name="_A0055" Width="10" MouseDown="_A0055_MouseDown"/>
+            <WPFBuhlerControls:Scale_Dosing Height="35" Margin="381,212,570,417" Name="_A0060" Width="30" MouseDown="_A0060_MouseDown"/>
+            <WPFBuhlerControls:Line_Horizontal Height="10" Margin="133,383,823,271" Width="25" />
+            <WPFBuhlerControls:Line_Vertical Height="60" Margin="394,247,577,357" Width="10" />
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="394,302,577,352" Width="10" />
+            <WPFBuhlerControls:Separator_MTRC Height="40" Margin="394,312,529,312" Name="_A0065" Width="58" MouseDown="_A0065_MouseDown"/>
+            <WPFBuhlerControls:Aspirator_MVSI Height="39" Margin="451,313,508,312" Name="_A0025" Width="22" MotorColor="1"/>
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="1" Height="5" Margin="468,264,506,395" Width="7" />
+            <WPFBuhlerControls:Line_Vertical Height="25" Margin="475,288,496,351" Width="10" />
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="475,308,496,346" Width="10" />
+            <WPFBuhlerControls:Separator_MANB Height="25" Margin="469,251,492,388" Width="20" MotorColor="1"/>
+            <WPFBuhlerControls:Airlock_MPSN Height="11" Margin="475,276,494,377" Name="_A0075" Width="12" MouseDown="_A0075_MouseDown"/>
+            <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="411,370,550,284" Name="txtlabelScreening2" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="20" />
+            <WPFBuhlerControls:Destoner_MTSD Height="50" Margin="454,416,477,198" Name="_A0080" Width="50" MouseDown="_A0080_MouseDown"/>
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="458,405,513,249" Width="10" />
+            <WPFBuhlerControls:Line_Vertical Height="60" Margin="458,352,513,252" Width="10" />
+            <WPFBuhlerControls:Line_Vertical Height="90" Margin="486,455,485,119" Width="10" />
+            <WPFBuhlerControls:Fan_Normal Height="20" Margin="161,378,800,266" Name="_A0085" Width="20" MouseDown="_A0085_MouseDown"/>
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="433,360,538,294" Width="10" />
+            <WPFBuhlerControls:Line_Vertical Height="20" Margin="433,347,538,297" Width="10" />
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="416,360,555,294" Width="10" />
+            <WPFBuhlerControls:Line_Vertical Height="18" Margin="416,347,555,299" Width="10" />
+            <WPFBuhlerControls:Line_Vertical Height="19" Line_DashStyle="4" Margin="472,405,499,240" Width="10" />
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="1" Height="10" Margin="472,400,499,254" Width="10" />
+            <WPFBuhlerControls:Conveyor_NFAS Height="20" Margin="699,231,222,413" Name="_A0105" Width="60" MouseDown="_A0105_MouseDown"/>
+            <WPFBuhlerControls:MOZF Height="20" Margin="739,215,222,429" Name="_A0100" Width="20" />
+            <WPFBuhlerControls:Line_Vertical Height="30" Margin="702,202,269,432" Width="10" />
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="705,304,266,350" Width="10" />
+            <WPFBuhlerControls:Conveyor_OverflowFlap Height="12" Margin="750,235,217,417" Name="_A0105OF" Width="14" MouseDown="_A0105OF_MouseDown"/>
+            <WPFBuhlerControls:Conveyor_NFAS_250 Height="20" Margin="708,258,213,386" Name="_A0110" Width="60" MouseDown="_A0110_MouseDown"/>
+            <WPFBuhlerControls:Conveyor_OverflowFlap Height="12" Margin="697,262,270,390" Name="_A0110OF" Width="14" MouseDown="_A0110OF_MouseDown"/>
+            <WPFBuhlerControls:Line_Vertical Height="15" Margin="702,177,269,472" Width="10" />
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="702,225,269,429" Width="10" />
+            <WPFBuhlerControls:Line_Vertical Height="15" Margin="745,247,226,402" Width="10" />
+            <WPFBuhlerControls:Line_Vertical Height="40" Margin="705,274,266,350" Width="10" />
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="749,304,222,350" Width="10" />
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="702,132,269,522" Width="10" />
+            <WPFBuhlerControls:SlideGate_Manual Height="10" Margin="705,273,266,381" Name="_2027" Width="10" />
+            <WPFBuhlerControls:Elevator_L ContextMenu="{StaticResource ContextMenu1}" Elevator_HasBeltAlignBottom="False" Elevator_HasBeltAlignTop="False" Height="550" Margin="572,58,359,56" Name="_A0095" Width="50" MouseDown="_A0095_MouseDown"/>
+            <WPFBuhlerControls:Line_Vertical Height="15" Margin="486,531,485,118" Width="10" />
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="581,568,390,86" Width="10" />
+            <WPFBuhlerControls:Line_Horizontal Height="10" Margin="499,552,407,102" Width="75" />
+            <WPFBuhlerControls:Line_Vertical Height="25" Margin="602,88,354,551" Width="25" />
+            <WPFBuhlerControls:Line_Horizontal Height="25" Margin="627,108,284,531" Width="70" />
+            <WPFBuhlerControls:Line_Horizontal Height="10" Margin="226,527,721,127" Width="34" />
+            <WPFBuhlerControls:Line_Vertical Height="17" Margin="99,472,871,174" Width="11" />
+            <WPFBuhlerControls:Line_Vertical Height="20" Margin="206,500,765,139" Width="10" />
+            <WPFBuhlerControls:Line_Vertical Height="25" Margin="270,546,701,93" Width="10" />
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="8" Margin="100,483,872,173" Width="9" />
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="270,566,701,88" Width="10" />
+            <WPFBuhlerControls:Conveyor_Chain_AHKA_M Height="15" Margin="66,490,735,159" Name="_A0045" Width="180" MouseDown="_A0045_MouseDown"/>
+            <WPFBuhlerControls:Conveyor_OverflowFlap Height="15" Margin="229,489,742,160" Name="_A0045F" Width="10" />
+            <WPFBuhlerControls:Line_Vertical Height="20" Line_DashStyle="2" Margin="949,26,22,618" Width="10" />
+            <WPFBuhlerControls:Line_Horizontal Height="10" Line_DashStyle="2" Margin="845,77,112,577" Width="24" />
+            <WPFBuhlerControls:Line_Horizontal Height="10" Line_DashStyle="2" Margin="914,50,43,604" Width="24" />
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Width="9" Margin="899,195,73,459" />
+            <WPFBuhlerControls:Line_Bend Bend_DashStyle="1" Bend_Direction="1" Height="20" Line_Thickness="1.5" Margin="902,52,59,592" Width="20" />
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="1" Height="10" Margin="949,22,22,632" Width="10" />
+            <WPFBuhlerControls:Line_Vertical Height="20" Width="11" Margin="898,180,72,464" />
+            <WPFBuhlerControls:Label_C Height="12" Margin="414,587,553,65" Width="14" />
+            <WPFBuhlerControls:Fan_Normal ContextMenu="{StaticResource ContextMenu1}" Height="20" Margin="944,46,17,598" Name="_A0190" Width="20" MouseDown="_A0190_MouseDown"/>
+            <WPFBuhlerControls:Airlock_MPSN_Cyclone Height="112" Margin="874,69,48,483" Name="_A0185" Width="59" MouseDown="_A0185_MouseDown"/>
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="2" Height="10" Margin="864,77,107,577" Width="10" />
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="2" Height="10" Margin="933,50,38,604" Width="10" />
+            <WPFBuhlerControls:Flowbalancer Height="25" Width="26" Margin="94,448,861,191" />
+            <WPFBuhlerControls:Line_Vertical Height="5" Margin="100,443,872,216" Width="9" />
+            <WPFBuhlerControls:SlideGate_Manual Height="11" Width="15" Margin="97,435,869,218" x:Name="_2027_Copy" />
+            <WPFBuhlerControls:Line_Vertical Height="8" Width="9" Margin="100,429,872,227" />
+            <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="428,370,533,284" x:Name="txtlabelScreening2_Copy" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="20" />
+            <WPFBuhlerControls:Line_Bend Height="24" Width="20" Margin="208,513,753,127" RenderTransformOrigin="0.5,0.5">
                 <WPFBuhlerControls:Line_Bend.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -122,7 +122,7 @@
                     </TransformGroup>
                 </WPFBuhlerControls:Line_Bend.RenderTransform>
             </WPFBuhlerControls:Line_Bend>
-            <WPFBuhlerControls:Line_Bend Height="24" Width="20" Margin="250,517,712,123" RenderTransformOrigin="0.5,0.5">
+            <WPFBuhlerControls:Line_Bend Height="24" Width="20" Margin="258,527,703,113" RenderTransformOrigin="0.5,0.5">
                 <WPFBuhlerControls:Line_Bend.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -132,7 +132,7 @@
                     </TransformGroup>
                 </WPFBuhlerControls:Line_Bend.RenderTransform>
             </WPFBuhlerControls:Line_Bend>
-            <WPFBuhlerControls:Line_Bend Height="24" Width="20" Margin="562,542,400,98" RenderTransformOrigin="0.5,0.5">
+            <WPFBuhlerControls:Line_Bend Height="24" Width="20" Margin="570,552,391,88" RenderTransformOrigin="0.5,0.5">
                 <WPFBuhlerControls:Line_Bend.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -142,7 +142,7 @@
                     </TransformGroup>
                 </WPFBuhlerControls:Line_Bend.RenderTransform>
             </WPFBuhlerControls:Line_Bend>
-            <WPFBuhlerControls:Line_Bend Height="24" Width="20" Margin="480,528,481,112" RenderTransformOrigin="0.5,0.5">
+            <WPFBuhlerControls:Line_Bend Height="24" Width="20" Margin="488,538,473,102" RenderTransformOrigin="0.5,0.5">
                 <WPFBuhlerControls:Line_Bend.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -152,12 +152,12 @@
                     </TransformGroup>
                 </WPFBuhlerControls:Line_Bend.RenderTransform>
             </WPFBuhlerControls:Line_Bend>
-            <WPFBuhlerControls:Line_Vertical Height="45" Width="7" Line_DashStyle="1" Margin="460,258,516,361"/>
-            <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="11" HorizontalContentAlignment="Center" Margin="463,307,500,346" x:Name="txtlabelScreening2_Copy1" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="19" />
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="2" Height="10" Margin="142,373,829,281" Width="10" />
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="1" Height="10" Margin="158,344,813,310" Width="10" />
-            <WPFBuhlerControls:Line_Vertical Height="19" Line_DashStyle="4" Margin="158,349,813,296" Width="10" />
-            <WPFBuhlerControls:Line_Bend Height="22" Width="21" Margin="295,95,665,547" RenderTransformOrigin="0.5,0.5">
+            <WPFBuhlerControls:Line_Vertical Height="45" Width="7" Line_DashStyle="1" Margin="468,268,506,351"/>
+            <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="11" HorizontalContentAlignment="Center" Margin="471,317,491,336" x:Name="txtlabelScreening2_Copy1" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="19" />
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="2" Height="10" Margin="150,383,821,271" Width="10" />
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="1" Height="10" Margin="166,354,805,300" Width="10" />
+            <WPFBuhlerControls:Line_Vertical Height="19" Line_DashStyle="4" Margin="166,359,805,286" Width="10" />
+            <WPFBuhlerControls:Line_Bend Height="22" Width="21" Margin="303,105,657,537" RenderTransformOrigin="0.5,0.5">
                 <WPFBuhlerControls:Line_Bend.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -167,7 +167,7 @@
                     </TransformGroup>
                 </WPFBuhlerControls:Line_Bend.RenderTransform>
             </WPFBuhlerControls:Line_Bend>
-            <WPFBuhlerControls:Line_Bend Height="25" Width="25" Margin="680,105,276,534" RenderTransformOrigin="0.5,0.5">
+            <WPFBuhlerControls:Line_Bend Height="25" Width="25" Margin="688,115,268,524" RenderTransformOrigin="0.5,0.5">
                 <WPFBuhlerControls:Line_Bend.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -177,21 +177,21 @@
                     </TransformGroup>
                 </WPFBuhlerControls:Line_Bend.RenderTransform>
             </WPFBuhlerControls:Line_Bend>
-            <WPFBuhlerControls:Line_Horizontal Height="10" Margin="308,108,598,546" Width="75" />
-            <WPFBuhlerControls:Fan_Normal Height="20" Margin="459,368,502,276" x:Name="_A0085_Copy" Width="20" MouseDown="_A0085_MouseDown"/>
-            <WPFBuhlerControls:Line_Vertical Height="40" Margin="425,482,546,142" Width="10" />
-            <WPFBuhlerControls:Line_Vertical Height="40" Margin="408,482,563,142" Width="10" />
-            <WPFBuhlerControls:Line_Vertical Height="40" Margin="425,530,546,94" Width="10" />
-            <WPFBuhlerControls:Line_Vertical Height="40" Margin="408,530,563,94" Width="10" />
-            <WPFBuhlerControls:Level_High_Bin Height="10" Margin="408,521,563,133" x:Name="_A0115_Copy" Width="10" MouseDown="_A0115_MouseDown"/>
-            <WPFBuhlerControls:Level_High_Bin Height="10" Margin="425,521,546,133" x:Name="_A0115_Copy1" Width="10" MouseDown="_A0115_MouseDown"/>
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="408,565,563,89" Width="10" />
-            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="425,565,546,89" Width="10" />
-            <TextBlock Text="Screenings Bag Off"  Height="20" Width="102" Margin="369,469,510,175" RenderTransformOrigin="0.29,1.926"/>
-            <WPFBuhlerControls:MYFC Height="35" Width="35" Margin="685,132,261,497"/>
-            <WPFBuhlerControls:Label_C Height="12" Margin="423,577,544,75" Width="14" />
-            <WPFBuhlerControls:Level_Low Height="10" Width="10" Margin="694,182,277,472" />
-            <WPFBuhlerControls:Line_Bend Height="25" Width="25" Margin="601,91,355,548" RenderTransformOrigin="0.5,0.5">
+            <WPFBuhlerControls:Line_Horizontal Height="10" Margin="316,118,590,536" Width="75" />
+            <WPFBuhlerControls:Fan_Normal Height="20" Margin="467,378,494,266" x:Name="_A0085_Copy" Width="20" MouseDown="_A0085_MouseDown"/>
+            <WPFBuhlerControls:Line_Vertical Height="40" Margin="433,492,538,132" Width="10" />
+            <WPFBuhlerControls:Line_Vertical Height="40" Margin="416,492,555,132" Width="10" />
+            <WPFBuhlerControls:Line_Vertical Height="40" Margin="433,540,538,84" Width="10" />
+            <WPFBuhlerControls:Line_Vertical Height="40" Margin="416,540,555,84" Width="10" />
+            <WPFBuhlerControls:Level_High_Bin Height="10" Margin="416,531,555,123" x:Name="_A0115_Copy" Width="10" MouseDown="_A0115_MouseDown"/>
+            <WPFBuhlerControls:Level_High_Bin Height="10" Margin="433,531,538,123" x:Name="_A0115_Copy1" Width="10" MouseDown="_A0115_MouseDown"/>
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="416,575,555,79" Width="10" />
+            <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="433,575,538,79" Width="10" />
+            <TextBlock Text="Screenings Bag Off"  Height="20" Width="102" Margin="377,479,502,165" RenderTransformOrigin="0.29,1.926"/>
+            <WPFBuhlerControls:MYFC Height="35" Width="35" Margin="693,142,253,487"/>
+            <WPFBuhlerControls:Label_C Height="12" Margin="431,587,536,65" Width="14" />
+            <WPFBuhlerControls:Level_Low Height="10" Width="10" Margin="702,192,269,462" />
+            <WPFBuhlerControls:Line_Bend Height="25" Width="25" Margin="609,101,347,538" RenderTransformOrigin="0.5,0.5">
                 <WPFBuhlerControls:Line_Bend.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -201,7 +201,7 @@
                     </TransformGroup>
                 </WPFBuhlerControls:Line_Bend.RenderTransform>
             </WPFBuhlerControls:Line_Bend>
-            <WPFBuhlerControls:Line_Bend Height="24" Width="20" Margin="373,108,588,532" RenderTransformOrigin="0.5,0.5">
+            <WPFBuhlerControls:Line_Bend Height="24" Width="20" Margin="381,118,580,522" RenderTransformOrigin="0.5,0.5">
                 <WPFBuhlerControls:Line_Bend.RenderTransform>
                     <TransformGroup>
                         <ScaleTransform/>
@@ -211,8 +211,8 @@
                     </TransformGroup>
                 </WPFBuhlerControls:Line_Bend.RenderTransform>
             </WPFBuhlerControls:Line_Bend>
-            <WPFBuhlerControls:Line_Vertical Height="40" Margin="741,264,230,360" Width="10" />
-            <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="888,195,78,459" x:Name="txtlabelScreening2_Copy2" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="15" />
+            <WPFBuhlerControls:Line_Vertical Height="40" Margin="749,274,222,350" Width="10" />
+            <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="896,205,70,449" x:Name="txtlabelScreening2_Copy2" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="15" />
         </Grid>
         <Slider x:Name="uiScaleSlider" ToolTip="Scale the current page" Value="1" Minimum="0.1" Maximum="1.5"  Orientation="Vertical" Margin="-1,38,0,67" HorizontalAlignment="Left" Width="27" LargeChange="0.5" TickFrequency="0.2" Grid.RowSpan="2" ValueChanged="uiScaleSlider_ValueChanged"/>
     </Grid>
