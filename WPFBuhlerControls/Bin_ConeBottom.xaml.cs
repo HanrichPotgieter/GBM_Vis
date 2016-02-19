@@ -97,10 +97,7 @@ namespace WPFBuhlerControls
                         YellowR.Color = Colors.DarkGoldenrod;
                         YellowR.Offset = 1.0;
                         BinConeGradient.GradientStops.Add(YellowR);
-
-
-                        //FromRgb(255, 228, 181)
-
+                       
                         polyMain.Fill = BinConeGradient;
                     }));
                 }

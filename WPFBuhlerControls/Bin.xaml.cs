@@ -68,7 +68,40 @@ namespace WPFBuhlerControls
                 }
                 else
                 {
-                    RectMain.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal,new Action(delegate()
+                    polyMain.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate ()
+                    {
+                        // Create a linear gradient brush with five stops 
+                        LinearGradientBrush BinGradient = new LinearGradientBrush();
+                        BinGradient.StartPoint = new Point(0, 0);
+                        BinGradient.EndPoint = new Point(1, 0);
+
+                        // Create and add Gradient stops
+                        GradientStop Yellow = new GradientStop();
+                        Yellow.Color = Colors.DarkGoldenrod;
+                        Yellow.Offset = 0.0;
+                        BinGradient.GradientStops.Add(Yellow);
+
+                        // Create and add Gradient stops
+                        GradientStop White1 = new GradientStop();
+                        White1.Color = Colors.LightGoldenrodYellow;
+                        White1.Offset = 0.3;
+                        BinGradient.GradientStops.Add(White1);
+
+                        // Create and add Gradient stops
+                        GradientStop White2 = new GradientStop();
+                        White2.Color = Colors.LightGoldenrodYellow;
+                        White2.Offset = 0.7;
+                        BinGradient.GradientStops.Add(White2);
+
+                        // Create and add Gradient stops
+                        GradientStop YellowR = new GradientStop();
+                        YellowR.Color = Colors.DarkGoldenrod;
+                        YellowR.Offset = 1.0;
+                        BinGradient.GradientStops.Add(YellowR);
+
+
+                        polyMain.Fill = BinGradient;
+                        RectMain.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal,new Action(delegate()
                     {
                         RectMain.Fill = KNEKTColors.BinColor;
                     }));                     
@@ -76,22 +109,23 @@ namespace WPFBuhlerControls
             }
         }
 
-        [Category("Buhler")]
-        public Brush BinSelectionBrush
-        {
-            get
+            [Category("Buhler")]
+            public Brush BinSelectionBrush
             {
-                return _BinSelectionBrush;
-            }
-            set
-            {
-                _BinSelectionBrush = value;
-
-                rectTop.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
+                get
                 {
-                    rectTop.Fill = value;
-                }));
+                    return _BinSelectionBrush;
+                }
+                set
+                {
+                    _BinSelectionBrush = value;
+
+                    rectTop.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate ()
+                    {
+                        rectTop.Fill = value;
+                    }));
+                }
             }
         }
     }
-}
+
