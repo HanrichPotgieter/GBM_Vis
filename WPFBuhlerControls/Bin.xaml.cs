@@ -34,7 +34,7 @@ namespace WPFBuhlerControls
         //------------------------------------------------------------------------------//
         //                                  Properties                                  //
         //------------------------------------------------------------------------------//
-        
+
         [Category("Buhler")]
         public string Bin_BinText
         {
@@ -61,14 +61,14 @@ namespace WPFBuhlerControls
 
                 if (_BinLocked)
                 {
-                    RectMain.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal,new Action(delegate()
-                    {
-                        RectMain.Fill = Brushes.Tomato;
-                    }));                
+                    RectMain.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate ()
+                     {
+                         RectMain.Fill = Brushes.Tomato;
+                     }));
                 }
                 else
                 {
-                    polyMain.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate ()
+                    RectMain.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate ()
                     {
                         // Create a linear gradient brush with five stops 
                         LinearGradientBrush BinGradient = new LinearGradientBrush();
@@ -100,32 +100,17 @@ namespace WPFBuhlerControls
                         BinGradient.GradientStops.Add(YellowR);
 
 
-                        polyMain.Fill = BinGradient;
-                        RectMain.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal,new Action(delegate()
-                    {
-                        RectMain.Fill = KNEKTColors.BinColor;
-                    }));                     
-                }
-            }
-        }
-
-            [Category("Buhler")]
-            public Brush BinSelectionBrush
-            {
-                get
-                {
-                    return _BinSelectionBrush;
-                }
-                set
-                {
-                    _BinSelectionBrush = value;
-
-                    rectTop.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate ()
-                    {
-                        rectTop.Fill = value;
+                        RectMain.Fill = BinGradient;
                     }));
+
+                    RectMain.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate ()
+                     {
+                         RectMain.Fill = KNEKTColors.BinColor;
+                     }));
                 }
             }
         }
+
     }
 
+}
