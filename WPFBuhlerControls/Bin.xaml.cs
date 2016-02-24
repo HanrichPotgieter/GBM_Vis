@@ -102,11 +102,6 @@ namespace WPFBuhlerControls
 
                         RectMain.Fill = BinGradient;
                     }));
-
-                    RectMain.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate ()
-                     {
-                         RectMain.Fill = KNEKTColors.BinColor;
-                     }));
                 }
             }
         }
