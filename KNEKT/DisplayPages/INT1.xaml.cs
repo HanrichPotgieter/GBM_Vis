@@ -24,11 +24,11 @@ namespace KNEKT.DisplayPages
         public static string sMatrixTransformValue;
         MatrixTransform xform;
         S7Client plc;
-
-        public INT1(S7Client plc)
+        MainWindow mainWindow;
+        public INT1(S7Client plc,MainWindow mainWindow)
         {
             InitializeComponent();
-
+            this.mainWindow = mainWindow; 
             SetShowTagnamesVisibility();
             this.plc = plc;
             //
@@ -66,8 +66,11 @@ namespace KNEKT.DisplayPages
 
         private void Page_Loaded(object sender, RoutedEventArgs e)
         {
+            mainWindow.lineDBNumber = 610;
+
             try
             {
+                //Set the current lines DB number
                 string[] values = sMatrixTransformValue.Split(',');
 
                 xform = new MatrixTransform(double.Parse(values[0]), double.Parse(values[1]), double.Parse(values[2]), double.Parse(values[3]), double.Parse(values[4]), double.Parse(values[5]));

@@ -317,7 +317,7 @@ namespace KNEKT
         //------------------------------------------------------------------------------//
         //                                  Constructor                                 //
         //------------------------------------------------------------------------------//        
- 
+        public int lineDBNumber;
 
         public MainWindow()
         {
@@ -448,7 +448,7 @@ namespace KNEKT
                             //ProductsViewModelDataContext = new KNEKT.Classes.Products.ProductsViewModel();
                             
                             //Create instance of each display page to navigate to using buttons
-                            pageINT1 = new DisplayPages.INT1(Plc.Instance);
+                            pageINT1 = new DisplayPages.INT1(Plc.Instance,this);
                             pageFCL1 = new DisplayPages.FCL1(PLC1_W);
                             pageMTR1 = new DisplayPages.MTR1(PLC1_W);
                             pageMIL1 = new DisplayPages.MIL1A(PLC1_W);
@@ -9792,10 +9792,10 @@ namespace KNEKT
             if (bPLCCommsGood)
             {
                 byte[] buffer = BitConverter.GetBytes(true);
-                Plc.WriteArea(S7Client.S7AreaDB, 610, 536, 1, S7Client.S7WLBit, buffer);
-                Plc.WriteArea(S7Client.S7AreaDB, 610, 537, 1, S7Client.S7WLBit, buffer);
-                Plc.WriteArea(S7Client.S7AreaDB, 610, 538, 1, S7Client.S7WLBit, buffer);
-                Plc.WriteArea(S7Client.S7AreaDB, 610, 1929, 1, S7Client.S7WLBit, buffer);
+                Plc.WriteArea(S7Client.S7AreaDB, lineDBNumber, 536, 1, S7Client.S7WLBit, buffer);
+                Plc.WriteArea(S7Client.S7AreaDB, lineDBNumber, 537, 1, S7Client.S7WLBit, buffer);
+                Plc.WriteArea(S7Client.S7AreaDB, lineDBNumber, 538, 1, S7Client.S7WLBit, buffer);
+                Plc.WriteArea(S7Client.S7AreaDB, lineDBNumber, 1929, 1, S7Client.S7WLBit, buffer);
             }
             else
             {
@@ -9811,7 +9811,7 @@ namespace KNEKT
             {
                 Console.Out.WriteLine("Execute Feed Off");
                 byte[] buffer = BitConverter.GetBytes(true);
-                int result = Plc.WriteArea(S7Client.S7AreaDB, 610, 554, 1, S7Client.S7WLBit, buffer);
+                int result = Plc.WriteArea(S7Client.S7AreaDB, lineDBNumber, 554, 1, S7Client.S7WLBit, buffer);
                 Console.Out.WriteLine(result);
             }
             else
@@ -9831,7 +9831,7 @@ namespace KNEKT
                 {
                     Console.Out.WriteLine("Execute Sequence Stop");
                     byte[] buffer = BitConverter.GetBytes(true);
-                    int result = Plc.WriteArea(S7Client.S7AreaDB, 610, 559, 1, S7Client.S7WLBit, buffer);
+                    int result = Plc.WriteArea(S7Client.S7AreaDB, lineDBNumber, 559, 1, S7Client.S7WLBit, buffer);
                     Console.Out.WriteLine(result);
                     /*
                     if (tControl_CmdSeqStop.Name != "DB0.DBX0.0")
@@ -9897,7 +9897,7 @@ namespace KNEKT
             {
                 Console.Out.WriteLine("Execute Feed Off");
                 byte[] buffer = BitConverter.GetBytes(true);
-                int result = Plc.WriteArea(S7Client.S7AreaDB, 610, 546, 1, S7Client.S7WLBit, buffer);
+                int result = Plc.WriteArea(S7Client.S7AreaDB, lineDBNumber, 546, 1, S7Client.S7WLBit, buffer);
                 Console.Out.WriteLine(result);
             }
             else
@@ -9913,7 +9913,7 @@ namespace KNEKT
             if (bPLCCommsGood)
             {
                 byte[] buffer = BitConverter.GetBytes(true);
-                Plc.WriteArea(S7Client.S7AreaDB, 610, 532, 1, S7Client.S7WLBit, buffer);
+                Plc.WriteArea(S7Client.S7AreaDB, lineDBNumber, 532, 1, S7Client.S7WLBit, buffer);
                 /*
                 if (tControl_CmdHornOff.Name != "DB0.DBX0.0")
                 {
@@ -9951,7 +9951,7 @@ namespace KNEKT
                 {
                     Console.Out.WriteLine("Execute immediate stop");
                     byte[] buffer = BitConverter.GetBytes(true);
-                    int result = Plc.WriteArea(S7Client.S7AreaDB, 610, 552, 1, S7Client.S7WLBit, buffer);
+                    int result = Plc.WriteArea(S7Client.S7AreaDB, lineDBNumber, 552, 1, S7Client.S7WLBit, buffer);
                     Console.Out.WriteLine(result);
                     /*
                     if (tControl_CmdEStop.Name != "DB0.DBX0.0")
