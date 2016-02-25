@@ -44,7 +44,7 @@ using Snap7;
         {
             Plc.instance.ConnectTo(IP, Rack, Slot);
         }
-
+        // Enables multiple threads to read from the plc at the smae time.
         public static int DBRead(int DB, int Offset, int length, byte[] Buffer)
         {
             if (instance != null)
@@ -60,6 +60,22 @@ using Snap7;
             }
 
         }
-    }
+        //Enables multiple threads to write to the driver at the same time.
+        public static int WriteArea(int S7area, int dbnumber, int offset,int length,int S7type , byte[] Buffer)
+        {
+            if (instance != null)
+            {
+                lock (padlockDBRead)
+                {
+                    return instance.WriteArea(S7area, dbnumber, offset, length, S7type, Buffer);
+                }
+            }
+            else
+            {
+                return 0;
+            }
+
+        }
+}
 
 

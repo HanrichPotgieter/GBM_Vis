@@ -323,7 +323,6 @@ namespace KNEKT
         {
             InitializeComponent();
             dllName = DllDirectory + dllName;
-
             Plc.Instance.ConnectTo(PLCIpAddress, 0,2);
 
             threadPLCComms = new Thread(new ThreadStart(CheckPLCComms));
@@ -441,8 +440,8 @@ namespace KNEKT
                             //------------------------------------------------------------------------------//
                             //                             -->* CHANGE *<--                                 //
                             //------------------------------------------------------------------------------//
-                            stat_sPlantName = "African Milling - Maize Mill 168 t/h";
-                            stat_sPlantLocation = "Lusaka, Zambia";
+                            stat_sPlantName = "GBM - Maize Mill 168 t/h";
+                            stat_sPlantLocation = "KITWE, ZAMBIA";
 
                             //MainWindow mw;
 
@@ -9792,33 +9791,11 @@ namespace KNEKT
         {
             if (bPLCCommsGood)
             {
-                if (tControl_CmdStart.Name != "DB0.DBX0.0")
-                {
-                    if (!PLC1_W.IsConnected)
-                    {
-                        PLC1_W.Connect();
-                    }
-
-                    if (PLC1_W.ErrorCode != ResultCode.E_SUCCESS)
-                        MessageBox.Show(PLC1_W.ErrorString + "\n" + PLC1_W.IsConnected + "\n" + PLC1_W.IPAddress);
-
-                    tControl_CmdFeedOn.Value = true;
-                    tControl_CmdStart.Value = true;
-                    tControl_CmdTransferOn.Value = true;
-                    tControl_CmdRequestExecute.Value = true;
-                    PLC1_W.WriteTag(tControl_CmdFeedOn);
-                    PLC1_W.WriteTag(tControl_CmdStart);
-                    PLC1_W.WriteTag(tControl_CmdTransferOn);
-                    PLC1_W.WriteTag(tControl_CmdRequestExecute);
-                    PLC1_W.Disconnect();
-
-                    UIInteraction_Change(this.btnControlStart, e);
-                    //SetActiveLineButtonColor_OnStartFeed();
-                }
-                else
-                {
-                    MessageBox.Show("Start --> Default Address");
-                }
+                byte[] buffer = BitConverter.GetBytes(true);
+                Plc.WriteArea(S7Client.S7AreaDB, 610, 536, 1, S7Client.S7WLBit, buffer);
+                Plc.WriteArea(S7Client.S7AreaDB, 610, 537, 1, S7Client.S7WLBit, buffer);
+                Plc.WriteArea(S7Client.S7AreaDB, 610, 538, 1, S7Client.S7WLBit, buffer);
+                Plc.WriteArea(S7Client.S7AreaDB, 610, 1929, 1, S7Client.S7WLBit, buffer);
             }
             else
             {
@@ -9832,23 +9809,10 @@ namespace KNEKT
         {
             if (bPLCCommsGood)
             {
-                if (tControl_CmdFeedOff.Name != "DB0.DBX0.0")
-                {
-                    if (!PLC1_W.IsConnected)
-                    {
-                        PLC1_W.Connect();
-                    }
-
-                    if (PLC1_W.ErrorCode != ResultCode.E_SUCCESS)
-                        MessageBox.Show(PLC1_W.ErrorString);
-
-                    tControl_CmdFeedOff.Value = true;
-                    PLC1_W.WriteTag(tControl_CmdFeedOff);
-                    PLC1_W.Disconnect();
-
-                    UIInteraction_Change(this.btnControlSuspend, e);
-                    //SetActiveLineButtonColor_OnPauseFeed();
-                }
+                Console.Out.WriteLine("Execute Feed Off");
+                byte[] buffer = BitConverter.GetBytes(true);
+                int result = Plc.WriteArea(S7Client.S7AreaDB, 610, 554, 1, S7Client.S7WLBit, buffer);
+                Console.Out.WriteLine(result);
             }
             else
             {
@@ -9865,6 +9829,11 @@ namespace KNEKT
             {
                 if (bPLCCommsGood)
                 {
+                    Console.Out.WriteLine("Execute Sequence Stop");
+                    byte[] buffer = BitConverter.GetBytes(true);
+                    int result = Plc.WriteArea(S7Client.S7AreaDB, 610, 559, 1, S7Client.S7WLBit, buffer);
+                    Console.Out.WriteLine(result);
+                    /*
                     if (tControl_CmdSeqStop.Name != "DB0.DBX0.0")
                     {
                         if (!PLC1_W.IsConnected)
@@ -9912,6 +9881,7 @@ namespace KNEKT
                         PLC1_W.Disconnect();
                         UIInteraction_Change(this.btnControlSeqStop, e);
                     }
+                    */
                 }
                 else
                 {
@@ -9925,22 +9895,10 @@ namespace KNEKT
         {
             if (bPLCCommsGood)
             {
-                if (tControl_CmdFaultReset.Name != "DB0.DBX0.0")
-                {
-                    if (!PLC1_W.IsConnected)
-                    {
-                        PLC1_W.Connect();
-                    }
-
-                    if (PLC1_W.ErrorCode != ResultCode.E_SUCCESS)
-                        MessageBox.Show(PLC1_W.ErrorString);
-
-                    tControl_CmdFaultReset.Value = true;
-                    PLC1_W.WriteTag(tControl_CmdFaultReset);
-                    PLC1_W.Disconnect();
-
-                    UIInteraction_Change(this.btnControlAcknowledge, e);
-                }
+                Console.Out.WriteLine("Execute Feed Off");
+                byte[] buffer = BitConverter.GetBytes(true);
+                int result = Plc.WriteArea(S7Client.S7AreaDB, 610, 546, 1, S7Client.S7WLBit, buffer);
+                Console.Out.WriteLine(result);
             }
             else
             {
@@ -9954,6 +9912,9 @@ namespace KNEKT
         {
             if (bPLCCommsGood)
             {
+                byte[] buffer = BitConverter.GetBytes(true);
+                Plc.WriteArea(S7Client.S7AreaDB, 610, 532, 1, S7Client.S7WLBit, buffer);
+                /*
                 if (tControl_CmdHornOff.Name != "DB0.DBX0.0")
                 {
                     if (!PLC1_W.IsConnected)
@@ -9971,6 +9932,7 @@ namespace KNEKT
                     PLC1_W.Disconnect();
                     UIInteraction_Change(this.btnControlMuteSiren, e);
                 }
+                */
             }
             else
             {
@@ -9987,6 +9949,11 @@ namespace KNEKT
             {
                 if (bPLCCommsGood)
                 {
+                    Console.Out.WriteLine("Execute immediate stop");
+                    byte[] buffer = BitConverter.GetBytes(true);
+                    int result = Plc.WriteArea(S7Client.S7AreaDB, 610, 552, 1, S7Client.S7WLBit, buffer);
+                    Console.Out.WriteLine(result);
+                    /*
                     if (tControl_CmdEStop.Name != "DB0.DBX0.0")
                     {
                         if (!PLC1_W.IsConnected)
@@ -10056,6 +10023,7 @@ namespace KNEKT
 
                         UIInteraction_Change(this.btnControlEmergencyStop, e);
                     }
+                    */
                 }
                 else
                 {

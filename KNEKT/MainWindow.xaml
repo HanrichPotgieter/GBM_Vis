@@ -20,7 +20,7 @@
         <!--PAGES-->
 
         <!--CONTROL BUTTONS-->
-        <Button Height="45" HorizontalAlignment="Right" Margin="0,743,272,0" Name="btnControlStart" VerticalAlignment="Top" Width="47" ToolTip="Start Line" Click="btnControlStart_Click" Focusable="False" Background="#252120">
+        <Button Margin="0,0,272,4" Name="btnControlStart" ToolTip="Start Line" Click="btnControlStart_Click" Focusable="False" Background="#252120" Height="45" VerticalAlignment="Bottom" Width="47" HorizontalAlignment="Right" >
             <Button.Content>
                 <Canvas>
                     <Polyline Stroke="Black" StrokeThickness="0.5" StrokeLineJoin="Round" Fill="DarkGray" Points="-8,0, -8,-15 10,0 -8,15 -8,0"/>
@@ -90,7 +90,7 @@
         <TextBox Background="LightGray" Padding="0,4" BorderBrush="Gray" Focusable="False" Height="35" Margin="0,0,464,52" Name="txtElStat" Text="Status" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="48" FontSize="14" IsReadOnly="True"/>
         <TextBox Background="LightGray" Padding="0,4" BorderBrush="Gray" Focusable="False" Height="35" Margin="0,0,115,52" Name="txtPlcCom" Text="PLC Comms" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="86" FontSize="14" IsReadOnly="True"/>
         <TextBox BorderBrush="Gray" Padding="0,4" Focusable="False" FontSize="14" TextAlignment="Center" Margin="0,0,1,52" Name="txtPLCComm" Foreground="White" Height="35" VerticalAlignment="Bottom" HorizontalAlignment="Right" Width="115" IsReadOnly="True"/>
-        <TextBox BorderBrush="Gray" Focusable="False" Height="25" Margin="1,1,151,0" Name="txtLineName" VerticalAlignment="Top" Background="LightGray" IsReadOnly="True"/>
+        <TextBox Background="#252120" Foreground="White" BorderBrush="Gray" Focusable="False" Height="25" Margin="1,1,151,0" Name="txtLineName" VerticalAlignment="Top"  IsReadOnly="True"/>
         <Image Height="27" HorizontalAlignment="Left" Margin="1,25,0,0" Name="image1" Stretch="Fill" VerticalAlignment="Top" Width="24" Source="/KNEKT;component/Images/Bell.png" StretchDirection="Both" MouseDown="txtAlarms_MouseDown" />
 
 
