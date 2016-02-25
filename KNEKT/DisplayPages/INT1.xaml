@@ -73,7 +73,7 @@
                 <WPFBuhlerControls:Label_1 Background="Transparent" Content="SILO 2" Height="30" HorizontalContentAlignment="Center" Margin="589,368,341,37" VerticalContentAlignment="Center" Visibility="Hidden" Width="50" />
                 <WPFBuhlerControls:Label_1 Background="Transparent" Content="SILO 1" Height="30" HorizontalContentAlignment="Center" Margin="661,368,269,37" VerticalContentAlignment="Center" Visibility="Hidden" Width="50" />
                 <WPFBuhlerControls:Conveyor_Chain_MNKA50_DH dbnumber="152" dboffset="434" Height="25" Width="100" Margin="122,426,754,213"/>
-                <WPFBuhlerControls:Conveyor_Chain_AHKA_S dbnumber="161" dboffset="434" Height="25" Width="100" Margin="626,154,250,484" />
+                <WPFBuhlerControls:Conveyor_Chain_AHKA_S dbnumber="161" dboffset="434"  Height="25" Width="100" Margin="626,154,250,484" />
                 <WPFBuhlerControls:Line_Vertical Height="40" Width="25" Margin="537,427,414,197"/>
                 <WPFBuhlerControls:Line_Horizontal Height="10" Width="10" Margin="516,409,443,245" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="542,462,419,192" Width="15" />

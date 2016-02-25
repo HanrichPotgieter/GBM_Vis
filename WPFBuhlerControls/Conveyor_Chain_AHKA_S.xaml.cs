@@ -30,6 +30,8 @@ namespace WPFBuhlerControls
         private bool _MotorOnLeft = false;
         private string _ObjectNo;
         private string _PLCName;
+        private int _dbnumber;
+        private int _dboffset;
         Worker workerObject;
 
         // The worker threads runs in the background and updates our control
@@ -109,6 +111,34 @@ namespace WPFBuhlerControls
                 _SetColor(Motor.SetColor(value));
                 StatusConveyor = Motor.Status_Motor;
                 FaultConveyor = Motor.Fault_Motor;
+            }
+        }
+
+        [Category("Buhler")]
+        public int dbnumber
+        {
+            get
+            {
+                return _dbnumber;
+            }
+            set
+            {
+                _dbnumber = value;
+                workerObject.dbnumber = _dbnumber;
+            }
+        }
+
+        [Category("Buhler")]
+        public int dboffset
+        {
+            get
+            {
+                return _dboffset;
+            }
+            set
+            {
+                _dboffset = value;
+                workerObject.dboffset = _dboffset;
             }
         }
 
