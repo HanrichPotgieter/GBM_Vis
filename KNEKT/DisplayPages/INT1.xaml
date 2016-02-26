@@ -28,6 +28,7 @@
         <Grid Margin="1,0,-1,0">
 
             <Grid x:Name="grid1" Margin="5,0,0,0">
+                <WPFBuhlerControls:SectionState Width="160" dbnumber="611" dboffset="100" Margin="50,0,792,50" VerticalAlignment="Bottom" HorizontalAlignment="Left" ></WPFBuhlerControls:SectionState>
                 <WPFBuhlerControls:Line_Vertical Height="25" Width="20" Margin="286,450,675,189" />
                 <TextBlock Text="Bag Intake"  Height="25" Width="65" Margin="242,374,669,265" RenderTransformOrigin="0.29,1.926"/>
                 <WPFBuhlerControls:SlideGate dbnumber="151" dboffset="70" Height="20" Width="15" Margin="286,436,675,208"/>

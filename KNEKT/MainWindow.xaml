@@ -11,6 +11,7 @@
         <Rectangle Height="50" HorizontalAlignment="Right" Margin="0,1,1,0" Name="rectangle1" StrokeThickness="0.1" VerticalAlignment="Top" Width="161" Fill="LightGray" />
         <Label Content="INT1" FontFamily="Arial Rounded MT" FontSize="72" Foreground="DarkBlue" Height="96" Margin="95,51,12,0" Name="lblLineName" Opacity="0.05" VerticalAlignment="Top" />
         <!--PAGES-->
+        
         <Button Content="INT1" Height="35" Margin="5,0,0,8" Name="btnLine1" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="60" Click="btnLine1_Click" Focusable="False" Background="#252120" Foreground="White" />
         <Button Content="FCL1" Focusable="False" Height="35" HorizontalAlignment="Left" Margin="72,0,0,8" Name="btnLine2" VerticalAlignment="Bottom" Width="60" Click="btnLine2_Click" Background="#252120" Foreground="White"/>
         <Button Content="MTR1" Height="35" Margin="139,0,0,8" Name="btnLine3" VerticalAlignment="Bottom" HorizontalAlignment="Left" Width="60" Click="btnLine3_Click" Focusable="False" Background="#252120" Foreground="White"/>

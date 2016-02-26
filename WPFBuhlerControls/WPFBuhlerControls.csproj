@@ -358,6 +358,7 @@
     <Compile Include="FB Code\FB74.cs" />
     <Compile Include="FB Code\FB782.cs" />
     <Compile Include="FB Code\FB826.cs" />
+    <Compile Include="FB Code\FB93.cs" />
     <Compile Include="FB Code\FB97.cs" />
     <Compile Include="FB Code\FB799.cs" />
     <Compile Include="FB Code\FB801.cs" />
@@ -671,6 +672,9 @@
     </Compile>
     <Compile Include="Scourer_MHXT.xaml.cs">
       <DependentUpon>Scourer_MHXT.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="SectionState.xaml.cs">
+      <DependentUpon>SectionState.xaml</DependentUpon>
     </Compile>
     <Compile Include="Separator_MANB.xaml.cs">
       <DependentUpon>Separator_MANB.xaml</DependentUpon>
@@ -1570,6 +1574,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Scourer_MHXT.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="SectionState.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

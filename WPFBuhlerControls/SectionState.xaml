@@ -1,0 +1,25 @@
+﻿<UserControl x:Class="WPFBuhlerControls.SectionState"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WPFBuhlerControls"
+             mc:Ignorable="d" 
+             d:DesignHeight="75" d:DesignWidth="160">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25" />
+            <RowDefinition Height="25" />
+            <RowDefinition Height="25" />
+        </Grid.RowDefinitions>
+        <Rectangle Grid.Row="0" Grid.Column="0" Name="RectStatus" StrokeThickness="1" Stroke="Black" RadiusX="5"  RadiusY="5" Margin="2,1,2,1">
+        </Rectangle>
+        <Rectangle Grid.Row="1" Grid.Column="0" Name="RectError" StrokeThickness="1" Stroke="Black" RadiusX="5" RadiusY="5" Margin="2,1,2,1" >
+        </Rectangle>
+        <Rectangle Grid.Row="2" Grid.Column="0" Name="RectFeed" StrokeThickness="1" Stroke="Black" RadiusX="5" RadiusY="5" Margin="2,1,2,1" >
+        </Rectangle>
+        <Label Grid.Row="0" Grid.Column="0" Content="Section Status" FontSize="10" Name="StatusText"/>
+        <Label Grid.Row="1" Grid.Column="0" Content="Section Error" FontSize="10" Name="StatusErrorText"/>
+        <Label Grid.Row="2" Grid.Column="0" Content="Section Feed" FontSize="10" Name="StatusFeedText"/>
+    </Grid>
+</UserControl>
