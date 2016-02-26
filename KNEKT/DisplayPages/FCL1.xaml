@@ -47,6 +47,7 @@
             <WPFBuhlerControls:Scale_Dosing Height="35" Margin="381,212,570,417" Name="_A0060" Width="30" MouseDown="_A0060_MouseDown"/>
             <WPFBuhlerControls:Line_Horizontal Height="10" Margin="133,383,823,271" Width="25" />
             <WPFBuhlerControls:Line_Vertical Height="60" Margin="394,247,577,357" Width="10" />
+           
             <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="394,302,577,352" Width="10" />
             <WPFBuhlerControls:Separator_MTRC Height="40" Margin="394,312,529,312" Name="_A0065" Width="58" MouseDown="_A0065_MouseDown"/>
             <WPFBuhlerControls:Aspirator_MVSI Height="39" Margin="451,313,508,312" Name="_A0025" Width="22" MotorColor="1"/>

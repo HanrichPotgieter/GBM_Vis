@@ -39,13 +39,6 @@
                 <WPFBuhlerControls:Line_Horizontal Height="10" Margin="493,32,461,558" Width="26" />
                 <WPFBuhlerControls:Line_Horizontal Height="10" Margin="460,32,494,558" Width="26" />
                 <WPFBuhlerControls:Line_Horizontal Height="10" Margin="427,32,527,558" Width="26" />
-                <WPFBuhlerControls:Line_Horizontal Height="10" Margin="221,31,733,559" Width="26" />
-                <WPFBuhlerControls:Line_Horizontal Height="10" Margin="254,31,700,559" Width="26" />
-                <WPFBuhlerControls:Line_Horizontal Height="10" Margin="287,31,667,559" Width="26" />
-                <WPFBuhlerControls:Line_Horizontal Height="10" Margin="320,31,634,559" Width="26" />
-                <WPFBuhlerControls:Line_Horizontal Height="10" Margin="353,31,612,559" Width="15" />
-                <WPFBuhlerControls:Line_Horizontal Height="10" Margin="151,31,803,559" Width="26" />
-                <WPFBuhlerControls:Line_Horizontal Height="10" Margin="129,31,836,559" Width="15" />
                 <WPFBuhlerControls:Line_Vertical Height="25" Margin="61,240,909,335" Width="10" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="2" Height="10" Margin="701,86,269,504" Width="10" />
                 <WPFBuhlerControls:Line_Horizontal Height="10" Line_DashStyle="2" Margin="693,86,267,504" Width="20" />
@@ -68,13 +61,10 @@
                 </WPFBuhlerControls:Line_Horizontal>
 
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="61,260,909,330" Width="10" />
-                <WPFBuhlerControls:Sifter_MPAP3 Width="104" Height="70" Margin="275,131,601,399" Name="_A0340" MouseDown="_A0340_MouseDown" MouseRightButtonDown="_A0340_MouseRightButtonDown" ContextMenu="{StaticResource ContextMenu1}" />
-                <WPFBuhlerControls:Monitor_Stroke Height="10" Margin="262,191,708,399" Name="_A0340SM01" Width="10" MouseDown="_A0340SM01_MouseDown"/>
-                <WPFBuhlerControls:Monitor_Stroke Height="10" Margin="381,191,589,399" Name="_A0340SM02" Width="10" MouseDown="_A0340SM02_MouseDown"/>
-                <WPFBuhlerControls:SievingMachine_MKZF Height="40" Width="35" Margin="462,132,483,428" Name="_A0430" MouseDown="_A0430_MouseDown" MouseRightButtonDown="_A0430_MouseRightButtonDown" />
-                <WPFBuhlerControls:Line_Horizontal Width="40" Height="10" Margin="480,141,460,449" />
-                <WPFBuhlerControls:Line_Vertical Height="45" Margin="514,145,456,410" Width="10" />
-                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="514,181,456,409" Width="10" />
+                <WPFBuhlerControls:Sifter_MPAP3 Width="104" Height="70" Margin="465,131,411,399" Name="_A0340" MouseDown="_A0340_MouseDown" MouseRightButtonDown="_A0340_MouseRightButtonDown" ContextMenu="{StaticResource ContextMenu1}" />
+                <WPFBuhlerControls:Monitor_Stroke Height="10" Margin="450,191,520,399" Name="_A0340SM01" Width="10" MouseDown="_A0340SM01_MouseDown"/>
+                <WPFBuhlerControls:Monitor_Stroke Height="10" Margin="574,191,396,399" Name="_A0340SM02" Width="10" MouseDown="_A0340SM02_MouseDown"/>
+                <WPFBuhlerControls:SievingMachine_MKZF Height="40" Width="35" Margin="345,156,600,404" Name="_A0430" MouseDown="_A0430_MouseDown" MouseRightButtonDown="_A0430_MouseRightButtonDown" />
                 <WPFBuhlerControls:Concentrator_MTCB Height="50" Width="70" Margin="611,156,299,394" Name="_A0445" MouseDown="_A0445_MouseDown" MouseRightButtonDown="_A0445_MouseRightButtonDown" />
                 <WPFBuhlerControls:Fan_Normal Height="20" Margin="835,38,125,542" Name="_A0475" Width="20" MouseDown="_A0475_MouseDown" MouseRightButtonDown="_A0475_MouseRightButtonDown" ContextMenu="{StaticResource ContextMenu1}"/>
                 <WPFBuhlerControls:Fan_Blower Width="20" Height="20" Margin="701,38,259,542" Name="_A0480" MouseDown="_A0480_MouseDown" MouseRightButtonDown="_A0480_MouseRightButtonDown" ContextMenu="{StaticResource ContextMenu1}">
@@ -105,15 +95,6 @@
                 <WPFBuhlerControls:Airlock_MPSN_Cyclone Height="40" Margin="477,1,478,559" Name="_A0355A2" Width="25" MouseDown="_A0355A2_MouseDown" ContextMenu="{StaticResource ContextMenu1}"/>
                 <WPFBuhlerControls:Airlock_MPSN_Cyclone Height="40" Margin="444,1,511,559" Name="_A0355A3" Width="25" MouseDown="_A0355A3_MouseDown" ContextMenu="{StaticResource ContextMenu1}"/>
                 <WPFBuhlerControls:Airlock_MPSN_Cyclone Height="40" Margin="411,1,544,559" Name="_A0355A4" Width="25" MouseDown="_A0355A4_MouseDown" ContextMenu="{StaticResource ContextMenu1}"/>
-                <WPFBuhlerControls:Label_M Height="12" Margin="368,30,600,558" Name="_A0330" Width="12" MouseDown="_A0330_MouseDown" MouseRightButtonDown="_A0330_MouseRightButtonDown" />
-                <WPFBuhlerControls:Airlock_MPSN_Cyclone Height="40" Margin="337,0,618,560" Name="_A0330A1" Width="25" MouseDown="_A0330A1_MouseDown" ContextMenu="{StaticResource ContextMenu1}"/>
-                <WPFBuhlerControls:Airlock_MPSN_Cyclone Height="40" Margin="304,0,651,560" Name="_A0330A2" Width="25" MouseDown="_A0330A2_MouseDown" ContextMenu="{StaticResource ContextMenu1}"/>
-                <WPFBuhlerControls:Airlock_MPSN_Cyclone Height="40" Margin="271,0,684,560" Name="_A0330A3" Width="25" MouseDown="_A0330A3_MouseDown" ContextMenu="{StaticResource ContextMenu1}"/>
-                <WPFBuhlerControls:Airlock_MPSN_Cyclone Height="40" Margin="238,0,717,560" Name="_A0330A4" Width="25" MouseDown="_A0330A4_MouseDown" ContextMenu="{StaticResource ContextMenu1}"/>
-                <WPFBuhlerControls:Airlock_MPSN_Cyclone Height="40" Margin="205,0,750,560" Name="_A0330A5" Width="25" MouseDown="_A0330A5_MouseDown" ContextMenu="{StaticResource ContextMenu1}"/>
-                <WPFBuhlerControls:Label_M Height="12" Margin="117,30,851,558" Name="_A0305" Width="12" MouseDown="_A0305_MouseDown" MouseRightButtonDown="_A0305_MouseRightButtonDown"/>
-                <WPFBuhlerControls:Airlock_MPSN_Cyclone Height="40" Margin="168,0,787,560" Name="_A0305A2" Width="25" ContextMenu="{StaticResource ContextMenu1}" MouseDown="_A0305A2_MouseDown"/>
-                <WPFBuhlerControls:Airlock_MPSN_Cyclone Height="40" Margin="135,0,820,560" Name="_A0305A1" Width="25" ContextMenu="{StaticResource ContextMenu1}" MouseDown="_A0305A1_MouseDown"/>
                 <WPFBuhlerControls:RollerStand_MDDR Height="65" Width="60" Margin="603,442,317,93" Name="_A0405" MouseDown="_A0405_MouseDown" MouseRightButtonDown="_A0405_MouseRightButtonDown" ContextMenu="{StaticResource ContextMenu1}" />
                 <WPFBuhlerControls:Monitor_Alarm1 Height="15" Margin="587,469,378,116" Name="_A4016MA03" Width="15" MouseDown="_A4016MA03_MouseDown" />
                 <WPFBuhlerControls:Monitor_Alarm1 Height="15" Margin="664,469,301,116" Name="_A4016MA05" Width="15" MouseDown="_A4016MA05_MouseDown"/>
@@ -132,10 +113,8 @@
 
                 <my:ManualControl Height="40" ManualControl_OnBit="DB2000.DBX0.0" ManualControl_Title="0150 start" Margin="40,116,890,444" x:Name="manualControl_A0150" Width="50" />
                 <my:ScaleInfo Height="130" Margin="92,112,743,358" x:Name="ScaleInfo_A0150" ScaleInfo_InFlowrateMaximum="12" ScaleInfo_InFlowrateMinimum="0" ScaleInfo_InFlowrateOffset="DB236.DBD142" ScaleInfo_IsValueWholeNumber="False" ScaleInfo_MultiplyWriteValue="100" ScaleInfo_Title="0150 B1 Scale" Width="145" />
-                <my:StoppingTimer Margin="288,87,614,473" x:Name="_A0340StoppingTimer" Width="60" />
+                <my:StoppingTimer Margin="477,77,425,483" x:Name="_A0340StoppingTimer" Width="60" />
                 <my:BYPASS_CONTROL BYPASS_DBOffset="DB2000.DBX58.2" BYPASS_ELEMENT_NAME="0485 HL Override" BYPASS_TimerMaximum="300" Margin="163,508,727,9" x:Name="ByPassControl_4006" />
-
-                <WPFBuhlerControls:Label_1 Content="Gr.2" FontSize="9" Height="11" Margin="511,195,452,394" Width="17" />
                 <WPFBuhlerControls:Label_1 Content="S2" FontSize="9" Height="11" Margin="535,506,434,83" Width="11" />
                 <WPFBuhlerControls:Label_1 Content="2Bk" FontSize="9" Height="11" Margin="484,506,482,83" Width="14" />
                 <WPFBuhlerControls:Label_1 Content="S3" FontSize="9" Height="11" Margin="411,506,558,83" Width="11" />
@@ -181,21 +160,21 @@
                 <WPFBuhlerControls:Separator_MANB Height="29" Width="27" Margin="303,273,650,298" MotorColor="1"/>
                 <WPFBuhlerControls:Airlock_MPSN Height="10" Margin="314,302,656,288" Name="_A0350" Width="10" MouseDown="_A0350_MouseDown" MouseRightButtonDown="_A0350_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Vertical Height="25" Margin="314,312,656,263" Width="10" />
-                <WPFBuhlerControls:Label_1 Content="2Bk" FontSize="9" Height="11" Margin="265,322,701,267" Width="14" />
+                <WPFBuhlerControls:Label_1 Content="2Bk" FontSize="9" Height="11" Margin="483,321,483,268" Width="14" />
                 <WPFBuhlerControls:Aspirator_MVSI Height="40" Margin="392,315,573,245" Name="_A0365" Width="15" MouseDown="_A0365_MouseDown" MouseRightButtonDown="_A0365_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="427,331,543,259" Width="10" />
                 <WPFBuhlerControls:Label_C Height="15" Margin="425,345,540,240" Width="15" />
                 <WPFBuhlerControls:Separator_MANB Height="29" Margin="416,273,537,298" Width="27" MotorColor="1"/>
                 <WPFBuhlerControls:Airlock_MPSN Height="10" Margin="427,302,543,288" Name="_A0370" Width="10" MouseDown="_A0370_MouseDown" MouseRightButtonDown="_A0370_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Vertical Height="25" Margin="427,312,543,263" Width="10" />
-                <WPFBuhlerControls:Label_1 Content="S1" FontSize="9" Height="11" Margin="381,322,588,267" Width="11" />
+                <WPFBuhlerControls:Label_1 Content="S1" FontSize="9" Height="11" Margin="700,324,269,265" Width="11" />
                 <WPFBuhlerControls:Aspirator_MVSI Height="40" Margin="500,315,465,245" Name="_A0390" Width="15" MouseDown="_A0390_MouseDown" MouseRightButtonDown="_A0390_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="535,331,435,259" Width="10" />
                 <WPFBuhlerControls:Label_C Height="15" Margin="533,345,432,240" Width="15" />
                 <WPFBuhlerControls:Separator_MANB Height="29" Margin="524,273,429,298" Width="27" MotorColor="1"/>
                 <WPFBuhlerControls:Airlock_MPSN Height="10" Margin="535,302,435,288" Name="_A0395" Width="10" MouseDown="_A0395_MouseDown" MouseRightButtonDown="_A0395_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Vertical Height="25" Margin="535,312,435,263" Width="10" />
-                <WPFBuhlerControls:Label_1 Content="S2" FontSize="9" Height="11" Margin="489,322,480,267" Width="11" />
+                <WPFBuhlerControls:Label_1 Content="S2" FontSize="9" Height="11" Margin="380,321,589,268" Width="11" />
                 <WPFBuhlerControls:Aspirator_MVSI Height="40" Margin="602,315,363,245" Name="_A0415" Width="15" MouseDown="_A0415_MouseDown" MouseRightButtonDown="_A0415_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="637,331,333,259" Width="10" />
                 <WPFBuhlerControls:Label_C Height="15" Margin="635,345,330,240" Width="15" />
@@ -209,12 +188,9 @@
                 <WPFBuhlerControls:Separator_MANB Height="29" Margin="738,273,215,298" Width="27" MotorColor="1"/>
                 <WPFBuhlerControls:Airlock_MPSN Height="10" Margin="749,302,221,288" Name="_A0440" Width="10" MouseDown="_A0440_MouseDown" MouseRightButtonDown="_A0440_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Vertical Height="25" Margin="749,312,221,263" Width="10" />
-                <WPFBuhlerControls:Label_1 Content="Gr2" FontSize="9" Height="11" Margin="699,322,266,267" Width="15" />
+                <WPFBuhlerControls:Label_1 Content="Gr2" FontSize="9" Height="11" Margin="260,321,705,268" Width="15" />
                 <WPFBuhlerControls:Hopper_BagIntake Margin="266,518,673,37" Height="45" Width="41" />
                 <WPFBuhlerControls:Level_High_Machine Height="10" Margin="291,541,679,49" Name="_A0485" Width="10" MouseDown="_A0485_MouseDown" />
-                <WPFBuhlerControls:Line_Horizontal Height="10" Margin="620,36,345,554" Width="15" />
-                <WPFBuhlerControls:Label_M Height="12" Margin="608,35,360,553" Name="_A0425" Width="12" MouseDown="_A0425_MouseDown" MouseRightButtonDown="_A0425_MouseRightButtonDown" />
-                <WPFBuhlerControls:Airlock_MPSN_Cyclone Height="40" Width="25" Margin="626,5,329,555" Name="_A0425A1" MouseDown="_A0425A1_MouseDown"  ContextMenu="{StaticResource ContextMenu1}" />
             </Grid>
             <Slider x:Name="uiScaleSlider" ToolTip="Scale the current page" Value="1" Minimum="0.1" Maximum="1.5" ValueChanged="uiScaleSlider_ValueChanged" Orientation="Vertical" Margin="-1,38,0,67" HorizontalAlignment="Left" Width="27" LargeChange="0.5" TickFrequency="0.2" />
           
