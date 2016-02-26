@@ -919,11 +919,11 @@ namespace KNEKT
 
             if (bAlarmHornFlash)
             {
-                AlarmHorn1.AlarmHornColor = 1;
+                //AlarmHorn1.AlarmHornColor = 1;
             }
             else
             {
-                AlarmHorn1.AlarmHornColor = 0;
+                //AlarmHorn1.AlarmHornColor = 0;
             }
         }
 
@@ -1438,7 +1438,7 @@ namespace KNEKT
                 btnDisableZoom.IsEnabled = false;
                 btnEnableZoom.IsEnabled = false;
                 btnSaveZoom.IsEnabled = false;
-                AlarmHorn1.Visibility = Visibility.Hidden;
+                //AlarmHorn1.Visibility = Visibility.Hidden;
                 EmptyingTimer1.Visibility = Visibility.Hidden;
                 //imageCustomerLogo.Visibility = Visibility.Hidden;
                 imageBuhlerLogo.Visibility = Visibility.Hidden;
@@ -1456,7 +1456,7 @@ namespace KNEKT
                 PlantSwitches.Visibility = Visibility.Visible;
                 MaintenanceSwitches.Visibility = Visibility.Visible;
                 lblLineName.Visibility = Visibility.Visible;
-                AlarmHorn1.Visibility = Visibility.Visible;
+                //AlarmHorn1.Visibility = Visibility.Visible;
                 imageBuhlerLogo.Visibility = Visibility.Visible;
 
                 int i = stat_ActiveLineName.IndexOf('-') + 1;
@@ -7953,13 +7953,13 @@ namespace KNEKT
                     if (alarmState)
                     {
                         timerAlarmHorn.Start();
-                        AlarmHorn1.AlarmHorn_Visibility = Visibility.Visible;
+                        //AlarmHorn1.AlarmHorn_Visibility = Visibility.Visible;
                     }
                     else
                     {
                         timerAlarmHorn.Stop();
-                        AlarmHorn1.AlarmHornColor = 0;
-                        AlarmHorn1.AlarmHorn_Visibility = Visibility.Hidden;
+                        //AlarmHorn1.AlarmHornColor = 0;
+                        //AlarmHorn1.AlarmHorn_Visibility = Visibility.Hidden;
                     }
                     break;
 
