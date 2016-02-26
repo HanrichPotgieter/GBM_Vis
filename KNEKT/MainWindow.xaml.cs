@@ -1484,7 +1484,7 @@ namespace KNEKT
 
             }
 
-//elements unique to specific pages
+            //elements unique to specific pages
             //if (stat_iActiveLineNumber == 8)
             //{
             //    FlourOutloadControlDesk.Visibility = Visibility.Visible;

@@ -134,7 +134,7 @@
                         </TransformGroup>
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
-                <WPFBuhlerControls:Line_Bend Height="25" Width="25" Margin="330,483,621,156" RenderTransformOrigin="0.5,0.5">
+                <WPFBuhlerControls:Line_Bend Height="25" Width="25" Margin="329,484,622,155" RenderTransformOrigin="0.5,0.5">
                     <WPFBuhlerControls:Line_Bend.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -184,7 +184,7 @@
                         </TransformGroup>
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
-                <WPFBuhlerControls:Line_Bend Height="25" Width="25" Margin="616,119,335,520" RenderTransformOrigin="0.5,0.5">
+                <WPFBuhlerControls:Line_Bend Height="25" Width="25" Margin="615,120,336,519" RenderTransformOrigin="0.5,0.5">
                     <WPFBuhlerControls:Line_Bend.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -195,7 +195,7 @@
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
                 <WPFBuhlerControls:Line_Horizontal Height="25" Width="110" Margin="226,477,640,162" />
-                <WPFBuhlerControls:Line_Bend Height="25" Width="25" Margin="287,470,664,169" RenderTransformOrigin="0.5,0.5">
+                <WPFBuhlerControls:Line_Bend Height="25" Width="25" Margin="288,470,663,169" RenderTransformOrigin="0.5,0.5">
                     <WPFBuhlerControls:Line_Bend.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
