@@ -50,9 +50,6 @@
                 </Canvas>
             </Button.Content>
         </Button>
-
-        <WPFBuhlerControls:AlarmHorn1 Name="AlarmHorn1" Margin="599,298,575,374" Width="84" Height="89" Visibility="Hidden"/>
-
         <Button Background="#252120" Height="45" HorizontalAlignment="Right" Margin="0,0,60,4" Name="btnControlMuteSiren" VerticalAlignment="Bottom" Width="47" ToolTip="Mute Siren" Click="btnControlMuteSiren_Click" Focusable="False">
             <Button.Content>
                 <Canvas>
