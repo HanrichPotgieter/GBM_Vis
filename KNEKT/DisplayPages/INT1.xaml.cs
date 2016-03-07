@@ -301,12 +301,17 @@ namespace KNEKT.DisplayPages
             ScaleTransform st = new ScaleTransform(uiScaleSlider.Value, uiScaleSlider.Value);
             grid1.LayoutTransform = st;
         }
-        
+
+        private void Line_Horizontal_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
         //------------------------------------------------------------------------------//
         //                               Mouse / Touch Events                           //
         //------------------------------------------------------------------------------// 
-      
-    
+
+
     }
 
 }
