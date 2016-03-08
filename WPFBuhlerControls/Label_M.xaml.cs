@@ -37,13 +37,13 @@ namespace WPFBuhlerControls
         public class Worker
         {
             S7Client plc;
-            Separator_MTRC parent;
+            Label_M parent;
             private int updateTime = 100;
             public int dbnumber { get; set; }
             public int dboffset { get; set; }
             public int dboffsetSpeedMonitor { get; set; }
 
-            public Worker(S7Client tmp, Separator_MTRC parent)
+            public Worker(S7Client tmp, Label_M parent)
             {
                 plc = tmp;
                 this.parent = parent;
@@ -80,7 +80,15 @@ namespace WPFBuhlerControls
 
         public Label_M()
         {
-            InitializeComponent();
+          
+                InitializeComponent();
+                if (System.ComponentModel.LicenseManager.UsageMode == System.ComponentModel.LicenseUsageMode.Runtime)
+                {
+                    workerObject = new Worker(Plc.Instance, this);
+                    Thread workerThread = new Thread(workerObject.DoWork);
+                    workerThread.Start();
+                }
+            
         }
 
         [Category("Buhler")]

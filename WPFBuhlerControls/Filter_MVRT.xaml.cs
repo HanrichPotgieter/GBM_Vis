@@ -30,7 +30,7 @@ namespace WPFBuhlerControls
         private bool bHasKnockingHammer;
         private string _ObjectNo;
         private string _PLCName;
-        Worker workerObject;
+        Worker WorkerObject;
 
         // The worker threads runs in the background and updates our control
         #region[Worker Thread]
@@ -80,7 +80,15 @@ namespace WPFBuhlerControls
 
         public Filter_MVRT()
         {
-            InitializeComponent();
+           
+                InitializeComponent();
+                if (System.ComponentModel.LicenseManager.UsageMode == System.ComponentModel.LicenseUsageMode.Runtime)
+                {
+                    WorkerObject = new Worker(Plc.Instance, this);
+                    Thread workerThread = new Thread(WorkerObject.DoWork);
+                    workerThread.Start();
+                }
+            
 
             PolyHammer1.Visibility = Visibility.Hidden;
             PolyHammer2.Visibility = Visibility.Hidden;
@@ -99,7 +107,7 @@ namespace WPFBuhlerControls
             }
             set
             {
-                workerObject.dbnumber = value;
+                WorkerObject.dbnumber = value;
             }
         }
 
@@ -112,7 +120,7 @@ namespace WPFBuhlerControls
             }
             set
             {
-                workerObject.dboffset = value;
+                WorkerObject.dboffset = value;
             }
         }
 

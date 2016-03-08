@@ -80,8 +80,13 @@ namespace WPFBuhlerControls
         public SpeedMonitor()
         {
             InitializeComponent();
+            if (System.ComponentModel.LicenseManager.UsageMode == System.ComponentModel.LicenseUsageMode.Runtime)
+            {
+                workerObject = new Worker(Plc.Instance, this);
+                Thread workerThread = new Thread(workerObject.DoWork);
+                workerThread.Start();
+            }
         }
-
         //------------------------------------------------------------------------------//
         //                                  Properties                                  //
         //------------------------------------------------------------------------------//
