@@ -15,6 +15,7 @@ using WPFBuhlerControls.FB_Code;
 using System.ComponentModel;
 using System.Threading;
 using Snap7;
+using System.Windows.Media.Animation;
 
 namespace WPFBuhlerControls
 {
@@ -184,7 +185,7 @@ namespace WPFBuhlerControls
             {
                 _MotorColor = value;
                 FB12 Motor = new FB12();
-                _SetColorMotor(Motor.SetColor(value));
+                _SetColorMotor(Motor.SetColorAnimated(value));
                 StatusMotor = Motor.Status_Motor;
                 FaultMotor = Motor.Fault_Motor;
             }
@@ -699,35 +700,168 @@ namespace WPFBuhlerControls
         //                            Private Methods                                   //
         //------------------------------------------------------------------------------//
 
-        private void _SetColorMotor(Brush brushColor)
+        private void _SetColorMotor(Color brushColor)
         {
             RectMain.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal,new Action(delegate()
             {
-                RectMain.Fill = brushColor;
+                ColorAnimation animation;
+                animation = new ColorAnimation();
+                SolidColorBrush oldBrush;
+                try
+                {
+                    oldBrush = RectMain.Fill as SolidColorBrush;
+                    animation.From = oldBrush.Color;
+                }
+                catch
+                {
+                    animation.From = Colors.White;
+                }
+                animation.To = brushColor;
+                animation.Duration = new Duration(TimeSpan.FromSeconds(1));
+                if (RectMain.Fill != null)
+                {
+                    RectMain.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
+                else
+                {
+                    RectMain.Fill = new SolidColorBrush(Colors.White);
+                    RectMain.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
             }));
 
             PolyTop.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal,new Action(delegate()
             {
-                PolyTop.Fill = brushColor;
+                ColorAnimation animation;
+                animation = new ColorAnimation();
+                SolidColorBrush oldBrush;
+                try
+                {
+                    oldBrush = PolyTop.Fill as SolidColorBrush;
+                    animation.From = oldBrush.Color;
+                }
+                catch
+                {
+                    animation.From = Colors.White;
+                }
+                animation.To = brushColor;
+                animation.Duration = new Duration(TimeSpan.FromSeconds(1));
+                if (PolyTop.Fill != null)
+                {
+                    PolyTop.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
+                else
+                {
+                    PolyTop.Fill = new SolidColorBrush(Colors.White);
+                    PolyTop.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
             }));
 
             PolyTopLeft.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
             {
-                PolyTopLeft.Fill = brushColor;
+                ColorAnimation animation;
+                animation = new ColorAnimation();
+                SolidColorBrush oldBrush;
+                try
+                {
+                    oldBrush = PolyTopLeft.Fill as SolidColorBrush;
+                    animation.From = oldBrush.Color;
+                }
+                catch
+                {
+                    animation.From = Colors.White;
+                }
+                animation.To = brushColor;
+                animation.Duration = new Duration(TimeSpan.FromSeconds(1));
+                if (PolyTopLeft.Fill != null)
+                {
+                    PolyTopLeft.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
+                else
+                {
+                    PolyTopLeft.Fill = new SolidColorBrush(Colors.White);
+                    PolyTopLeft.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
             }));
 
             PolyBot.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal,new Action(delegate()
             {
-                PolyBot.Fill = brushColor;
+                ColorAnimation animation;
+                animation = new ColorAnimation();
+                SolidColorBrush oldBrush;
+                try
+                {
+                    oldBrush = PolyBot.Fill as SolidColorBrush;
+                    animation.From = oldBrush.Color;
+                }
+                catch
+                {
+                    animation.From = Colors.White;
+                }
+                animation.To = brushColor;
+                animation.Duration = new Duration(TimeSpan.FromSeconds(1));
+                if (PolyBot.Fill != null)
+                {
+                    PolyBot.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
+                else
+                {
+                    PolyBot.Fill = new SolidColorBrush(Colors.White);
+                    PolyBot.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
+
             }));
 
             PolyBotRight.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
             {
-                PolyBotRight.Fill = brushColor;
+                ColorAnimation animation;
+                animation = new ColorAnimation();
+                SolidColorBrush oldBrush;
+                try
+                {
+                    oldBrush = PolyBotRight.Fill as SolidColorBrush;
+                    animation.From = oldBrush.Color;
+                }
+                catch
+                {
+                    animation.From = Colors.White;
+                }
+                animation.To = brushColor;
+                animation.Duration = new Duration(TimeSpan.FromSeconds(1));
+                if (PolyBotRight.Fill != null)
+                {
+                    PolyBotRight.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
+                else
+                {
+                    PolyBotRight.Fill = new SolidColorBrush(Colors.White);
+                    PolyBotRight.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
             }));
             PolyBotLeftAndRight.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
             {
-                PolyBotLeftAndRight.Fill = brushColor;
+                ColorAnimation animation;
+                animation = new ColorAnimation();
+                SolidColorBrush oldBrush;
+                try
+                {
+                    oldBrush = PolyBotLeftAndRight.Fill as SolidColorBrush;
+                    animation.From = oldBrush.Color;
+                }
+                catch
+                {
+                    animation.From = Colors.White;
+                }
+                animation.To = brushColor;
+                animation.Duration = new Duration(TimeSpan.FromSeconds(1));
+                if (PolyBotLeftAndRight.Fill != null)
+                {
+                    PolyBotLeftAndRight.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
+                else
+                {
+                    PolyBotLeftAndRight.Fill = new SolidColorBrush(Colors.White);
+                    PolyBotLeftAndRight.Fill.BeginAnimation(SolidColorBrush.ColorProperty, animation);
+                }
             }));
         }
 

@@ -385,81 +385,6 @@ namespace KNEKT.DisplayPages
             MainWindow.sActiveControlName = "_A0510";
         }
 
-        private void _A0305_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.sElementState = _A0305.Status_Motor;
-            MainWindow.sElementDescription = _A0305.Description_Motor;
-            MainWindow.sActiveControlName = "_A0305";
-        }
-
-        private void _A0305_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.isValve = false;
-            MainWindow.stat_sActiveObjectNo = _A0305.ObjectNumber;
-        }
-
-        private void _A0305A1_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.sElementState = _A0305A1.Status_Motor;
-            MainWindow.sElementDescription = _A0305A1.Description_Motor;
-            MainWindow.sActiveControlName = "_A0305A1";
-        }
-
-        private void _A0305A2_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-         MainWindow.sElementState = _A0305A2.Status_Motor;
-            MainWindow.sElementDescription = _A0305A2.Description_Motor;
-            MainWindow.sActiveControlName = "_A0305A2";
-        }
-
-        private void _A0330_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.sElementState = _A0330.Status_Motor;
-            MainWindow.sElementDescription = _A0330.Description_Motor;
-            MainWindow.sActiveControlName = "_A0330";
-        }
-
-        private void _A0330_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.isValve = false;
-            MainWindow.stat_sActiveObjectNo = _A0330.ObjectNumber;
-        }
-
-        private void _A0330A1_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.sElementState = _A0330A1.Status_Motor;
-            MainWindow.sElementDescription = _A0330A1.Description_Motor;
-            MainWindow.sActiveControlName = "_A0330A1";
-        }
-
-        private void _A0330A2_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.sElementState = _A0330A2.Status_Motor;
-            MainWindow.sElementDescription = _A0330A2.Description_Motor;
-            MainWindow.sActiveControlName = "_A0330A2";
-        }
-
-        private void _A0330A3_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.sElementState = _A0330A3.Status_Motor;
-            MainWindow.sElementDescription = _A0330A3.Description_Motor;
-            MainWindow.sActiveControlName = "_A0330A3";
-        }
-
-        private void _A0330A4_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.sElementState = _A0330A4.Status_Motor;
-            MainWindow.sElementDescription = _A0330A4.Description_Motor;
-            MainWindow.sActiveControlName = "_A0330A4";
-        }
-
-        private void _A0330A5_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.sElementState = _A0330A5.Status_Motor;
-            MainWindow.sElementDescription = _A0330A5.Description_Motor;
-            MainWindow.sActiveControlName = "_A0330A5";
-        }
-
         private void _A0355_MouseDown(object sender, MouseButtonEventArgs e)
         {
             MainWindow.sElementState = _A0355.Status_Motor;
@@ -499,26 +424,6 @@ namespace KNEKT.DisplayPages
             MainWindow.sElementState = _A0355A4.Status_Motor;
             MainWindow.sElementDescription = _A0355A4.Description_Motor;
             MainWindow.sActiveControlName = "_A0355A4";
-        }
-
-        private void _A0425_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.sElementState = _A0425.Status_Motor;
-            MainWindow.sElementDescription = _A0425.Description_Motor;
-            MainWindow.sActiveControlName = "_A0425";
-        }
-
-        private void _A0425_MouseRightButtonDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.isValve = false;
-            MainWindow.stat_sActiveObjectNo = _A0425.ObjectNumber;
-        }
-
-        private void _A0425A1_MouseDown(object sender, MouseButtonEventArgs e)
-        {
-            MainWindow.sElementState = _A0425A1.Status_Motor;
-            MainWindow.sElementDescription = _A0425A1.Description_Motor;
-            MainWindow.sActiveControlName = "_A0425A1";
         }
 
         private void _A0340_MouseDown(object sender, MouseButtonEventArgs e)
