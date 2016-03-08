@@ -80,8 +80,7 @@ namespace WPFBuhlerControls
         #endregion
 
         public Conveyor_NFAS_250()
-        {
-            
+        {          
             
                 InitializeComponent();
                 if (System.ComponentModel.LicenseManager.UsageMode == System.ComponentModel.LicenseUsageMode.Runtime)
@@ -89,8 +88,7 @@ namespace WPFBuhlerControls
                     workerObject = new Worker(Plc.Instance, this);
                     Thread workerThread = new Thread(workerObject.DoWork);
                     workerThread.Start();
-                }
-            
+                }  
         }
 
 

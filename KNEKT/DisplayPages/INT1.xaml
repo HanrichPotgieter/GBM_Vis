@@ -41,7 +41,7 @@
                                               Elevator_HasSpeedMonitorTop="False"
                                               Elevator_HasBeltAlignTop="False"
                                               Elevator_HasBeltAlignBottom="False"/>
-                <WPFBuhlerControls:Elevator_L dbnumber="150" 
+                <WPFBuhlerControls:Elevator_L dbnumber="162" 
                                               dboffset="434" 
                                               dboffsetSpeedMonitor="144" 
                                               Height="450" Width="45" Margin="539,48,396,166" 
