@@ -36,7 +36,7 @@ namespace WPFBuhlerControls
         public class Worker
         {
             S7Client plc;
-            Aspirator_MVSB parent;
+            Aspirator_MVSI parent;
             private int updateTime = 100;
             public int dbnumber { get; set; }
             public int dboffset { get; set; }
