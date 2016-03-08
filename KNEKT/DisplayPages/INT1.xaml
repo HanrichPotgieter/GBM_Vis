@@ -27,7 +27,7 @@
     <Grid>
         <Grid Margin="1,0,-1,0">
 
-            <Grid x:Name="grid1" Margin="5,0,0,0">
+            <Grid x:Name="grid1" Margin="10,-10,-5,10">
                 <WPFBuhlerControls:SectionState Width="160" dbnumber="611" dboffset="100" Margin="50,0,792,50" VerticalAlignment="Bottom" HorizontalAlignment="Left" ></WPFBuhlerControls:SectionState>
                 <WPFBuhlerControls:Line_Vertical Height="25" Width="20" Margin="286,450,675,189" />
                 <TextBlock Text="Bag Intake"  Height="25" Width="65" Margin="242,374,669,265" RenderTransformOrigin="0.29,1.926"/>
@@ -210,8 +210,8 @@
                 <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="12" HorizontalContentAlignment="Center" Margin="462,414,499,238" x:Name="txtlabelScreening2" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="15" RenderTransformOrigin="0.493,0.5" />
                 <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="12" HorizontalContentAlignment="Center" Margin="477,414,484,238" x:Name="txtlabelScreening2_Copy1" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="15" RenderTransformOrigin="0.493,0.5" />
                 <WPFBuhlerControls:Line_Horizontal Height="14" Width="11" Margin="111,437,854,213" />
-                <WPFBuhlerControls:SpeedMonitor Height="10" Width="10" Margin="605,162,361,492"/>
-                <WPFBuhlerControls:Line_Horizontal Height="14" Width="11" Margin="615,160,350,490" />
+                <WPFBuhlerControls:SpeedMonitor dbnumber="161" dboffset="144" Height="10" Width="10" Margin="605,162,361,492"/>
+                <WPFBuhlerControls:Line_Horizontal Height="14" Width="11" Margin="615,160,350,490" Loaded="Line_Horizontal_Loaded" />
                 <WPFBuhlerControls:Level_High_Bin dbnumber="120" dboffset="128" Height="10" Width="12" Margin="711,247,253,407" x:Name="_A0040_Copy1" />
 
             </Grid>

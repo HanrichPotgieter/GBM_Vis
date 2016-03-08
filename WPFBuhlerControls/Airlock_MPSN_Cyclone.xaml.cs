@@ -37,13 +37,13 @@ namespace WPFBuhlerControls
         public class Worker
         {
             S7Client plc;
-            Separator_MTRC parent;
+            Airlock_MPSN_Cyclone parent;
             private int updateTime = 100;
             public int dbnumber { get; set; }
             public int dboffset { get; set; }
             public int dboffsetSpeedMonitor { get; set; }
 
-            public Worker(S7Client tmp, Separator_MTRC parent)
+            public Worker(S7Client tmp, Airlock_MPSN_Cyclone parent)
             {
                 plc = tmp;
                 this.parent = parent;

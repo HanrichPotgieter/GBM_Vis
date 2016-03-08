@@ -37,13 +37,13 @@ namespace WPFBuhlerControls
         public class Worker
         {
             S7Client plc;
-            Separator_MTRC parent;
+            MOZF parent;
             private int updateTime = 100;
             public int dbnumber { get; set; }
             public int dboffset { get; set; }
             public int dboffsetSpeedMonitor { get; set; }
 
-            public Worker(S7Client tmp, Separator_MTRC parent)
+            public Worker(S7Client tmp, MOZF parent)
             {
                 plc = tmp;
                 this.parent = parent;
@@ -61,7 +61,7 @@ namespace WPFBuhlerControls
                             Plc.DBRead(dbnumber, dboffset, 2, buffer);
                             Array.Reverse(buffer);
                             //Console.Out.WriteLine(BitConverter.ToUInt16(buffer, 0));
-                            parent.MotorColor = BitConverter.ToUInt16(buffer, 0);
+                            parent.MOZFColor = BitConverter.ToUInt16(buffer, 0);
                             Thread.Sleep(200);
                         }
                     }

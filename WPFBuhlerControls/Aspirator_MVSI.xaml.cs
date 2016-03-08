@@ -31,6 +31,7 @@ namespace WPFBuhlerControls
         private string _PLCName;
         Worker workerObject;
 
+
         // The worker threads runs in the background and updates our control
         #region[Worker Thread]
         public class Worker

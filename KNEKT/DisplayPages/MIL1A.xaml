@@ -132,7 +132,7 @@
                 <WPFBuhlerControls:Line_Vertical Height="25" Margin="107,278,863,297" Width="10" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="107,298,863,292" Width="10" />
                 <WPFBuhlerControls:Conveyor_NFAS_M Height="15" Width="70" Margin="59,304,851,281" Name="_A0170" MouseDown="_A0170_MouseDown" MouseRightButtonDown="_A0170_MouseRightButtonDown" />
-                <WPFBuhlerControls:Conveyor_OverflowFlap Width="5" Height="7" Margin="54,308,921,285" Name="_A0170F" MouseDown="_A0170F_MouseDown" />
+                <WPFBuhlerControls:Conveyor_OverflowFlap Width="5" Height="7" Margin="55,308,920,285" Name="_A0170F" MouseDown="_A0170F_MouseDown" />
                 <WPFBuhlerControls:Degerminator_MHXM Height="39" Width="52"  Margin="58,353,870,208" Name="_A0180" MouseDown="_A0180_MouseDown" MouseRightButtonDown="_A0180_MouseRightButtonDown" />
                 <WPFBuhlerControls:Line_Vertical Height="25" Margin="62,315,908,260" Width="10" />
                 <WPFBuhlerControls:Line_Horizontal Width="25" Height="10" Margin="67,334,888,256" />
