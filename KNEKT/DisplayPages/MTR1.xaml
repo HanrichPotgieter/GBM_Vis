@@ -121,6 +121,7 @@
                 <WPFBuhlerControls:Label_1 Content="AIR" Height="15" HorizontalContentAlignment="Center" Margin="16,574,939,11" Width="25" />
                 <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="10" HorizontalContentAlignment="Center" Margin="15,567,940,23" Name="textLabelA0004" Padding="0,-2,0,0" Text="0510" VerticalContentAlignment="Center" Width="25" />
                 <my:ManualControl Height="40" ManualControl_OnBit="DB2000.DBX0.0" ManualControl_Title="0150 start" Margin="615,180,315,380" x:Name="manualControl_A0150" Width="50" />
+                
             </Grid>
             <Slider x:Name="uiScaleSlider" ToolTip="Scale the current page" Value="1" Minimum="0.1" Maximum="1.5" ValueChanged="uiScaleSlider_ValueChanged" Orientation="Vertical" Margin="2,27,0,78" HorizontalAlignment="Left" Width="27" LargeChange="0.5" TickFrequency="0.2"  />
         </Grid>

@@ -83,7 +83,7 @@
                 <WPFBuhlerControls:Line_Vertical Height="55" Width="10" Margin="713,173,253,436" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="713,219,253,435" Width="10" />
                 <WPFBuhlerControls:Line_Vertical Height="35" Width="15" Margin="376,78,589,551" />
-                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Margin="627,151,334,503" Height="10" Width="15" />
+                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Margin="627,151,334,503" Height="10" Width="10" />
                 <WPFBuhlerControls:Hopper_ChainConveyor Height="49" Width="36" Margin="148,392,796,222"/>
                 <WPFBuhlerControls:Line_Vertical Height="24" Width="20" Margin="200,450,755,189"/>
                 <WPFBuhlerControls:Line_Bend Height="25" Width="25" Margin="146,384,809,255" RenderTransformOrigin="0.5,0.5">
@@ -204,7 +204,7 @@
                         </TransformGroup>
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
-                <WPFBuhlerControls:SpeedMonitor dbnumber="152" dboffset"144" Height="10" Width="10" Margin="102,439,864,215"/>
+                <WPFBuhlerControls:SpeedMonitor dbnumber="152" dboffset="144" Height="10" Width="10" Margin="102,439,864,215"/>
                 <WPFBuhlerControls:Level_High_Bin dbnumber="120" dboffset="128" Height="10" Width="12" Margin="430,176,534,478" x:Name="_A0040_Copy" />
                 <WPFBuhlerControls:Line_Horizontal Height="20" Width="30" Margin="512,404,438,240" />
                 <TextBox Background="Transparent" BorderThickness="0" Focusable="False" FontSize="10" Foreground="Blue" Height="12" HorizontalContentAlignment="Center" Margin="462,414,499,238" x:Name="txtlabelScreening2" Padding="0,-2,0,0" Text="'S'" VerticalContentAlignment="Center" Width="15" RenderTransformOrigin="0.493,0.5" />
