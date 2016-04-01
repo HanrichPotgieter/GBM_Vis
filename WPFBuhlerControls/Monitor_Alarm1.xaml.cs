@@ -13,6 +13,8 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using WPFBuhlerControls.FB_Code;
 using System.ComponentModel;
+using Snap7;
+using System.Threading;
 
 namespace WPFBuhlerControls
 {
@@ -28,6 +30,53 @@ namespace WPFBuhlerControls
         private string _FB = "FB14";
         private string _ObjectNo;
         private string _PLCName;
+        Worker workerObject;
+
+        // The worker threads runs in the background and updates our control
+        #region[Worker Thread]
+        public class Worker
+        {
+            S7Client plc;
+            Monitor_Alarm1 parent;
+            private int updateTime = 100;
+            public int dbnumber { get; set; }
+            public int dboffset { get; set; }
+            public int dboffsetSpeedMonitor { get; set; }
+
+            public Worker(S7Client tmp, Monitor_Alarm1 parent)
+            {
+                plc = tmp;
+                this.parent = parent;
+            }
+            // This method will be called when the thread is started.
+            public void DoWork()
+            {
+                while (!_shouldStop)
+                {
+                    if (plc != null)
+                    {
+                        if (plc.Connected())
+                        {
+                            byte[] buffer = new byte[2];
+                            Plc.DBRead(dbnumber, dboffset, 2, buffer);
+                            Array.Reverse(buffer);
+                            //Console.Out.WriteLine(BitConverter.ToUInt16(buffer, 0));
+                            parent.MonitorColor = BitConverter.ToUInt16(buffer, 0);
+                            Thread.Sleep(200);
+                        }
+                    }
+                }
+                Thread.Sleep(updateTime);
+            }
+            public void RequestStop()
+            {
+                _shouldStop = true;
+            }
+            // Volatile is used as hint to the compiler that this data
+            // member will be accessed by multiple threads.
+            private volatile bool _shouldStop;
+        }
+        #endregion
 
         public Monitor_Alarm1()
         {
@@ -37,6 +86,33 @@ namespace WPFBuhlerControls
         //------------------------------------------------------------------------------//
         //                                 Properties                                   //
         //------------------------------------------------------------------------------//
+
+
+        [Category("Buhler")]
+        public int dbnumber
+        {
+            get
+            {
+                return dbnumber;
+            }
+            set
+            {
+                workerObject.dbnumber = value;
+            }
+        }
+
+        [Category("Buhler")]
+        public int dboffset
+        {
+            get
+            {
+                return dbnumber;
+            }
+            set
+            {
+                workerObject.dboffset = value;
+            }
+        }
 
         [Category("Buhler")]
         public int MonitorColor
