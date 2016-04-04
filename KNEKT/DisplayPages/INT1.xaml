@@ -53,15 +53,15 @@
                 <WPFBuhlerControls:Line_Vertical Height="25" Width="25" Margin="426,140,529,499" />
                 <WPFBuhlerControls:Scale_Dosing1 dbnumber="164" dboffset="70" Height="35" Width="30" Margin="422,235,524,394" Name="_A0015" />
                 <WPFBuhlerControls:Line_Vertical Height="100" Width="25" Margin="425,270,526,294" />
-                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3"  Height="10" Width="10" Margin="431,159,535,495" />
+                <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3"  Height="10" Width="11" Margin="431,159,534,495" />
                 <WPFBuhlerControls:Slide_Manual Height="7" Width="20" Margin="429,267,532,390" />
                 <WPFBuhlerControls:Magnet_MMUA_H Height="25" Width="20" Margin="428,294,528,345" />
                 <WPFBuhlerControls:Separator_MTRC Height="40" Width="58" Margin="432,361,486,263" Name="_A0020" dbnumber="163" dboffset="70" />
-                <WPFBuhlerControls:Aspirator_MVSI  Height="35" Width="25" Margin="485,361,466,268" Name="_A0025" MotorColor="1" />
+                <WPFBuhlerControls:Aspirator_MVSI  Height="35" Width="25" Margin="485,361,466,268" Name="_A0025" MotorColor="1"  />
                 <WPFBuhlerControls:Line_Vertical Height="26" Width="10" Margin="510,337,456,301" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Height="10" Margin="510,357,456,297" Width="10" />
                 <WPFBuhlerControls:Separator_MANB Height="24" Width="21"  Margin="503,303,452,337" MotorColor="1"/>
-                <WPFBuhlerControls:Airlock_MPSN Height="10" Width="10" Margin="510,327,456,327" Name="_A0030" />
+                <WPFBuhlerControls:Airlock_MPSN Height="10" Width="10" Margin="510,327,456,327" Name="_A0030" dbnumber="163" dboffset="92" />
                 <WPFBuhlerControls:Hopper_1 Height="70" Width="40" Margin="417,167,519,427"/>
                 <WPFBuhlerControls:Label_1 Background="Moccasin" Content="RAW WHEAT BINS" Height="30" HorizontalContentAlignment="Center" Margin="906,339,-36,66" VerticalContentAlignment="Center" Visibility="Hidden" Width="110" />
                 <WPFBuhlerControls:Line_Arrow Height="10" Width="15" Arrow_SetDirection="3" Margin="341,556,620,98" />

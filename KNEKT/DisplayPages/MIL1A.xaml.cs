@@ -1140,5 +1140,15 @@ namespace KNEKT.DisplayPages
         {
 
         }
+
+        private void _A4014MA03_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void Bin_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
