@@ -110,7 +110,7 @@
                 </WPFBuhlerControls:Line_Bend>
                 <WPFBuhlerControls:Line_Arrow Height="10" Width="15" Arrow_SetDirection="3" Margin="276,403,685,251" />
                 <WPFBuhlerControls:Line_Vertical Height="45" Width="7" Line_DashStyle="1" Margin="486,317,453,304"/>
-                <WPFBuhlerControls:Line_Vertical Height="35" Width="25" Margin="564,73,391,556"/>
+                <WPFBuhlerControls:Line_Vertical Height="38" Width="25" Margin="562,73,389,553"/>
                 <WPFBuhlerControls:Line_Horizontal Height="25"  Width="35" Margin="588,113,353,526" />
                 <WPFBuhlerControls:Line_Vertical Height="20" Width="25" Margin="622,137,329,507" />
                 <WPFBuhlerControls:Line_Bend Height="28" Width="30" Margin="494,393,452,243" RenderTransformOrigin="0.5,0.5">

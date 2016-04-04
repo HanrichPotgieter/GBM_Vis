@@ -1150,5 +1150,10 @@ namespace KNEKT.DisplayPages
         {
 
         }
+
+        private void Line_Vertical_Loaded(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }
