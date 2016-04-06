@@ -1419,7 +1419,8 @@ namespace KNEKT
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Vis Application Settings --> " + ex.Message, "Error Loading Settings", MessageBoxButton.OK, MessageBoxImage.Error);
+                //MessageBox.Show("Vis Application Settings --> " + ex.Message, "Error Loading Settings", MessageBoxButton.OK, MessageBoxImage.Error);
+                Console.Out.WriteLine("Vis Application Settings --> " + ex.Message, "Error Loading Settings");
             }
         }
 
