@@ -190,7 +190,7 @@
                 <WPFBuhlerControls:Label_1 Content="Gr2" FontSize="9" Height="11" Margin="260,321,705,268" Width="15" />
                 <WPFBuhlerControls:Hopper_BagIntake Margin="266,518,673,37" Height="45" Width="41" />
                 <WPFBuhlerControls:Level_High_Machine Height="10" Margin="291,541,679,49" Name="_A0485" Width="10" MouseDown="_A0485_MouseDown" />
-                <WPFBuhlerControls:Line_Bend Height="20" Width="20" Margin="87,337,873,243" Loaded="Line_Bend_Loaded" RenderTransformOrigin="0.5,0.5">
+                <WPFBuhlerControls:Line_Bend Height="20" Width="20" Margin="87,337,873,243" RenderTransformOrigin="0.5,0.5">
                     <WPFBuhlerControls:Line_Bend.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -200,7 +200,7 @@
                         </TransformGroup>
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
-                <WPFBuhlerControls:Line_Bend Height="20" Width="20" Margin="64,323,896,257" Loaded="Line_Bend_Loaded" RenderTransformOrigin="0.5,0.5">
+                <WPFBuhlerControls:Line_Bend Height="20" Width="20" Margin="64,323,896,257" RenderTransformOrigin="0.5,0.5">
                     <WPFBuhlerControls:Line_Bend.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
