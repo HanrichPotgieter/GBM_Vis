@@ -478,9 +478,9 @@ namespace KNEKT
                             //pageSCL1.FlowbalancerInfo_A2054.FlowbalancerInfo1_WriteController = PLC1_W;
                             //pageSCL1.FlowbalancerInfo_A2055.FlowbalancerInfo1_WriteController = PLC1_W;
                             //pageSCL1.MYFCInfo_A2039.MYFCInfo_WriteController = PLC1_W;
-                            pageMIL1.ScaleInfo_A0150.ScaleInfo_Controller_W = PLC1_W;
-                            pageMIL1.manualControl_A0150.ManualControl_WriteController = PLC1_W;
-                            pageMTR1.manualControl_A0150.ManualControl_WriteController = PLC1_W;
+                            //pageMIL1.ScaleInfo_A0150.ScaleInfo_Controller_W = PLC1_W;
+                            //pageMIL1.manualControl_A0150.ManualControl_WriteController = PLC1_W;
+                            //pageMTR1.manualControl_A0150.ManualControl_WriteController = PLC1_W;
                             //pageSCG1._Setpoint_A3010.SpeedControl_WriteController = PLC1_W;
 
                             //-->
@@ -8770,16 +8770,7 @@ namespace KNEKT
                 //==============
 
 
-                case "_0150_start":
-                    pageMIL1.manualControl_A0150.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        pageMIL1.manualControl_A0150.ManualControl_SetSelectedButton = Convert.ToBoolean(t.Value);
-                    }));
-                    pageMTR1.manualControl_A0150.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        pageMTR1.manualControl_A0150.ManualControl_SetSelectedButton = Convert.ToBoolean(t.Value);
-                    }));
-                    break;
+               
 //                case "_Enable_1061":
 //                    pageINT1.manualControl_A1061.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
 //                    {
@@ -9126,73 +9117,9 @@ namespace KNEKT
                 ////MILL 1ST BREAK SCALE
                 ////====================
 
-                case "_0150_InFlowrate":
+                
 
-                    pageMIL1.ScaleInfo_A0150.lblInFlowrate.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        //double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageMIL1.ScaleInfo_A0150.lblInFlowrate.Content = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                    }));
-
-                    pageMTR1.ScaleInfo_A0150.lblInFlowrate.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        //double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageMTR1.ScaleInfo_A0150.lblInFlowrate.Content = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                    }));
-                    break;
-
-                case "_0150_OutFlowrate":
-                    pageMIL1.ScaleInfo_A0150.lblOutFlowrate.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageMIL1.ScaleInfo_A0150.lblOutFlowrate.Content = currentTonnage.ToString();
-                    }));
-                    pageMTR1.ScaleInfo_A0150.lblOutFlowrate.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageMTR1.ScaleInfo_A0150.lblOutFlowrate.Content = currentTonnage.ToString();
-                    }));
-
-                    //_d0150B1OutFlowrate = Convert.ToDouble(t.Value);
-                    //CalculateYield();
-                    break;
-
-                case "_0150_OutAlarmNolog":
-                    pageMIL1.ScaleInfo_A0150.lblAlarmNo.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        pageMIL1.ScaleInfo_A0150.lblAlarmNo.Content = t.Value.ToString();
-                    }));
-                    pageMTR1.ScaleInfo_A0150.lblAlarmNo.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        pageMTR1.ScaleInfo_A0150.lblAlarmNo.Content = t.Value.ToString();
-                    }));
-                    break;
-
-                case "_0150_OutJobWeight":
-                    pageMIL1.ScaleInfo_A0150.lblJobWeight.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageMIL1.ScaleInfo_A0150.lblJobWeight.Content = currentTonnage.ToString();
-                    }));
-                    pageMTR1.ScaleInfo_A0150.lblJobWeight.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageMTR1.ScaleInfo_A0150.lblJobWeight.Content = currentTonnage.ToString();
-                    }));
-                    break;
-
-                case "_0150_OutNotErasableWeight":
-                    pageMIL1.ScaleInfo_A0150.lblNEWeight.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageMIL1.ScaleInfo_A0150.lblNEWeight.Content = currentTonnage.ToString();
-                    }));
-                    pageMTR1.ScaleInfo_A0150.lblNEWeight.Dispatcher.BeginInvoke(System.Windows.Threading.DispatcherPriority.Normal, new Action(delegate()
-                    {
-                        double currentTonnage = Math.Round((Convert.ToDouble(t.Value) / 1000), 2);
-                        pageMTR1.ScaleInfo_A0150.lblNEWeight.Content = currentTonnage.ToString();
-                    }));
-                    break;
+       
 
                 ////====================
                 /// Finished Product SCALES

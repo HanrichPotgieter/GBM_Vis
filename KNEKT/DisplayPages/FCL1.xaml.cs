@@ -388,9 +388,7 @@ namespace KNEKT.DisplayPages
 
         private void _A0115_MouseDown(object sender, MouseButtonEventArgs e)
         {
-            MainWindow.sElementState = _A0115.Status_HighLevel;
-            MainWindow.sElementDescription = _A0115.Status_HighLevel;
-            MainWindow.sActiveControlName = "_A0115";
+     
         }
 
         private void _A0120_MouseDown(object sender, MouseButtonEventArgs e)

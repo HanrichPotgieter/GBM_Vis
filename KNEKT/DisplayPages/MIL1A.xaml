@@ -186,7 +186,7 @@
                 <WPFBuhlerControls:Label_1 Content="Gr2" FontSize="9" Height="11" Margin="395,323,570,266" Width="15" />
                 <WPFBuhlerControls:Hopper_BagIntake Margin="282,511,657,44" Height="45" Width="41" />
                 <WPFBuhlerControls:Level_High_Machine Height="10" Margin="308,531,662,59" Name="_A0485" Width="10" MouseDown="_A0485_MouseDown" />
-                <WPFBuhlerControls:Line_Bend Height="20" Width="20" Margin="258,331,702,249" Loaded="Line_Bend_Loaded" RenderTransformOrigin="0.5,0.5">
+                <WPFBuhlerControls:Line_Bend Height="20" Width="20" Margin="258,331,702,249"  RenderTransformOrigin="0.5,0.5">
                     <WPFBuhlerControls:Line_Bend.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -196,7 +196,7 @@
                         </TransformGroup>
                     </WPFBuhlerControls:Line_Bend.RenderTransform>
                 </WPFBuhlerControls:Line_Bend>
-                <WPFBuhlerControls:Line_Bend Height="20" Width="20" Margin="235,317,725,263" Loaded="Line_Bend_Loaded" RenderTransformOrigin="0.5,0.5">
+                <WPFBuhlerControls:Line_Bend Height="20" Width="20" Margin="235,317,725,263" RenderTransformOrigin="0.5,0.5">
                     <WPFBuhlerControls:Line_Bend.RenderTransform>
                         <TransformGroup>
                             <ScaleTransform/>
@@ -217,8 +217,8 @@
                 <WPFBuhlerControls:Line_Vertical Height="19" Line_DashStyle="4" Margin="57,344,913,237" Width="10" />
                 <WPFBuhlerControls:Line_Vertical Height="19" Line_DashStyle="4" Margin="101,317,869,264" Width="10" />
                 <WPFBuhlerControls:Line_Vertical Height="19" Line_DashStyle="4" Margin="101,344,869,237" Width="10" />
-                <WPFBuhlerControls:Conveyor_NFAS_250 Height="20" Margin="56,403,864,177" x:Name="_A0110" Width="60" MouseDown="_A0110_MouseDown" dbnumber="170" dboffset="70"/>
-                <WPFBuhlerControls:Conveyor_OverflowFlap Height="12" Margin="113,407,853,181" x:Name="_A0110OF" Width="14" MouseDown="_A0110OF_MouseDown" dbnumber="170" dboffset="92"/>
+                <WPFBuhlerControls:Conveyor_NFAS_250 Height="20" Margin="56,403,864,177" Width="60" dbnumber="170" dboffset="70"/>
+                <WPFBuhlerControls:Conveyor_OverflowFlap Height="12" Margin="113,407,853,181" Width="14" dbnumber="170" dboffset="92"/>
                 <WPFBuhlerControls:Line_Vertical Height="19" Line_DashStyle="4" Margin="57,388,913,193" Width="10" />
                 <WPFBuhlerControls:Line_Vertical Height="19" Line_DashStyle="4" Margin="101,388,869,193" Width="10" />
                 <WPFBuhlerControls:Line_Arrow Arrow_SetDirection="3" Margin="57,397,913,193" Width="10" />
